@@ -1,0 +1,1930 @@
+<HTML>
+<BODY text='black' bgcolor='white'>
+<FONT face='Arial' size='3'>
+<hr><center><h1>Infor Critical Transfer Package (CTP) Delta README File</h1></center><hr><br>
+<br>
+<br>
+<B><U>Table of Contents</U></B><br>
+<a href='#1'>1.0 &nbsp;Critical Transfer Package Information</a><br>
+<a href='#2'>2.0 &nbsp;Files Contained In Download</a><br>
+<a href='#3'>3.0 &nbsp;Source Files Included</a><br>
+<a href='#4'>4.0 &nbsp;Issue(s) Addressed</a><br>
+<a href='#5'>5.0 &nbsp;Installation Instructions</a><br>
+<a href='#6'>6.0 &nbsp;Support Information</a><br>
+<a href='#7'>7.0 &nbsp;Disclaimers</a><br>
+<br>
+<br>
+<a id=1><B><U>1.0 &nbsp;Critical Transfer Package Information</B></U></B></a><br>
+<table border=0><br>
+<tr><td>ID</td><td>:</td><td>121887</td></tr>
+<tr><td>Release</td><td>:</td><td>10.0</td></tr>
+<tr><td>Creation Date</td><td>:</td><td>2020-03-25</td></tr>
+<tr><td>Revision Date</td><td>:</td><td></td></tr>
+<tr><td>Description</td><td>:</td><td>2020 W-4 Updates: Phase Two</td></tr>
+<tr><td>Primary JT-PT(s)</td><td>:</td><td>JT-1366801</td></tr>
+<tr><td>Superceded JT-PT(s)</td><td>:</td><td>JT-1038612 JT-1153176 JT-1213318 JT-1290991 JT-1327397 JT-1366801 JT-1379625 JT-1379893 JT-1398582 JT-821198</td></tr>
+<tr><td>Primary Program(s)</td><td>:</td><td>PR89, PR13.2</td></tr>
+</table><br>
+<a id=2><BR><B><U>2.0 &nbsp;Files Contained in Download</U></B></a><br>
+<br>
+Versions<br>
+Tasks<br>
+10.0_patch_121887.readme.html<br>
+patch.tar.Z<br>
+<br>
+<br>
+<a id=3><BR><B><U>3.0 &nbsp;Source Files Included</U></B></a><br>
+<TABLE border='0'><br>
+<TABLE border='0'><TR><TH align=left><U>Source File </TH><TH align=left><U>Version</TH></TR></U><br>
+<tr><td>bnsrc/BN66PD</td><td>26</td></tr>
+<tr><td>metadata/databasemeta/GHRDTLDATA.tbl</td><td>1</td></tr>
+<tr><td>metadata/databasemeta/GHRHDRDATA.tbl</td><td>1</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_ER2TABLE.wrk</td><td>1</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_LASERSRT.wrk</td><td>19</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_LASERST2.wrk</td><td>4</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_LASERWK.wrk</td><td>19</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_LASERWK2.wrk</td><td>4</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_TAPE-IAT.wrk</td><td>4</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_TAPE94-IAT.wrk</td><td>1</td></tr>
+<tr><td>metadata/globalmeta/GLOBAL_TAPE94.wrk</td><td>1</td></tr>
+<tr><td>metadata/globalmeta/PRCHK.msg</td><td>6</td></tr>
+<tr><td>metadata/globalmeta/PREDM.msg</td><td>15</td></tr>
+<tr><td>metadata/globalmeta/PRWF.msg</td><td>2</td></tr>
+<tr><td>metadata/prmeta/PR16.msg</td><td>5</td></tr>
+<tr><td>metadata/prmeta/PR160.msg</td><td>17.1.7</td></tr>
+<tr><td>metadata/prmeta/PR160_EARNSORT.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR160_LABEL-H.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR160_LABEL-T.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR160_PR160TEMP.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR160_SORT.wrk</td><td>11</td></tr>
+<tr><td>metadata/prmeta/PR160_TAPEMARK.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR160_WORK.wrk</td><td>11</td></tr>
+<tr><td>metadata/prmeta/PR180.msg</td><td>5.1.5</td></tr>
+<tr><td>metadata/prmeta/PR180_EARNSORT.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR180_LABEL-H.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR180_LABEL-T.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR180_PR180TEMP.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR180_TAPEMARK.wrk</td><td>1</td></tr>
+<tr><td>metadata/prmeta/PR195.msg</td><td>5</td></tr>
+<tr><td>metadata/prmeta/PR195_GMPRCSV.wrk</td><td>2</td></tr>
+<tr><td>metadata/prmeta/PR195_SORT.wrk</td><td>5</td></tr>
+<tr><td>metadata/prmeta/PR195_WORK.wrk</td><td>5</td></tr>
+<tr><td>metadata/prmeta/PR39.pgm</td><td>2</td></tr>
+<tr><td>metadata/prmeta/PRACHPD.lib</td><td>5</td></tr>
+<tr><td>metadata/prmeta/PRACHUPD.lib</td><td>4</td></tr>
+<tr><td>metadata/prmeta/PRLASERPD.lib</td><td>8</td></tr>
+<tr><td>prsrc/PR13.508</td><td>6</td></tr>
+<tr><td>prsrc/PR13.scr</td><td>73</td></tr>
+<tr><td>prsrc/PR13PD</td><td>76.1.10</td></tr>
+<tr><td>prsrc/PR13WS</td><td>12</td></tr>
+<tr><td>prsrc/PR14.508</td><td>2</td></tr>
+<tr><td>prsrc/PR14.scr</td><td>27</td></tr>
+<tr><td>prsrc/PR140PD</td><td>121.1.21</td></tr>
+<tr><td>prsrc/PR140WS</td><td>26.1.9</td></tr>
+<tr><td>prsrc/PR14PD</td><td>26</td></tr>
+<tr><td>prsrc/PR160.508</td><td>4</td></tr>
+<tr><td>prsrc/PR160.rpt</td><td>27</td></tr>
+<tr><td>prsrc/PR160.scr</td><td>31.1.5</td></tr>
+<tr><td>prsrc/PR160PD</td><td>121</td></tr>
+<tr><td>prsrc/PR160WS</td><td>48</td></tr>
+<tr><td>prsrc/PR16PD</td><td>13</td></tr>
+<tr><td>prsrc/PR180.508</td><td>5</td></tr>
+<tr><td>prsrc/PR180.rpt</td><td>5.2.7</td></tr>
+<tr><td>prsrc/PR180.scr</td><td>13.1.8</td></tr>
+<tr><td>prsrc/PR180PD</td><td>3.1.38.1.39</td></tr>
+<tr><td>prsrc/PR180WS</td><td>7.1.12</td></tr>
+<tr><td>prsrc/PR189PD</td><td>41</td></tr>
+<tr><td>prsrc/PR195.508</td><td>2</td></tr>
+<tr><td>prsrc/PR195.rpt</td><td>2.1.11</td></tr>
+<tr><td>prsrc/PR195.scr</td><td>10</td></tr>
+<tr><td>prsrc/PR195PD</td><td>72</td></tr>
+<tr><td>prsrc/PR195WS</td><td>15.1.13</td></tr>
+<tr><td>prsrc/PR39.508</td><td>3</td></tr>
+<tr><td>prsrc/PR39.scr</td><td>22</td></tr>
+<tr><td>prsrc/PR39PD</td><td>48</td></tr>
+<tr><td>prsrc/PR80PD</td><td>196.1.57</td></tr>
+<tr><td>prsrc/PR80WS</td><td>9.3.31</td></tr>
+<tr><td>prsrc/PR89.508</td><td>6</td></tr>
+<tr><td>prsrc/PR89.scr</td><td>36</td></tr>
+<tr><td>prsrc/PR89PD</td><td>78</td></tr>
+<tr><td>prsrc/PRLSPD</td><td>4</td></tr>
+<tr><td>prsrc/prpdlib/PRACHPD</td><td>59</td></tr>
+<tr><td>prsrc/prpdlib/PRACHUPD</td><td>3.1.27.1.1.1.19</td></tr>
+<tr><td>prsrc/prpdlib/PRCH70CP</td><td>2</td></tr>
+<tr><td>prsrc/prpdlib/PRCH70PD</td><td>2.1.3</td></tr>
+<tr><td>prsrc/prpdlib/PRCHKYTD</td><td>190</td></tr>
+<tr><td>prsrc/prpdlib/PRDEDCALC</td><td>120.1.271.1.12.1.77</td></tr>
+<tr><td>prsrc/prpdlib/PRDEDPD</td><td>129</td></tr>
+<tr><td>prsrc/prpdlib/PREDMPD</td><td>120</td></tr>
+<tr><td>prsrc/prpdlib/PREDMUPD</td><td>56</td></tr>
+<tr><td>prsrc/prpdlib/PRGARNPD</td><td>15.1.135.1.28</td></tr>
+<tr><td>prsrc/prpdlib/PRLASERPD</td><td>1.1.70.1.41</td></tr>
+<tr><td>prsrc/prpdlib/PRPAY80PD</td><td>81.1.23.1.76</td></tr>
+<tr><td>prsrc/prpdlib/PRPRDPD</td><td>185.1.14.1.25</td></tr>
+<tr><td>prsrc/prpdlib/PRTAXATXC</td><td>32</td></tr>
+<tr><td>prsrc/prpdlib/PRTAXBSIC</td><td>46.1.49.1.79.1.60</td></tr>
+<tr><td>prsrc/prpdlib/PRTXATXDBG</td><td>4.1.10</td></tr>
+<tr><td>prsrc/prpdlib/PRTXBSIDBG</td><td>31.1.15</td></tr>
+<tr><td>prsrc/prpdlib/PRTXBSITFC</td><td>41.1.27.1.12</td></tr>
+<tr><td>prsrc/prpdlib/PRWF70PD</td><td>2</td></tr>
+<tr><td>prsrc/prwslib/LAWATXUSWS</td><td>7.1.8</td></tr>
+<tr><td>prsrc/prwslib/PRACHUWS</td><td>2.1.8.1.12</td></tr>
+<tr><td>prsrc/prwslib/PRCH70WS</td><td>3.1.8</td></tr>
+<tr><td>prsrc/prwslib/PRCHKWS</td><td>4.1.75.1.26</td></tr>
+<tr><td>prsrc/prwslib/PRDEDWS</td><td>243.1.63</td></tr>
+<tr><td>prsrc/prwslib/PREDMWS</td><td>47</td></tr>
+<tr><td>prsrc/prwslib/PRGARNWS</td><td>7.1.44</td></tr>
+<tr><td>prsrc/prwslib/PRLASERIWS</td><td>17</td></tr>
+<tr><td>prsrc/prwslib/PRLASERWS</td><td>46.1.23</td></tr>
+<tr><td>prsrc/prwslib/PRPAYWS</td><td>154</td></tr>
+<tr><td>prsrc/prwslib/PRPRDWS</td><td>80.1.9</td></tr>
+<tr><td>prsrc/prwslib/PRTAXWS</td><td>30</td></tr>
+<tr><td>prsrc/prwslib/PRWF70WS</td><td>2</td></tr>
+</table>
+<br>
+<br>
+<a id=4><BR><B><U>4.0 &nbsp;Issue(s) Addressed</U></B></a><br>
+<br>
+Note: &nbsp;Any JT-PT listed in this section may not have its associated corrections included entirely in this Critical Transfer Pack (CTP). This CTP only includes the components and associated dependent components needed to correct the JT-PT(s) listed in Section 1.0.<br>
+<br>
+<FONT face='Courier' size='3'><br>
+<BR><B>TASK:</B> 280518<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-858023 Receiver Too Small Error<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR197<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>na<br>
+<BR><B>TASK:</B> 280578<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#858636: PR160 153 Subscript out of Range error<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1) Test for IAT=1 For PR160 run<br>
+<BR><B>TASK:</B> 280849<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#858841: Reverting changes made on JT-619710 caused &nbsp;issues on GM165 again<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test PR197 output till GM165 and GM170<br>
+<BR><B>TASK:</B> 281048<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Add Process Flow/Automation triggers to multiple programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR16PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1 Test if an automated email is generated for any add change delete in PR16<br>
+<BR><B>TASK:</B> 281225<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Add Process Flow/Automation triggers to multiple programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRWF70PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1 Test if PR programs are able to use this library for process flow<br>
+<BR><B>TASK:</B> 282020<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 281225<br>
+<BR><B>TASK:</B> 282022<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 281398<br>
+<BR><B>TASK:</B> 282658<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-882653 - PR198 using default AP Process Level from first invoice for all<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;invoices with different AP Companies.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDWS.<br>
+When PR198 creates invoices for deductions with different AP Companies,<br>
+it is using the default AP Process Level from the AP Company of the first<br>
+invoice for all invoices.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 282804<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#889042: PR23.3 not defaulting the expense account at the PR197<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD: Pass percent value from PR23 to SALARY-PCT<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT858041<br>
+<BR><B>TASK:</B> 283402<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#910104: PR197 code update Splitting OT in Error Suspense<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD: Removed GO TO statement that prevent PR197 from processing overtime<br>
+&nbsp; &nbsp; &nbsp; &nbsp; accounts<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for multiple scenarios including reversals<br>
+<BR><B>TASK:</B> 283513<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> This new functionality for interfacing GHR Absence data to HRM requires<br>
+HCM Version 11.0.0.19 with Landmark 10.1.1.x or HCM Version 11.0.1.2 with<br>
+Landmark 11.0.1.x<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See Design and Documentation for testing information<br>
+<BR><B>TASK:</B> 283763<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-915162 - PR281 is returning checks and receipts even though the parameter<br>
+flag for Receipts is set to N for no receipts<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>Programs : PR281, PR80, PR180<br>
+Process &nbsp;: Manual Payment Audit Report<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create manual payments via PR80.1/PR80.4<br>
+Run PR281 to report the audit log of the manual payments made<br>
+<BR><B>TASK:</B> 284151<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#921867: PR197 with Percent Posted 20 % to Previous Period, results in<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Error Suspense account records<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD: Removed part of code change made by PT182154<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Run PR197 using multiple setup on PR23 and other distribution<br>
+<BR><B>TASK:</B> 284458<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-942418 - PR195 Incorrect Accrual of Miscellaneous Deduction with Calc Type<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Percent of Pay Class.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD / PRPRDWS.<br>
+Company Paid miscellaneous deduction accrual (With Calc Type Percent of a Pay<br>
+Class) was incorrectly reported. It calculates deduction accrual based on the<br>
+Percent of the Prorated wages, then by the PR195 Accrual Percent.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 284606<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#944896: Net Pay on PR80 and Cash Payroll Account on PR197 are not equal<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD: Reverted changes made for JT-921867 and additional change made for<br>
+&nbsp; &nbsp; &nbsp; &nbsp; JT-910104<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-910104<br>
+<BR><B>TASK:</B> 284958<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> When running the PR160 for our international employees it is creating the check file and putting united <br>
+states in the address instead of the country.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Rerun PR140 then run PR160, check PMTOUT File if the country and country code is correct<br>
+<BR><B>TASK:</B> 285014<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> PR180 fix for incorrect Contry and Country-Code in laser-print file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD<br>
+PR180WS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please test print PR180 with an employee with diff supplemental addr with home<br>
+<BR><B>TASK:</B> 285450<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-981918 - PR195 percent not taken into account when running for employee<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;with PR23 distributions.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD. Incorrect Accrual Gross Pay value in report.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 285884<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-933861 - Modify the PRACHUPD library to skip edits not needed by the GHR interface.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR12 when interfacing from GHR<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>The main library that controls the editing logic has been modified to skip some edits that are not <br>
+applicable on the GHR side.<br>
+<BR><B>TASK:</B> 286097<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#987431: PR160 Reprint, CTOT YTD-GROSS-PAY incorrect on LaserPrint file<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; when recreated for an ACH payment<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD: Only add value from PAYMASTR gross amount to ytd gross amount when<br>
+&nbsp; &nbsp; &nbsp; &nbsp; status is still open<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Run PR160 initial and reprint to check PTMOUT YTD-GROSS<br>
+<BR><B>TASK:</B> 286098<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#987431: PR160 Reprint, CTOT YTD-GROSS-PAY incorrect on LaserPrint file<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; when recreated for an ACH payment<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD: Only add value from PAYMASTR gross amount to ytd gross amount when<br>
+&nbsp; &nbsp; &nbsp; &nbsp; status is still open<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Run PR180 initial and reprint to check PTMOUT YTD-GROSS<br>
+<BR><B>TASK:</B> 286231<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-961774:New Garnishment Formula 42 to consider Factor-3 minimum wage<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRGARNPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added logic for Garnishment Formula 42 to PRGARNPD.<br>
+<BR><B>TASK:</B> 286327<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#988868 - Regulatory: PMTOUT - enhance PR160 laser printing with an option to summarize earnings by work <br>
+period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD, PR160.scr<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please test PR160 for PMTOUT printing for the new enhancements<br>
+<BR><B>TASK:</B> 286345<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> PMTOUT - enhance PR160 laser printing with an option to summarize earnings by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD, PR180WS, PR180.scr<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please test Laser Printing in PR160, PR180 and PR80.2<br>
+<BR><B>TASK:</B> 286455<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286456<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286459<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 286456<br>
+<BR><B>TASK:</B> 286467<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286469<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286475<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286481<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286482<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286489<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286491<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286501<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286502<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286521<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286522<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-988868 - enhance PR160 laser printing with an option to summarize earnings<br>
+by work period or pay period<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Record type ERN2 will replace the EARN record type for printing the<br>
+employee earnings if the earnings record parameter is set to 2 or 3.<br>
+2. PMTOUT will now display employee payments for every work period or pay<br>
+period.<br>
+3. The number of deductions to be printed in the PMTOUT should be limited<br>
+according to the defined number in the new deduction limit field.<br>
+4. YTD amounts for hours and wages will now be displayed for every earnings<br>
+record of the employee.<br>
+5. Earnings records are now being sorted based on the pay/work period, if the<br>
+earnings record has wages or none, and by pay summary group/description.<br>
+6. The accumulation of the Other record will now occur per work/pay period<br>
+within a check group.<br>
+<BR><B>TASK:</B> 286580<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1002018 - PR195 not accruing correctly for Company Paid Deductions<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with no PR23.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD.<br>
+PR195 is not accruing for Company Deductions if there is no PR23 set up.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 286798<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001186 PR160 and PR180 to return edit if Check Date is defined and<br>
+work country is not India<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test work country other than US<br>
+<BR><B>TASK:</B> 286799<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001186 PR160 and PR180 to return edit if Check Date is defined and<br>
+work country is not India<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160.msg<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test work country other than US<br>
+<BR><B>TASK:</B> 286819<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001186 PR160 and PR180 to return edit if Check Date is defined and<br>
+work country is not India<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test work country other than US<br>
+<BR><B>TASK:</B> 286820<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001186 PR160 and PR180 to return edit if Check Date is defined and<br>
+work country is not India<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180.msg<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test work country other than US<br>
+<BR><B>TASK:</B> 286830<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1017036 Changes for ALLTAX path creation for windows machine<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRAL PRAM PRAT<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>na<br>
+<BR><B>TASK:</B> 286831<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1017036 Changes for ALLTAX path creation for windows machine<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRAL PRAM PRAT<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>na<br>
+<BR><B>TASK:</B> 286856<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1012113 - HRM-FSM Integration for Payroll Details - PR195<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR195 should generate GMPRCSV csv file<br>
+<BR><B>TASK:</B> 286881<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1012113 - HRM-FSM Integration for Payroll Details - PR195<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR195 should generate GMPRCSV csv file<br>
+<BR><B>TASK:</B> 286899<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1012113 - HRM-FSM Integration for Payroll Details - PR195<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR195 should generate GMPRCSV csv file<br>
+<BR><B>TASK:</B> 287043<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 286881<br>
+<BR><B>TASK:</B> 287052<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1011752 - HRM-FSM Integration for Payroll Details - PR195<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>LP198, PR198, PR195, BN190<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.New fields in the generated csv file<br>
+<BR><B>TASK:</B> 287102<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-985240 - GM10.2 distributions percent not taken into account when running<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for employee in PR195.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD / PR195WS.<br>
+When PR195 is run for a Percent, and a GM10.2 distribution exists , the wage<br>
+expense is only following the PR195 and not the percentage on GM10.2.<br>
+Company-Paid deductions follow PR195 percent split and then follow GM10.2<br>
+distribution split.<br>
+It does calculate the percent from the PR195 only and not with the GM10.2.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 287103<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-985240 - GM10.2 distributions percent not taken into account when running<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for employee in PR195.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD.<br>
+When PR195 is run for a Percent, and a GM10.2 distribution exists , the wage<br>
+expense is only following the PR195 and not the percentage on GM10.2.<br>
+Company-Paid deductions follow PR195 percent split and then follow GM10.2<br>
+distribution split.<br>
+It does calculate the percent from the PR195 only and not with the GM10.2.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 287331<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-776580:Vision Insurance changes for Tax Status' 60 and 61<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 60 and 61 deductions should be included in the section 125 total<br>
+on the results tab for PR89.<br>
+<BR><B>TASK:</B> 287341<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1039072 - GL Defaulting for Company-Paid Deduction not<br>
+Following Time Record Override<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR197<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regress JT-942418<br>
+2. Test other forms that uses percent calctype for deduction.<br>
+<BR><B>TASK:</B> 287539<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1048783 - external - Garnishment Exempt Amount is incorrect on X times Federal Minimum Wage<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRGARNPD/PRGARNWS<br>
+Incorrect Formula 24 Calculation,<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 287551<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1048350 - PR140 program is not calculating IRS tax levy in the same manner<br>
+as PR80 program.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Setup a garnishment with formula override<br>
+Do not setup U.S. tax levy table in PR10<br>
+Process manual payment using PR80<br>
+<BR><B>TASK:</B> 287579<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1049605: Batch Entry Hash and Batch Entry Debits are incorrect when<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;multiple batches are created<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD: Replaced variables used to calculate debit hash<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for IAT Tape<br>
+2. Test for PR180<br>
+<BR><B>TASK:</B> 287596<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1049203: PR195 CSV report in v10 is missing fields from v9, CREATE CSV<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;file in Portal<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD/PR195.rpt: Deleted headers on EXP-ACCT-HEADING and calling DETAIL-<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HEADING after on program<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-487601<br>
+<BR><B>TASK:</B> 287612<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1040843 - PR195 GM10.2 Overstated when using 2 Different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD / PR195WS<br>
+PR195/ GM10.2 Overrides Overstating amounts when using 2 different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing<br>
+<BR><B>TASK:</B> 287658<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1040843 - PR195 GM10.2 Overstated when using 2 Different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPRDPD<br>
+PR195/ GM10.2 Overrides Overstating amounts when using 2 different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing<br>
+<BR><B>TASK:</B> 287665<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-149199 - India Payroll: &nbsp;Payouts for new joiners<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140, PR80, PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create a time record where the employee's date of joining falls within the<br>
+pay period where the TR date belongs.<br>
+Process the payment by running PR140/PR160<br>
+<BR><B>TASK:</B> 287668<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1040843 - PR195 GM10.2 Overstated when using 2 Different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195_WORK.wrk<br>
+PR195/ GM10.2 Overrides Overstating amounts when using 2 different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing<br>
+<BR><B>TASK:</B> 287669<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1040843 - PR195 GM10.2 Overstated when using 2 Different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195_SORT.wrk<br>
+PR195/ GM10.2 Overrides Overstating amounts when using 2 different Accounting Units.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing<br>
+<BR><B>TASK:</B> 287929<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1064206: PR189 Needs Recovery Bad File Status 4 7 On File PRCHKPYPRD-FILE<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR189PD: Add call to BUILD-TMP-FILE then close and remove it after<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test by running PR189 multiple times using same job<br>
+2. Test for other programs using PRDEDCALC<br>
+<BR><B>TASK:</B> 287977<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1050656 - Units do not appear on Earnings tab under HOURS/UNITS column or<br>
+on the pay stub<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Calculate time recods using pay codes with units of measure defined and by<br>
+specifying the number of units.<br>
+<BR><B>TASK:</B> 288080<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1070975: PR195 - report is adding additional employee title lines<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;througout the report output<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD: Removed additional call to DETAIL-HEADING<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for different report options<br>
+<BR><B>TASK:</B> 288456<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1088759: PR160 ACH files Hash and Debit Issue<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD: Fixed issue on PR160 ACH files Hash and Debit<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Check and print IAT files<br>
+2. Runand check PR180<br>
+<BR><B>TASK:</B> 288829<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001480:Canadian Federal Tax Option 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRDEDPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>If a Canadian tax category 15 deduction has an additional amount on PR13.5<br>
+then we need to check for YTD additional amount for that deduction.<br>
+<BR><B>TASK:</B> 288830<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1001480:Canadian Federal Tax Option 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSITFC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>For Canadian Tax option 2, YTD amounts for Volunteer tax and Bonus need to be<br>
+calculated properly and passed to BSI.<br>
+<BR><B>TASK:</B> 288950<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 288748<br>
+<BR><B>TASK:</B> 289038<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1106865: PR160 is not updating addenda count for transaction type 27<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD: Recoded previous code removed under JT-1049605<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-1049605<br>
+<BR><B>TASK:</B> 289096<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1092327 - Modify PR140 to process the 13th record created in C613.7<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRDEDPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test with 13th record created in C613.7<br>
+<BR><B>TASK:</B> 289168<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1110436 - PR160 and PR180 not printing ABSM LT31 balances on the first<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; employee in PMTOUT.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD.<br>
+Incorrect ABSM entries in generated LASER file.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 289169<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1110436 - PR160 and PR180 not printing ABSM LT31 balances on the first<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; employee in PMTOUT.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD.<br>
+Incorrect ABSM entries in generated LASER file.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 289170<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1110436 - PR160 and PR180 not printing ABSM LT31 balances on the first<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; employee in PMTOUT.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD.<br>
+Incorrect ABSM entries in generated LASER file.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 289310<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-111303 - PR160 for Laser Print file encountered subscript out of range error<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160/PR180/PR80.2<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test PR160/PR180/PR80.2 by selecting parameter for Earnings record either by<br>
+work period or pay period<br>
+<BR><B>TASK:</B> 289311<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-111303 - PR160 for Laser Print file encountered subscript out of range error<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160/PR180/PR80.2<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test PR160/PR180/PR80.2 by selecting parameter for Earnings record either by<br>
+work period or pay period<br>
+<BR><B>TASK:</B> 289317<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-111303 - PR160 for Laser Print file encountered subscript out of range error<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160/PR180/PR80.2<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test PR160/PR180/PR80.2 by selecting parameter for Earnings record either by<br>
+work period or pay period<br>
+<BR><B>TASK:</B> 289494<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1091989:Tax Status 62 for California Payment Code<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89PD PR89WS PR89.scr<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added a field on PR89 to add Tax status 62 deduction amts<br>
+<BR><B>TASK:</B> 289495<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1091989:Tax Status 62 for California Payment Code<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 62 deductions should be processed and reported properly when<br>
+running PR80.<br>
+<BR><B>TASK:</B> 289652<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1127383 - HRM-CSF Integration: Expand obj id field<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test PR195 GMPRCSV file for Obj_ID length<br>
+<BR><B>TASK:</B> 290105<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1139484 - PR39 SeqNbrs incorrect for GHR benefit deductions<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR39PD<br>
+Add GHR Benefit deductions via PR514.<br>
+Add PR39 SeqNbrs incorrect for GHR benefit deductions.<br>
+Blank SeqNbr OTD records do not take on payments.<br>
+SeqNbr is incorrectly added to records outside of the benefit deduction<br>
+effective date range.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290115<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1121273 - Canadian EHT Wages going into Excess<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Setup employment health tax exemptions in PR05.5 using the dependent employee<br>
+process level.<br>
+Create employee time records.<br>
+Process payment by running PR140/PR80.<br>
+<BR><B>TASK:</B> 290148<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1143153 - PR160 TAPE file is picking up the last employees receiving DFI<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and putting it where the PR01 SDFI should be.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD.<br>
+For record type = 6, position 4-12 of the ACH Tape file, SDFI for the bank<br>
+(from PR01) should reflect for transaction 27. On the attached test, PR160<br>
+TAPE file is picking up the employees receiving DFI and putting it where<br>
+the PR01 SDFI should be.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290213<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1023757:Tax Frequency needs to come from PAEMPLOYEE instead of PRREGPARM<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTAXATXC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax Frequency should be passed to BSI properly<br>
+<BR><B>TASK:</B> 290302<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1151165 - Canada EHT Excess tax calculation<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Create a deduction using the Ontario tax authority code<br>
+2. Fill out the EHT Wage and EHT Exemptions details<br>
+3. Define exempt indicator sa 3 for the employee's process level.<br>
+4. Employee process level should be dependent<br>
+5. Process PR80 payment. Use a deduction cycle where the only deduction to be taken is the Ontario EHT deduction.<br>
+6. Process employee payment using PR140/PR80<br>
+<BR><B>TASK:</B> 290391<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1153176 - PR160 PMTOUT not sorting by Zip and Alphanumerically<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Scenario report_sequence = 5, Employee seq = A (Alpha)<br>
+2. report_sequence = 5, employee_seq = N (Numeric)<br>
+3. try either 1 or 2 with Sort Earnings Record by Work-Period<br>
+4. Other Report_sequence<br>
+5. Please also test random scenario for PR180.<br>
+6. PR80 print button<br>
+<BR><B>TASK:</B> 290404<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1151137 - PR160 goes into needs recover with 153 subscript out of range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should now continue processing after reaching 100 record or more.<br>
+2. Check the values generated by PR160 if it is correct after the code changes.<br>
+3. Please test PR160 for 99 or more number of employees to be processed.<br>
+3. Regress some scenarios for JT-988868.<br>
+a. Try option 2 - Maximum 99 records - Create earnings and deduction records that will reach 99 or more.<br>
+<BR><B>TASK:</B> 290526<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD PR160_WORK.wrk PR160PD_SORT.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290528<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290529<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERIWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290530<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290531<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290532<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290533<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1166882 - One time deduction Sequence Number only updates for the first<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GHR Benefit employee deduction record<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR39PD.<br>
+One time deduction Sequence Number only updates for the first GHR Benefit<br>
+employee deduction record for PR39.1 and PR80.3. Working as expected<br>
+for PR39.2.<br>
+This fix requires that no overlapping date ranges for Deduction entries<br>
+in EMDEDMASTR.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290534<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1166882 - One time deduction Sequence Number only updates for the first<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GHR Benefit employee deduction record<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD.<br>
+One time deduction Sequence Number only updates for the first GHR Benefit<br>
+employee deduction record for PR39.1 and PR80.3. Working as expected<br>
+for PR39.2.<br>
+This fix requires that no overlapping date ranges for Deduction entries<br>
+in EMDEDMASTR.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290567<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>GLOBAL_LASERWK.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290568<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1042400:Add new field for 57 character ADDR1 in PMTOUT<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>GLOBAL_LASERSRT.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new field was added at the end of the EMPL record for PMTOUT that will<br>
+contain the full 57 character value for ADDR1.<br>
+<BR><B>TASK:</B> 290879<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1181625 - Garnishment Exempt Amount is incorrect on X times<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Federal Minimum Wage.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRGARNPD.<br>
+Garnishment Formula 26 is not calculating correctly.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290956<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1181625 - Garnishment Exempt Amount is incorrect on X times<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Federal Minimum Wage.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRGARNWS.<br>
+Garnishment Formula 26 is not calculating correctly.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 290967<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1189104 - Mitigate Path Traversal Vulnerabilities in PR Programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR programs<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test that output file name parmaeters do not allowpath traversal chacacters<br>
+<BR><B>TASK:</B> 290968<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1189104 - Mitigate Path Traversal Vulnerabilities in PR Programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR programs<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test that output file name parmaeters do not allowpath traversal chacacters<br>
+<BR><B>TASK:</B> 291028<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1191157 - PR140 HSA tax status 20 one time deduction not taken if HR00 Federal Limit is No and After Tax <br>
+Rollover is Yes<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Create HSA employeee and company match deductions<br>
+2. Enroll employee to HSA benefit plan<br>
+3. Add an HSA employee paid one time deduction<br>
+4. AT limit flag in HR00 shoud be set to Y<br>
+<BR><B>TASK:</B> 291083<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1189410 Canada Employment Credit (CEC)<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSITFC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>see KB article #2004088<br>
+<BR><B>TASK:</B> 291174<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1196692: Mitigate Vulnerability Type Injection in HRM Programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD/PR160WS/PR160.msg:<br>
+Applied validation for file extension for output file parameter<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test and check files created and their output location<br>
+<BR><B>TASK:</B> 291175<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1196692: Mitigate Vulnerability Type Injection in HRM Programs<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD/PR180WS/PR180.msg:<br>
+Applied validation for file extension for output file parameter<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test and check files created and their output location<br>
+<BR><B>TASK:</B> 291209<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199143 - PR160 encountering 153 subscript out of range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>No break testing<br>
+<BR><B>TASK:</B> 291290<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199143 - PR160 encountering 153 subscript out of range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Issue was not able to replicate in the dev server.<br>
+No break testing will suffice.<br>
+<BR><B>TASK:</B> 291484<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1096039 - Fix Garnishment Exempt Amount population for Formula 17 18 19 34.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRGARNPD.<br>
+Need to populate Rate from Federal minimum when no calculation is requ ired.<br>
+Formula variable PRGARN-RATEX should not be moved to PRGARN-RATE when<br>
+HREMP-PAY-FREQUENCY = 1.<br>
+Applied population logic in formula 17,18,19, and 34.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 291485<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1213318 - PR189 using incorrect Reciprocal Calculations flag<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B><br>
+PR189PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR189<br>
+<BR><B>TASK:</B> 291504<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1216006 - PR160 Looping when run for Earning Record = 2<br>
+(Work Periods) or 3 (Pay Periods)<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not go into infinite loop for Earnings Record = 2 or 3.<br>
+2. PR160 should not terminate while in the middle of processing.<br>
+3. Make sure that all employees written in PMTOUT has an ERN2<br>
+Tag when PR160 is processed with Earnings Record = 2 or 3. (581 employees with 582 ERN2 tag for our scenario)<br>
+<BR><B>TASK:</B> 291524<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1216006 - PR160 Looping when run for Earning Record = 2<br>
+(Work Periods) or 3 (Pay Periods)<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not go into infinite loop for Earnings Record = 2 or 3.<br>
+2. PR160 should not terminate while in the middle of processing.<br>
+3. Make sure that all employees written in PMTOUT has an ERN2<br>
+Tag when PR160 is processed with Earnings Record = 2 or 3. (581 employees with<br>
+582 ERN2 tag for our scenario)<br>
+<BR><B>TASK:</B> 291528<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1216006 - PR160 Looping when run for Earning Record = 2<br>
+(Work Periods) or 3 (Pay Periods)<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not go into infinite loop for Earnings Record = 2 or 3.<br>
+2. PR160 should not terminate while in the middle of processing.<br>
+3. Make sure that all employees written in PMTOUT has an ERN2<br>
+Tag when PR160 is processed with Earnings Record = 2 or 3. (581 employees with<br>
+582 ERN2 tag for our scenario)<br>
+<BR><B>TASK:</B> 291538<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1197248:Tax Status 63 and 64 for Oregon Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRDEDCALC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 63 and 64 deductions should process properly in PR80 and PR140<br>
+<BR><B>TASK:</B> 291545<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1197248:Tax Status 63 and 64 for Oregon Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 63 and 64 deductions should list properly when running PR80<br>
+<BR><B>TASK:</B> 291547<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1197248:Tax Status 63 and 64 for Oregon Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 63 and 64 deductions should process properly<br>
+<BR><B>TASK:</B> 291554<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1213329 - PR140 not creating payment arrears for Tax Status 24 deduction<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Add a tax status 24 deduction to the employee<br>
+Process employee time records with hours only payments<br>
+The deduction with tax status 24 should have a corresponding one time deduction created<br>
+<BR><B>TASK:</B> 291588<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1221538 - PR160 153 Subscript out of Range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Issue - PR160 goes into recovery for 1000+ employees.<br>
+2. Test for 15000 Employees.<br>
+<BR><B>TASK:</B> 291589<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1221538 - PR160 153 Subscript out of Range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Issue - PR160 goes into recovery for 1000+ employees.<br>
+2. Test for 15000 Employees.<br>
+<BR><B>TASK:</B> 291593<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1221538 - PR160 153 Subscript out of Range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Issue - PR160 goes into recovery for 1000+ employees.<br>
+2. Test for 15000 Employees.<br>
+<BR><B>TASK:</B> 291594<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1221538 - PR160 153 Subscript out of Range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Issue - PR160 goes into recovery for 1000+ employees.<br>
+2. Test for 15000 Employees.<br>
+<BR><B>TASK:</B> 291623<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1220128 - Benefit and GHR Benefit One Time Deductions (PR39) do not<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; take on PR140<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR39PD.<br>
+HRM and GHR benefits one time deductions are not taking on the PR140<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 291625<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1221538 - PR160 153 Subscript out of Range<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Reported Issue - PR160 goes into recovery for 1000+ employees.<br>
+2. Test for 15000 Employees.<br>
+<BR><B>TASK:</B> 291706<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1208946 - PR80 No calc add not working with negative pay on exempt pay code caused orphaned time records<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Perform a manual payment<br>
+Perform a no calculate add<br>
+Change the amount on the computed pre-tax amount<br>
+Change the no calc deduction selection parameter to N<br>
+Perform a no calc add on the payment<br>
+<BR><B>TASK:</B> 291742<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021 Add GHR BN Limits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>BN12.3, GHRHDRDATA, GHRDTLDATA<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See KB article 2018906<br>
+<BR><B>TASK:</B> 291770<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1230272 - Sync PR160, PR180, & PR80PD with the latest pdlib fix<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not terminate, can process up to 15000 timerecords,<br>
+& and has a new error message if the 15000 is reached.<br>
+2. PR160 warning message for detail limit is less than<br>
+the number of unique timerecords per employee.<br>
+3. Test PR80 and PR180.<br>
+<BR><B>TASK:</B> 291771<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1230272 - Sync PR160, PR180, & PR80PD with the latest pdlib fix<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not terminate, can process up to 15000 timerecords,<br>
+& and has a new error message if the 15000 is reached.<br>
+2. PR160 warning message for detail limit is less than<br>
+the number of unique timerecords per employee.<br>
+3. Test PR80 and PR180.<br>
+<BR><B>TASK:</B> 291772<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1230272 - Sync PR160, PR180, & PR80PD with the latest pdlib fix<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. PR160 should not terminate, can process up to 15000 timerecords,<br>
+& and has a new error message if the 15000 is reached.<br>
+2. PR160 warning message for detail limit is less than<br>
+the number of unique timerecords per employee.<br>
+3. Test PR80 and PR180.<br>
+<BR><B>TASK:</B> 291857<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1227736 - Enhance PR39 to create a new screen like One Time Deduction BN<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Select PR39.5 for GHR benefit one time deductions<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR39PD, PR39.scr, PR39.pgm, pr39.508.<br>
+When GHR benefit one time deduction is added in PR39.1, if the effective date<br>
+of the deduction is not within the effective date ranges in EMDEDMASTR, the<br>
+deduction will be saved in ONETMDED without a value in EDM-SEQ-NBR because<br>
+the One Time Deduction BN Select PR39.5 will not be invoked.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 291861<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1183513 - CSV files used to generate SSJE BODs are incomplete<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD, PR195WS, PR195.msg<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>refer to unit test document<br>
+<BR><B>TASK:</B> 291927<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1227736 - Enhance PR39 to create a new screen like One Time Deduction BN<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Select PR39.5 for GHR benefit one time deductions<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD.<br>
+When GHR benefit one time deduction is added in PR39.1, if the effective date<br>
+of the deduction is not within the effective date ranges in EMDEDMASTR, the<br>
+deduction will be saved in ONETMDED without a value in EDM-SEQ-NBR because<br>
+the One Time Deduction BN Select PR39.5 will not be invoked.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 291946<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1224559 - Pre-tax deductions for voided payment reissues are not calculating<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Complete a payroll cycle that includes a pre-tax deduction<br>
+Void the closed payment<br>
+Set the process-rule for the pre-tax deduction to only take once per pay period<br>
+Process another payment within the same pay period as the voided payment<br>
+Pre-tax deduction should also be taken for the new payment.<br>
+<BR><B>TASK:</B> 292006<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1236889: PR160 ACH Tape File (Batch Control Total Amount Issues)<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRACHPD: Adjust validation done under JT-1088759<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-1088759<br>
+<BR><B>TASK:</B> 292240<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 291742<br>
+<BR><B>TASK:</B> 292241<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 291742<br>
+<BR><B>TASK:</B> 292246<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1243020:Washington state tax calc changes<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRDEDPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>When passing Tax Type to BSI, If DDC-TAX-CATEGORY is zeroes we will check to<br>
+see if a 3-digit tax category exists in PRREGPARM for that deduction. If it<br>
+exists then that will be passed to BSI. These 3-didgit tax categories are<br>
+currently designed to only be used for clients in Washington state that need to<br>
+use the new 3-digit tax categories that BSI recently implemented.<br>
+<BR><B>TASK:</B> 292251<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021 Add GHR BN Limits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>BN12.4<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See KB article<br>
+<BR><B>TASK:</B> 292352<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1243809:Wage Transfer Factor for BSI Tax Factory Canada 8.0.s<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSITFC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>The proper Provincial Indicator value should be passed to BSI for Canadian<br>
+employees.<br>
+<BR><B>TASK:</B> 292373<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1250613: Extension name not allowed on filename when path + file are equal<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;to 50 characters<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160PD: Validate and look for actual period when extension name is entered<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-1196692<br>
+<BR><B>TASK:</B> 292374<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1250613: Extension name not allowed on filename when path + file are equal<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;to 50 characters<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180PD: Validate and look for actual period when extension name is entered<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Regression test for JT-1196692<br>
+<BR><B>TASK:</B> 292668<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021:Max Annual Compensation for GHR Benefits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140PD PR140WS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>For GHR Benefit clients, Plans defined on BN12.3 should be used to process Max<br>
+Comp limit logic within PR140<br>
+<BR><B>TASK:</B> 292669<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021:Max Annual Compensation for GHR Benefits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRCH70PD PRCH70WS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added logic to build plan table using records on BN12.3 for GHR Benefit clients<br>
+<BR><B>TASK:</B> 292670<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021:Max Annual Compensation for GHR Benefits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRCH70CP<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added logic to build plan table using plans that were setup on BN12.3 for GHR<br>
+Benefit clients<br>
+<BR><B>TASK:</B> 292677<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1250130 - PR160 PMTOUT not producing Y value in position 433 ACH and system<br>
+payment are processed for an employee<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD,1.1.70.1.31<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 292678<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1250130 - PR160 PMTOUT not producing Y value in position 433 when ACH and<br>
+system payment are processed for an employee<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS,46.1.18<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 292704<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1252103 - Negative one time deduction is doubling for multiple garnishment deduction.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Setup multiple employee garnishments<br>
+Create multiple manual negative one time garnishment deductions in PR80.3<br>
+Set garnishment rule in PR25.2 to 1.<br>
+Process manual payment using PR80 for the employee without entering time records<br>
+The correct one time deduction garnishment amounts should be processed.<br>
+Arrears should be created for all garnishments deductions not withheld.<br>
+<BR><B>TASK:</B> 292730<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021:Max Annual Compensation for GHR Benefits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPAY80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added code that for PR80 and PR89, plan table will be built from BN12.3 records<br>
+for GHR Benefit clients<br>
+<BR><B>TASK:</B> 292731<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1199021:Max Annual Compensation for GHR Benefits<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPAYWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Added code that for PR80 and PR89, plan table will be built from BN12.3 records<br>
+for GHR Benefit clients<br>
+<BR><B>TASK:</B> 292781<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-783220 - Enhance PR195 to consider the Pay Class PSG Relationship flags<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;defined on PR20.3<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195PD / PR195.scr / PR195.508.<br>
+Enhance PR195 to consider the Pay Class Relationship flags defined on PR20.3.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 292870<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1267264 - 401k deduction amount not summing appropriately when there are multiple passes to BSI<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Process tax status 30 deductions together with 401k deductions<br>
+401k deduction calculation should be based on the total gross minus the<br>
+non qualified deduction amount.<br>
+<BR><B>TASK:</B> 292882<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1270423 - PR140 for Canada does not list direct deposit information<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPAY80PD,81.1.23.1.67<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 292977<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Increase Tax Category from 2 to 4 characters. &nbsp;With the release of BSI Bulletin<br>
+153, BSI increased their tax type.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>See Documentation<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See Documentation<br>
+<BR><B>TASK:</B> 293017<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1267783 - HSA Deduction withholding beyond Federal Limit when OTD is included<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Process HSA deductions.<br>
+Create one time deductions from HSA deductions that if added would exceed the federal limit<br>
+<BR><B>TASK:</B> 293038<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1249095:Tax Category 20 changes for British Columbia<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSITFC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax category 20 is now valid for British Columbia<br>
+<BR><B>TASK:</B> 293128<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1284421 - HRM-CSF integration: Minimize number of lines generated per CSV file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Specify the number of GMPRCSV records to be written per csv file via message maintenance<br>
+Run PR195 to generate gmprcsv csv files.<br>
+<BR><B>TASK:</B> 293200<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1284421 - HRM-CSF integration: Minimize number of lines generated per CSV file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Specify the number of GMPRCSV records to be written per csv file via message maintenance<br>
+Run PR195 to generate gmprcsv csv files.<br>
+<BR><B>TASK:</B> 293236<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1273198 - PR140 is creating erroneous HRHISTORY records for PR12 ACH changes<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create employee ACH records<br>
+Run PR212 to view the ACH history records created<br>
+Process employee pay by running PR140 multiple time<br>
+Run PR212 again to check the changes made for the ACH history records<br>
+<BR><B>TASK:</B> 293278<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1286404 - PR80 doubling taxable wages when processing exempt wages<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Process time records with regular and exempt supplemental tax codes<br>
+Perform calculate only on PR80<br>
+Perform no calculate add after the payments has been calculated<br>
+<BR><B>TASK:</B> 293285<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR160 parameter screen. When running<br>
+PR160 for ACH tapes, you can request that the file be filled with spaces.<br>
+<BR><B>TASK:</B> 293293<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1282775 - Not seeing the PR160 print receipt flag populate within<br>
+the pmtout file for pension payments.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD,1.1.70.1.32<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Note: When there is a PR12 setup, test all Print Receipt Scenarios<br>
+Run PR160 w/ PR29 w/o direct deposit and w/ PR12<br>
+Run PR160 w/ PR29 w/ direct deposit and w/ PR12<br>
+Run PR160 w/ PR29 w/o direct deposit and w/o PR12<br>
+Run PR160 w/ PR29 w/ direct deposit and w/o PR12<br>
+Run PR160 w/o PR29 and w/ PR12<br>
+Run PR160 w/ PR29 w/o direct deposit and w/ multiple PR12<br>
+<BR><B>TASK:</B> 293416<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1297624 - PR80 creating 0 payment number record when paid with additional rate pay code<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create employee time records for a Canada company.<br>
+Perform calculate only for the time records.<br>
+<BR><B>TASK:</B> 293464<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1298053 - Negativ Tax amount when employee is paid Additional Flat rate<br>
+Bonus and Reg on CPP Canada Tax<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSITFC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Test Canda employee with deductions having tax category = 01 and 15<br>
+<BR><B>TASK:</B> 293497<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1298496 - PMTOUT Print Receipt Flag<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFERT TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 293565<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1300921 - Negative 403B deduction amount when employee reaches max annual additions limit on payment<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Enroll employee to multiple benefits that include a benefit with Apply Max Limit set to B<br>
+Complete an employee payroll cycle which should not exceed the annual additions limit<br>
+Process another payroll for the employee where the annual additions limit will exceed<br>
+<BR><B>TASK:</B> 293581<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1288151:Tax Category 104 changes<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPAY80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax category 104 deductions should be taxed properly in PR80/PR140<br>
+<BR><B>TASK:</B> 293583<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR180 parameter screen. When running<br>
+PR180 for ACH tapes, you can request that the file be filled with spaces<br>
+<BR><B>TASK:</B> 293584<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293629<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1302573 - PR160 error 153 error message text not found<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCU<br>
+<BR><B>TASK:</B> 293636<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1302573 - PR160 error 153 error message text not found<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCU<br>
+<BR><B>TASK:</B> 293640<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR160 parameter screen. When running<br>
+PR160 for ACH tapes, you can request that the file be filled with spaces.<br>
+<BR><B>TASK:</B> 293641<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR180 parameter screen. When running<br>
+PR180 for ACH tapes, you can request that the file be filled with spaces<br>
+<BR><B>TASK:</B> 293642<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR180 parameter screen. When running<br>
+PR180 for ACH tapes, you can request that the file be filled with spaces<br>
+<BR><B>TASK:</B> 293658<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1302573 - PR160 error 153 error message text not found<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRCHKWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCU<br>
+<BR><B>TASK:</B> 293667<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293683<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293712<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1294617 - PR39 invokes PR39.6 when adding non-GHR One time<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Benefit deductions.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD.<br>
+PR39.3 was not invoked for Garnishment Deduction.<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Please refer to attached documentation in JIRA for code changes applied and<br>
+steps performed during unit testing.<br>
+<BR><B>TASK:</B> 293724<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1319306 - Increase limit in PR160<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 293725<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1319306 - Increase limit in PR160<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRCHKWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 293726<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1319306 - Increase limit in PR160<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 293737<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1295667:Tax status' 65 and 66 for California Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 65 and 66 deductions will be processed and displayed properly<br>
+when running PR80<br>
+<BR><B>TASK:</B> 293738<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1295667:Tax status' 65 and 66 for California Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRDEDCALC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 65 and 66 deductions should process and report properly when<br>
+running PR80 and PR140<br>
+<BR><B>TASK:</B> 293740<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1295667:Tax status' 65 and 66 for California Employee Savings Plan<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRPAY80PD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax status 65 and 66 deductions should process and report properly when<br>
+running PR80 and PR140<br>
+<BR><B>TASK:</B> 293951<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293955<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293958<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 293584<br>
+<BR><B>TASK:</B> 293959<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 293584<br>
+<BR><B>TASK:</B> 293975<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293982<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160, PR180, PRACHPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 and/or PR180. The Tape file or the IAT-TAPE file should be<br>
+94 bytes long<br>
+<BR><B>TASK:</B> 293983<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR160 parameter screen. When running<br>
+PR160 for ACH tapes, you can request that the file be filled with spaces.<br>
+<BR><B>TASK:</B> 293984<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1235900 Option for 94 byte ACH file<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR180<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>A new option has been added to the PR180 parameter screen. When running<br>
+PR180 for ACH tapes, you can request that the file be filled with spaces<br>
+<BR><B>TASK:</B> 294026<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Illinois Employee Retirement Savings Program Update. &nbsp;Add Tax Status 67 & 68.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR05, PR205, PR260, PR261, PR262, PR80, PR89, PR141, PR294<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax factory has been enhanced to comply with the Illinois Secure Choice<br>
+Retirement Savings Program provisions.<br>
+<BR><B>TASK:</B> 294027<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Illinois Employee Retirement Savings Program Update. &nbsp;Add Tax Status 67 & 68.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR05, PR205, PR260, PR261, PR262, PR80, PR89, PR141, PR294<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax factory has been enhanced to comply with the Illinois Secure Choice<br>
+Retirement Savings Program provisions.<br>
+<BR><B>TASK:</B> 294035<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Illinois Employee Retirement Savings Program Update. &nbsp;Add Tax Status 67 & 68.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR05, PR205, PR260, PR261, PR262, PR80, PR89, PR141, PR294<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Tax factory has been enhanced to comply with the Illinois Secure Choice<br>
+Retirement Savings Program provisions.<br>
+<BR><B>TASK:</B> 294054<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1319306 - Increase limit in PR160<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>REFER TO UNIT TEST DOCUMENT<br>
+<BR><B>TASK:</B> 294073<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1281524 - One time deductions showing multiple times on PR140 Report Only<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create time records with multiple check groups<br>
+Create a one time deduction with the check group field defaults to blanks<br>
+Run PR140 in report mode<br>
+<BR><B>TASK:</B> 294135<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1319306 - Increase limit in PR160<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>N/A<br>
+<BR><B>TASK:</B> 294193<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1290991 - PR13.7 isn't allowing to page down<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.Reported Scenario. Page down and page up for more than 24 ded codes.<br>
+2.Test for 3 pages, about 50 ded-codes or more.<br>
+<BR><B>TASK:</B> 294358<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1347355 - PR80 Taxable Amount is not calculating correctly with Tax Frequency = Annual<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140/PR80<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Create time records for regular wages and hours only.<br>
+Create a one time deduction for tax status 7<br>
+Specify a tax frequency and process group for the regular wage<br>
+Run PR140 to process the time records<br>
+<BR><B>TASK:</B> 294426<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1358052 - Enhance PR195, LP198 and BN190 programs to create backup copies<br>
+of output GMPR CSV files for CSF Integration<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR195, LP198, BN190<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.PR195, LP198, BN190 should make a copy of GMPRCSV file in work directory.<br>
+2.PR195, LP198, BN190 should remove previous month GMPRCSV file backups in WORK directory.<br>
+<BR><B>TASK:</B> 294487<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1339928 - PMTOUT ERN2 RECORD NOT INCLUDING OPEN MANUAL PAYMENTS<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run PR160 for an employee with combination of open and closed payments(PR36 and<br>
+PR80); YTD-AMOUNT and YTD-HOURS should be correct in PMTOUT ERN2 record<br>
+<BR><B>TASK:</B> 294529<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1248645: PR514 DEDLOADCSV allows overlapping dates<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PREDMPD: Added validation for add transaction to pass thru OVERLAP-EDIT<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test using data from GHR or manually created .csv file<br>
+<BR><B>TASK:</B> 294581<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1077857 - India Payroll Deduction based on Payble days is calculated incorrectly<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR140<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Process employee payments for and Indian company<br>
+Deduction with calculation type of L should be included<br>
+Process epmployee payment<br>
+Verify deduction amount of deduction with calculation type L from PR140 report if correct<br>
+<BR><B>TASK:</B> 294597<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1367482: BN32 Company Match on DC plan incorrect calculation after<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;year-end patch applied.<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PREDMUPD: Only check PRREGPARM for GHR Benefit flag if calling program is<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PR514<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for either only pre-tax or after-tax deduction<br>
+<BR><B>TASK:</B> 294761<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3 of EARNING RECORD<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR160 Laser Print Tab.<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294762<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3 of EARNING RECORD<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR160 Laser Print Tab.<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294763<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR16<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294803<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 294631<br>
+<BR><B>TASK:</B> 294805<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1372941: PR514 Adding of S Stop function for GHR Benefits deductions<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PREDMUPD: Apply logic to allow transaction S-Stop on DEDLOADCSV if coming from<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;GHR<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for transaction S with and without GHR-SEQ-NBR<br>
+2. No break test for other transactions<br>
+<BR><B>TASK:</B> 294814<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR16<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294815<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR16<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294817<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1379893: PR514 giving error Cannot Overlap Dates For Same Deduction when<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;deduction dates do not overlap<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PREDMPD: Revised validation under 2460-EDIT-OVERLAP<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for multiple transactions under same deduction with different effect<br>
+&nbsp; and end dates<br>
+2. Regression test on JT-1248645<br>
+<BR><B>TASK:</B> 294833<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT#1379893: PR514 giving error Cannot Overlap Dates For Same Deduction when<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;deduction dates do not overlap<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PREDMWS: Added flags for revised validation under 2460-EDIT-OVERLAP<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1. Test for multiple transactions under same deduction with different effect<br>
+&nbsp; and end dates<br>
+2. Regression test on JT-1248645<br>
+<BR><B>TASK:</B> 294838<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Enhance PR514 to interface deduction changes from Symmetry<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR514<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Run the input file generated from Symmetry thru GHR and verify the changes<br>
+are correct.<br>
+<BR><B>TASK:</B> 294856<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1223669 - Extend PR160 capacity to process large records for options 2 and 3<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR160<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>1.ERN2 record should still be displayed for PSG or PSG Description.<br>
+2.ERN2 YTD should be correct.<br>
+3.ERN2 should still follow the entered Detail Limit and Deduction Limit in PR16<br>
+4.ERN2 records should separate for different Check ID/Check Group.<br>
+5.ERN2 records should separate for Different Per-end-date or Work-end-date.<br>
+6.Multiple Employees should still be working.<br>
+7.Regress JT- 988868.<br>
+<BR><B>TASK:</B> 294896<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13, PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294897<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294898<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294899<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294900<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294905<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 294763<br>
+<BR><B>TASK:</B> 294906<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 294763<br>
+<BR><B>TASK:</B> 294937<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1379625:Updates for Taxfactory 10.0.x<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTAXWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New State W-4 fields should be passed to BSI and used to calculate taxes<br>
+properly<br>
+<BR><B>TASK:</B> 294938<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1379625:Updates for Taxfactory 10.0.x<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTXBSIDBG<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New State W-4 fields should be passed to BSI and used to calculate taxes<br>
+properly<br>
+<BR><B>TASK:</B> 294939<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 294896<br>
+<BR><B>TASK:</B> 294940<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 294896<br>
+<BR><B>TASK:</B> 294941<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13, PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294942<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1379625:Updates for Taxfactory 10.0.x<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRTAXBSIC<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New State W-4 fields should be passed to BSI and used to calculate taxes<br>
+properly<br>
+<BR><B>TASK:</B> 294943<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294944<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294945<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801:2020 W-4 updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>GLOBAL_LASERWK.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New fields added for W-4 should report on PMTOUT for states that use them<br>
+<BR><B>TASK:</B> 294946<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>GLOBAL_LASERSRT.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New fields added for W-4 should report on PMTOUT for states that use them<br>
+<BR><B>TASK:</B> 294947<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New fields added for W-4 should report on PMTOUT for states that use them<br>
+<BR><B>TASK:</B> 294948<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New fields added for W-4 should report on PMTOUT for states that use them<br>
+<BR><B>TASK:</B> 294950<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERIWS<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>PMTOUT changes to pass new W-4 fields to BSI for Federal and State Withholding<br>
+deductions<br>
+<BR><B>TASK:</B> 294960<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294973<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294974<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294976<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13, PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294977<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13, PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 294986<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295007<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295008<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR14<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295009<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295021<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295025<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 295021<br>
+<BR><B>TASK:</B> 295026<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> Refer to Task 295021<br>
+<BR><B>TASK:</B> 295028<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295029<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295030<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295031<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295032<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295033<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295034<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295035<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295036<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1366801 2020 W-4 Updates: Phase Two<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR89<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>See 2020 W4 documentation<br>
+<BR><B>TASK:</B> 295065<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1368801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PRLASERPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New Federal and State W-4 fields should report properly in the PMTOUT files<br>
+<BR><B>TASK:</B> 295066<br>
+<B>Issue Type:</B> Enhancement<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1368801:2020 W-4 Updates Phase 2<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>GLOBAL_LASERWK.wrk GLOBAL_LASERWK2.wrk GLOBAL_LASERSRT.wrk GLOBAL_LASERST2.wrk<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>New Federal and State W-4 fields should report properly in the PMTOUT files<br>
+<BR><B>TASK:</B> 295122<br>
+<B>Issue Type:</B> Correction<br>
+<B><FONT face='Arial' size='3'>PT/JT# - Description:<BR></FONT></B> JT-1398582 Non-withholding type taxes are not being assigned<br>
+<B><FONT face='Arial' size='3'>Programs/Processes Impacted:<BR></FONT> </B>PR13 HR11 PR14 - PREDMPD<br>
+<B><FONT face='Arial' size='3'>Testing Considerations:<BR></FONT> </B>Add employee, check PR13.8 to ensure no errors were created<br>
+PR14 - ability to change tax catedory 3 deduction<br>
+<br>
+<br>
+<a id=5><BR><B><U>5.0 &nbsp;Installation Instructions</U></B></a><br>
+<br>
+Please refer to the CTP Installation Guide for instructions on how to apply this CTP. &nbsp;The following steps must also be completed.<br>
+<br>
+<B><U>5.1 &nbsp; Programs requiring compile</U></B><br>
+<br>
+The list of "Programs requiring compile" are addressed by the CTP installation tooling. Please follow the standard installation instructions provided in the application installation guide.<br>
+<br>
+<br>
+<B><U>5.2 &nbsp;Special Notes</U></B><br>
+<FONT face='Courier' size='3'><br>
+<br>
+The following notes will need to be applied or verified that they have already been applied to your system.<br>
+<br>
+(none)<br>
+<br>
+<br>
+<a id=6><BR><B><U>6.0 &nbsp;Support Information</U></B></a><br>
+<br>
+Questions or problems regarding this CTP should be directed to the Infor Global Support Center (GSC).<br>
+<br>
+Infor<br>
+(877) 772-4111<br>
+http://www.inforxtreme.com<br>
+<br>
+<br>
+<FONT face='Arial' size='3'><br>
+<a id=7><BR><B><U>7.0 &nbsp;Disclaimers</U></B></a><br>
+<br>
+Any reference to the following products, including but not limited to RSS, SIP, SIPP, and/or Requisition Self Service in any of our documentation are now referred to as Requisition Center (RQC). &nbsp;There have been some changes made to the functionality with RQC including changes to certain terms, including but not limited to Shopping Cart or Shopping List which are now referred to as Requisition Lines or Templates.<br>
+<br>
+<br>
+</FONT>
+</BODY>
+</HTML>

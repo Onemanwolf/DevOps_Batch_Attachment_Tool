@@ -1,0 +1,191 @@
+2020-12-03 18:09:53.689 -05:00 [INF] Logger called
+2020-12-03 18:09:53.738 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33768909
+2020-12-03 18:09:54.588 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:54.590 -05:00 [INF] Match Id: 696448
+2020-12-03 18:09:54.591 -05:00 [INF] Found WorkItem Id: 696448 Attempting Attacment
+2020-12-03 18:09:55.283 -05:00 [INF] Updated Existing Work Item: '696448'. Had 0 attachments, now has 7
+2020-12-03 18:09:55.288 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-03 18:09:55.387 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:55.390 -05:00 [INF] Match Id: 696494
+2020-12-03 18:09:55.391 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-03 18:09:55.881 -05:00 [INF] Updated Existing Work Item: '696494'. Had 0 attachments, now has 9
+2020-12-03 18:09:55.891 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-03 18:09:55.985 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:55.986 -05:00 [INF] Match Id: 696494
+2020-12-03 18:09:55.987 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-03 18:09:56.404 -05:00 [INF] Updated Existing Work Item: '696494'. Had 0 attachments, now has 10
+2020-12-03 18:09:56.407 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769211
+2020-12-03 18:09:56.500 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:56.501 -05:00 [INF] Match Id: 696450
+2020-12-03 18:09:56.503 -05:00 [INF] Found WorkItem Id: 696450 Attempting Attacment
+2020-12-03 18:09:57.008 -05:00 [INF] Updated Existing Work Item: '696450'. Had 0 attachments, now has 5
+2020-12-03 18:09:57.015 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-03 18:09:57.130 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:57.132 -05:00 [INF] Match Id: 696433
+2020-12-03 18:09:57.133 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-03 18:09:57.639 -05:00 [INF] Updated Existing Work Item: '696433'. Had 0 attachments, now has 7
+2020-12-03 18:09:57.644 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-03 18:09:57.737 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:57.739 -05:00 [INF] Match Id: 696433
+2020-12-03 18:09:57.741 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-03 18:09:58.188 -05:00 [INF] Updated Existing Work Item: '696433'. Had 0 attachments, now has 8
+2020-12-03 18:09:58.194 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769759
+2020-12-03 18:09:58.294 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:58.311 -05:00 [INF] Match Id: 696479
+2020-12-03 18:09:58.320 -05:00 [INF] Found WorkItem Id: 696479 Attempting Attacment
+2020-12-03 18:09:58.803 -05:00 [INF] Updated Existing Work Item: '696479'. Had 0 attachments, now has 4
+2020-12-03 18:09:58.808 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769964
+2020-12-03 18:09:58.910 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:09:58.915 -05:00 [INF] Match Id: 696425
+2020-12-03 18:09:58.922 -05:00 [INF] Found WorkItem Id: 696425 Attempting Attacment
+2020-12-03 18:09:59.515 -05:00 [INF] Updated Existing Work Item: '696425'. Had 0 attachments, now has 4
+2020-12-03 18:09:59.520 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-03 18:09:59.622 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:09:59.624 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-03 18:09:59.677 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:09:59.680 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-03 18:09:59.770 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:09:59.776 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-03 18:09:59.798 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:09:59.812 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772163
+2020-12-03 18:09:59.921 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:09:59.926 -05:00 [INF] WorkItem not found for cQdbid: 33772163
+2020-12-03 18:09:59.939 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:09:59.981 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772756
+2020-12-03 18:10:00.084 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:00.086 -05:00 [INF] Match Id: 696471
+2020-12-03 18:10:00.088 -05:00 [INF] Found WorkItem Id: 696471 Attempting Attacment
+2020-12-03 18:10:00.673 -05:00 [INF] Updated Existing Work Item: '696471'. Had 0 attachments, now has 4
+2020-12-03 18:10:00.675 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772793
+2020-12-03 18:10:00.765 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:00.767 -05:00 [INF] Match Id: 696412
+2020-12-03 18:10:00.770 -05:00 [INF] Found WorkItem Id: 696412 Attempting Attacment
+2020-12-03 18:10:01.180 -05:00 [INF] Updated Existing Work Item: '696412'. Had 0 attachments, now has 4
+2020-12-03 18:10:01.190 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773109
+2020-12-03 18:10:01.295 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:10:01.296 -05:00 [INF] WorkItem not found for cQdbid: 33773109
+2020-12-03 18:10:01.297 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:10:01.302 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773202
+2020-12-03 18:10:01.393 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:01.395 -05:00 [INF] Match Id: 696386
+2020-12-03 18:10:01.397 -05:00 [INF] Found WorkItem Id: 696386 Attempting Attacment
+2020-12-03 18:10:01.810 -05:00 [INF] Updated Existing Work Item: '696386'. Had 0 attachments, now has 4
+2020-12-03 18:10:01.818 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773221
+2020-12-03 18:10:01.918 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:10:01.921 -05:00 [INF] WorkItem not found for cQdbid: 33773221
+2020-12-03 18:10:01.924 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:10:01.936 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:02.039 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:02.041 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:02.042 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:02.563 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 19
+2020-12-03 18:10:02.570 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:02.765 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:02.771 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:02.789 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:03.265 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 20
+2020-12-03 18:10:03.267 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:03.356 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:03.358 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:03.360 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:08.446 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 21
+2020-12-03 18:10:08.453 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:08.549 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:08.558 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:08.601 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:09.464 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 22
+2020-12-03 18:10:09.470 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:09.690 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:09.697 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:09.711 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:10.239 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 23
+2020-12-03 18:10:10.245 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:10.475 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:10.481 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:10.489 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:11.316 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 24
+2020-12-03 18:10:11.322 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-03 18:10:11.422 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:11.431 -05:00 [INF] Match Id: 696491
+2020-12-03 18:10:11.456 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-03 18:10:12.099 -05:00 [INF] Updated Existing Work Item: '696491'. Had 0 attachments, now has 25
+2020-12-03 18:10:12.105 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-03 18:10:12.197 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:12.201 -05:00 [INF] Match Id: 696428
+2020-12-03 18:10:12.211 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-03 18:10:12.832 -05:00 [INF] Updated Existing Work Item: '696428'. Had 0 attachments, now has 8
+2020-12-03 18:10:12.839 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-03 18:10:12.935 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:12.940 -05:00 [INF] Match Id: 696428
+2020-12-03 18:10:12.951 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-03 18:10:13.882 -05:00 [INF] Updated Existing Work Item: '696428'. Had 0 attachments, now has 9
+2020-12-03 18:10:13.884 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-03 18:10:13.996 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:14.009 -05:00 [INF] Match Id: 696428
+2020-12-03 18:10:14.037 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-03 18:10:14.529 -05:00 [INF] Updated Existing Work Item: '696428'. Had 0 attachments, now has 10
+2020-12-03 18:10:14.537 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-03 18:10:14.635 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:14.644 -05:00 [INF] Match Id: 696453
+2020-12-03 18:10:14.660 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-03 18:10:15.288 -05:00 [INF] Updated Existing Work Item: '696453'. Had 0 attachments, now has 10
+2020-12-03 18:10:15.293 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-03 18:10:15.403 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:15.406 -05:00 [INF] Match Id: 696453
+2020-12-03 18:10:15.409 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-03 18:10:15.861 -05:00 [INF] Updated Existing Work Item: '696453'. Had 0 attachments, now has 11
+2020-12-03 18:10:15.867 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-03 18:10:15.978 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:15.987 -05:00 [INF] Match Id: 696453
+2020-12-03 18:10:16.005 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-03 18:10:16.430 -05:00 [INF] Updated Existing Work Item: '696453'. Had 0 attachments, now has 12
+2020-12-03 18:10:16.433 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-03 18:10:16.529 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:16.532 -05:00 [INF] Match Id: 696474
+2020-12-03 18:10:16.535 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-03 18:10:17.186 -05:00 [INF] Updated Existing Work Item: '696474'. Had 0 attachments, now has 10
+2020-12-03 18:10:17.193 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-03 18:10:17.314 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:17.320 -05:00 [INF] Match Id: 696474
+2020-12-03 18:10:17.329 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-03 18:10:17.826 -05:00 [INF] Updated Existing Work Item: '696474'. Had 0 attachments, now has 11
+2020-12-03 18:10:17.841 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-03 18:10:17.944 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:17.948 -05:00 [INF] Match Id: 696474
+2020-12-03 18:10:17.954 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-03 18:10:18.412 -05:00 [INF] Updated Existing Work Item: '696474'. Had 0 attachments, now has 12
+2020-12-03 18:10:18.420 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-03 18:10:18.545 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:18.551 -05:00 [INF] Match Id: 696463
+2020-12-03 18:10:18.558 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-03 18:10:19.197 -05:00 [INF] Updated Existing Work Item: '696463'. Had 0 attachments, now has 7
+2020-12-03 18:10:19.202 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-03 18:10:19.308 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:19.313 -05:00 [INF] Match Id: 696463
+2020-12-03 18:10:19.341 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-03 18:10:19.797 -05:00 [INF] Updated Existing Work Item: '696463'. Had 0 attachments, now has 8
+2020-12-03 18:10:19.804 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773878
+2020-12-03 18:10:19.900 -05:00 [INF] The wiql query returned 0 results:
+2020-12-03 18:10:19.908 -05:00 [INF] WorkItem not found for cQdbid: 33773878
+2020-12-03 18:10:19.936 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 152
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 63
+2020-12-03 18:10:19.976 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773893
+2020-12-03 18:10:20.080 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:20.086 -05:00 [INF] Match Id: 696454
+2020-12-03 18:10:20.100 -05:00 [INF] Found WorkItem Id: 696454 Attempting Attacment
+2020-12-03 18:10:20.673 -05:00 [INF] Updated Existing Work Item: '696454'. Had 0 attachments, now has 4
+2020-12-03 18:10:20.678 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773962
+2020-12-03 18:10:20.777 -05:00 [INF] The wiql query returned 1 results:
+2020-12-03 18:10:20.784 -05:00 [INF] Match Id: 696444
+2020-12-03 18:10:20.794 -05:00 [INF] Found WorkItem Id: 696444 Attempting Attacment

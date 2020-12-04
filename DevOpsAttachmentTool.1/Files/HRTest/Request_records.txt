@@ -1,0 +1,734 @@
+﻿"dbid","id","RequestType","Headline","Submitter","WG_Assigned_To","ISWorkgroup","Submit_Date","Application","State","assignedto","Department","Description"
+"33756819","ISSDM00202387","Enhancement","OSS - Automate GT Approver Updates from HCM","jacquelinec","CCL AD HR & Payroll","Finance Applications Group","2017-01-26 14:20:47","Lawson Interfaces","UAT","Jain Abhishek x43571 Information Systems (CCL, Miami)","Travel Services (CCL, Miami)","Automate the update of Approvers from Lawson to GetThere"
+"33769070","ISSDM00214638","Enhancement","HR - MINOR - Payroll SSRS reports - additions & changes","liannep","CCL AD HR & Payroll","","2019-01-24 14:59:21","** NOT LISTED ** Business","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Shoreside",""
+"33771967","ISSDM00217535","Enhancement","HR - HSA Company Funding for New Hires","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-09-30 17:05:16","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","For the HSA integration to Lincoln Financials the request is that the Company Contribution be sent when the plan is effective dated and not dependent on payroll process.  
+
+The reason is once employees enroll, they don't have any funds that can be used until the payroll has run, which can be as long up to 3 weeks later. 
+
+Open questions - 
+ - Is there a need to reconcile the actual company contribution from a payroll processing standpoint vs the $ sent based on the benefit effective date
+ "
+"33772041","ISSDM00217609","Enhancement","FINPAY - Oracle HCM Integrations - New W4 Form for 2020","davidsi","CCL AD HR & Payroll","","2019-10-08 11:48:18","** NOT LISTED ** Business","Development","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","IRS has released a new W-4 Form for 2020.  Will need to implement in Oracle and subsequently update Lawson Integration if there are any impacts.
+
+"
+"33772163","ISSDM00217731","Defect","FINPAY - Overtime Alternate Rate are post to lawson intermittently","cristhianv","CCL AD HR & Payroll","Finance Applications Group","2019-10-21 11:02:15","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","OVTE/DDOT/OTMM alternate rate pay codes are inconsistently setup. CPA Interface alternate rates are not always being added or updated in Lawson consistently.
+
+"
+"33772168","ISSDM00217736","Defect","FINPAY - Pending PPC record in staging table – PPC Staging record stay in Pending Proceess","cristhianv","CCL AD HR & Payroll","Finance Applications Group","2019-10-21 11:37:15","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Pending PPC record in staging table – It was reported in production where more than 1000 records are pending to be processed (pending in PPC_STG table)"
+"33772971","ISSDM00218539","System Upgrade","BADGE - Lenel OnGuard System and Application Upgrade","dannyp","CCL AD HR & Payroll","","2020-02-07 15:09:55","** NOT LISTED ** Business","Postponed","Pulmano Danny x65109 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","Upgrade "
+"33772985","ISSDM00218553","Defect","FINPAY - ASP Alternate rates","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-02-10 17:25:26","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","After review of the ASP alternate rates, we determine that this will require a defect CQ. 
+
+Here are the following reasons. 
+
+1.	Not all ASP Alternate rates are being added to a Qualified TMs.
+2.	ASP logic is create unnecessary post to Lawson. 
+"
+"33772992","ISSDM00218560","Maintenance","FINANCE - Renaming of Victory to Radiance (CT Interfaces)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-02-11 12:44:48","Crunchtime","Wait","Jain Kamini x65490 Information Systems","Information Systems (CCL, Miami)","Rename Victory to Radiance."
+"33772995","ISSDM00218563","Maintenance","HRISPAY - Renaming of Victory to Radiance (Payroll)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-02-11 12:48:25","Lawson Interfaces","Postponed","Jain Kamini x65490 Information Systems","Information Systems (CCL, Miami)","Renaming of Victory to Radiance (Payroll)
+- Setup in Lawson, Supplemental and Brightwell interface."
+"33773716","ISSDM00219284","Enhancement","HR - Benefit Integration - Dependent Contact updates","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 15:02:14","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Update of a Contact’s SSN that is attached to a Benefit plan should trigger an update to the Dependent’s Benefit SSN so all downstream applications will retrieve the updated value. In addition a report of all changed Dependent Contact SSNs that are attached to a Benefit plan should be available. 
+
+See the attachments for finalized design notes..."
+"33773717","ISSDM00219285","Enhancement","HR - Benefit HCM to Middleware Compare","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 15:15:12","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)"," Process to compare the full Open Enrollment Report in HCM to the Middleware - Import the full Enrollment report from HCM into the Middleware and build a report to compate the HCM Enrollment report to the MW.
+"
+"33773718","ISSDM00219286","Enhancement","HR - Benefits - Terminate benefits for a retro-effective dated term","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 15:37:06","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Retroactively terminated to the prior year and had benefits for the following year, the next year benefits are not deleted. HCM File doesn't indicate when benefits are deleted.
+"
+"33773719","ISSDM00219287","Enhancement","HR - Benefits - Retro Effective dated transactions Payroll dates","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 15:39:06","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Payroll Dates not taken into consideration by HCM. Allows backdated changes on plans where deductions have already occurred. HCM allows changes using plan dates where payroll deductions have already occurred.   Lawson catches the issue and fails to post.  
+"
+"33773992","ISSDM00219560","Infrastructure Enhancement","FINANCE - Upgrade Crunchtime DB from 11gR2 (EOL support) to 12cR2","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-06-15 17:07:31","Crunchtime","Design","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33774017","ISSDM00219585","System Upgrade","ONEIT - Azure DEVOPS Migration (CQs, Source Code etc.)","dannyp","CCL AD HR & Payroll","","2020-06-22 15:44:54","** NOT LISTED ** Business","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)",""
+"33774020","ISSDM00219588","Enhancement","FINANCE - Tax Reporting System Australia","sergiys","CCL AD HR & Payroll","Finance Applications Group","2020-06-24 15:04:38","Tax Reporting System 1099 and W2G","Development","Jain Abhishek x43571 Information Systems (CCL, Miami)","Revenue Accounting (CCL, Miami)","The purpose of this project is to make the necessary changes to the 1099 Tax Reporting System for the Australia project. Please refer the requirements document for details."
+"33774039","ISSDM00219607","Maintenance","HR - CQ Maintenance for PromptPay 2020","liene","CCL AD HR & Payroll","","2020-07-01 15:20:01","** NOT LISTED ** Business","Submitted","Pulmano Danny x65109 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","CQ Maintenance for PromptPay 2020 "
+"33774171","ISSDM00219739","Defect","HR - Benefit Integration - HSA company deduction posted again in case of rehire","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-08-24 13:51:15","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","For New Hires / Rehires / Reinstatements - Need to validate the logic when Adding a Company Deduction for the HSA Accounts for Hires.  Two employees that were re-in statements  (422416, 421578) had a company deduction created when the employee already had a company deduction in the current year.  Integration should validate the YTD in lawson by plan (Employee or Family) to determine if a Company Deduction needs to be created. "
+"33774379","ISSDM00219947","Maintenance","FINPAY - CPA Compare Report to be converted to SSRS","ancah","CCL AD HR & Payroll","","2020-11-03 11:55:45","CPS - Crew Payroll Automation","Submitted","   ","SHIPBOARD PAYROLL","CPA Compare Report to be converted to SSRS"
+"33762243","ISSDM00207811","Enhancement","FINANCE - CT-Oracle-Infoship PO's export to Transcor Centergate","joup","CCL AD HR & Payroll","","2017-08-08 17:07:49","** NOT LISTED ** Business","Development","Syed Zafar x65194 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Create an export compiling data from CT, InfoShip, and Oracle Financials to be imported by TranscCorp Centergate.  
+Financial Technology contact:
+Willy Basso
+ext: 14180"
+"33769211","ISSDM00214779","Maintenance","FINPAY - CPA - Rehired/Reactivated Employees","ancah","CCL AD HR & Payroll","","2019-02-11 11:18:15","CPS - Crew Payroll Automation","Definition","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","CPA interface is designed in such a way that if TM is rehired (reactivated) it won’t process automatically i.e. CPA interface will not create TM records in Lawson automatically. It has to be created manually in Lawson. 
+If we have to change this functionality, we need to revisit CPA interface program "
+"33769363","ISSDM00214931","Enhancement","FINANCE - Operational Inventory in JECT","sergiys","CCL AD HR & Payroll","Finance Applications Group","2019-02-26 10:21:22","Crunchtime","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Finance (CCL, Miami)","The objective of this project is to transitions various SSRS Cost report required by the FGA team for the EOM closing into JECT application. These reports are used to produce the JE data which is uploaded into Oracle GL. The attached file contains the detailed description of all the Cost reports along with the reporting tool currently used to produce them."
+"33770568","ISSDM00216136","Enhancement","HR - Service Now - HR Project Server","herberth","CCL AD HR & Payroll","","2019-05-16 14:34:26","ServiceNow","Submitted","   ","Financial Technologies (CCL, Miami)","A server was to be provided for the implementation of Service Now -HR.  A server was never provided for the project and rerouted elsewhere.  Requesting a server be provided.
+
+Since going live with HR – ServiceNow late last year, IT’s server has experienced issues which has had downstream effects on our system. I would like to see if we can get our own server for HR – ServiceNow as this was initially part of the project in 2016. "
+"33770757","ISSDM00216325","New Application","HR - MINOR - HR - Contractors - All Souls","elnak","CCL AD HR & Payroll","","2019-06-12 13:55:23","** NOT LISTED ** Business","Postponed","ZZ_Keller Elna (305) 599-2600 x16140 CCL IS Strategic Automation","EMPLOYEE SERVICES","This case is to identify all the different contractors that are currently working/servicing at CCL.  This case is applicable to ALL CCL locations (not only Doral office).
+
+HR requires to know who is physically on the CCL premises at any given time.  The reasons include:
+- in case of emergency, who do we contact or notify
+- in case of hurricanes, who should be informed
+- Carnival's Emergency Notification System / BCP / MIR3 that is the system that does the automated calls during an emergency
+
+Currently only CCL employees are identified via Oracle HCM, together with their personal contact and emergency contact details."
+"33771557","ISSDM00217125","Defect","HR - HCM Middleware incorrectly maintaing department","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-08-25 22:52:52","Kronos","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","We found a mismatch between the DEPARTMENT and LSN_PROCESS_LEVEL values in the PERSON_MASTER for employee 419950. It seems a code issue when maintaining PERSON_MASTER.
+
+1.	Person master has the latest HCM department but not the latest lsn_process_level (should be CRPNA)
+select * from ccl_hcm.person_master;
+where lawson_id = '419950';
+
+--DEPARTMENT = Corporate Public Affairs (ABG) 
+--LSN_PROCESS_LEVEL = 'CRPEX'
+
+2.	Process level code is CRPNA for this department 
+select * from ccl_hcm.dept_master
+where dept_name = 'Corporate Public Affairs (ABG)';
+
+-- process_level_code = 'CRPNA';
+
+"
+"33771581","ISSDM00217149","New Application","FINANCE - T&E Reconciliation Solution - Image/receipts expense extract","eduardosa","CCL AD HR & Payroll","Finance Applications Group","2019-08-27 09:31:33","Oracle Financials - Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","New Accounts Payable Finance Solution to monitor and analyze all spend transactions for fraud, waste, and misuse of T&E & iExpense transactions for CCL. This solution will include user licenses in order to review spend reports and dashboards. This CQ has been raised to create a feed for both systems to retrieve the images of the receipts for T&E expenses from PNC Intellilink and Oracle iExpense in order to create a feed between the 3rd party application and CCL. Oversight is the name of the application AP will be using for this solution."
+"33771608","ISSDM00217176","Maintenance","GDPR - TLS v1.2 Lawson Oracle DataBase Encryption for Data in Motion","cristhianv","CCL AD HR & Payroll","Finance Applications Group","2019-08-28 13:25:50","Lawson Interfaces","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Shoreside","To apply data in motion encryption to all Lawson Applications and Interfaces via TLS v1.2. 
+
+This will primary affect how Lawson and Lawson interfaces connect to Lawson Oracle Database. "
+"33771609","ISSDM00217177","Maintenance","GDPR - TDM - Lawson/CPA Data Masking","cristhianv","CCL AD HR & Payroll","","2019-08-28 13:37:37","** NOT LISTED ** Business","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Shoreside","Implementation of Data masking in Lawson oracle development (HRQA) server. 
+"
+"33772756","ISSDM00218324","Enhancement","FINPAY - Dry Dock Casino Mapping","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-01-17 15:33:00","Lawson Payroll","UAT","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","The requirements for Dry Dock Casino changed therefore the mapping needs to be updated. See attachment received from Business. "
+"33772762","ISSDM00218330","Maintenance","FINPAY - Indian state TELENGANA should have TS code in Lawson","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-01-20 15:22:04","Lawson Interfaces","Postponed","Jain Kamini x65490 Information Systems","SHIPBOARD PAYROLL","FINPAY - Indian state TELENGANA should have TS code in Lawson"
+"33773714","ISSDM00219282","Enhancement","HR - Benefits - Benefits Integration HCM Voided Life Events","liannep","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 13:54:50","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Shoreside","Voided life events in HCM are not communicated to the integration via the HCM File.
+
+Risk is that someone could be removed from a plan by voiding the life event and re-entering the life even and the integration will have no knowledge that the dependent was removed.
+"
+"33773715","ISSDM00219283","Enhancement","HR - Benefits - Benefits Integration Modify plans in Prior Enrollment Year","liannep","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 13:59:24","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Shoreside","Scenario for this CQ is to modify plans in Prior Enrollment Year when we are already in the New Enrollment Year since it is not handled by the integration.   
+
+This gap was accepted for the Open Enrollment Go-live.  On the HCM side the user will void the current year Open Enrollment, make changes to the 2019 Benefit, as a Benefits Admin the Open Enrollment Benefits get re-processed .  Voids are not in the HCM File.  The reprocessed Open Enrollment as a Ben Admin comes across with prior year dates and the integration has no way to know which year to post the benefit.
+"
+"33773720","ISSDM00219288","Enhancement","HR - Benefit Integration - Oracle HCM year end Life Event Optimization","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-07 15:47:35","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Performance Optimization (Open Enrollment) - Open Enrollment can take over 35 hours to run.    The Open Enrollment logic was built around the change file and is not optimized for mass number of records.  
+As an update to this CQ in regards to optimization, would like to add the streamlining of the Health and Dental plans in Lawson so that there is only 1 Medical and 1 Dental plan per plan type.  I.e. 1 HMO plan, 1 DHMO plan."
+"33773948","ISSDM00219516","Maintenance","GDPR - Prepare a User Provisioning/De-Provisioning dcoument for supported applications","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-06-05 13:41:31","Lawson Interfaces","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)",""
+"33774040","ISSDM00219608","Enhancement","HR - Include SPOUSEDP and CHILDDP dependent relationships to the Discovery COBRA Interface","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-07-01 16:47:29","Lawson Interfaces","Design","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","HR – Include SPOUSEDP and CHILDDP dependent relationships to the Discovery COBRA Interface for Termination life event only."
+"33774049","ISSDM00219617","Defect","FINPAY - PVR - same day VT causing false positive entries","ancah","CCL AD HR & Payroll","","2020-07-10 12:55:37","CPS - Crew Payroll Automation","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Same day transfers is causing false positive entries in PVR due to the same day showing twice in two different locations."
+"33774063","ISSDM00219631","Defect","FINPAY - CPA - Verification Report from the Comparison report","ancah","CCL AD HR & Payroll","","2020-07-15 10:37:41","CPS - Crew Payroll Automation","UAT","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","The report gets all companies batches from the time record table and then filters base on  company, brand, and ships selected. 
+Today the code will bring company 100, 200, 525, 550 then filter which causes inconsistent data types in the process level result.
+We will need to add a minor change to the code to filter shipboard companies only to resolve the issue.
+"
+"33774064","ISSDM00219632","Enhancement","HR - ESPP - Morgan Stanley Full Administration","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-07-15 14:33:52","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Morgan Stanley has notified CCL that they will no longer allow partial administration of the Employee Stock Purchase Plan.   Based on the early discussion our understanding is that we would need to build an integration (bi-directional) which would need to be ready for a go-live no later than Nov 23rd, 2020"
+"33774074","ISSDM00219642","Maintenance","FINANCE - Distlist  for interfaces CT POs , CT mapper and CT Receipt","stomic","CCL AD HR & Payroll","Finance Applications Group","2020-07-20 16:54:32","Crunchtime","Submitted","Jain Kamini x65490 Information Systems","Financial Technologies (CCL, Miami)","Distlists  for our three interfaces CT oracle , CT mapper and CT Receipt have been created so that Notifications can be sent from those Distlists.
+CT Oracle : DistlistCrunchtime-POs@carnival.com
+CT Mapper : DistlistCrunchtime-Mapper@carnival.com
+CT Receipt: DistlistCrunchtime-Receipts@carnival.com"
+"33753356","ISSDM00198924","Enhancement","FINANCE/Casino - 1099/W2G and Australia 1099 Consolidation Solution","luzg","CCL AD HR & Payroll","","2016-09-22 22:27:26","** NOT LISTED ** Business","Definition","ZZ_Combs Sarah x68373 CCL IS STRATEGIC AUTOMATION","Financial Technologies (CCL, Miami)","Enhance the 1099 application"
+"33763880","ISSDM00209448","Enhancement","FINANCE - Fuel Inventory and Consumption Tracking Automation","biancad","CCL AD HR & Payroll","","2017-12-20 11:14:21","** NOT LISTED ** Business","Submitted","ZZ_Alexander Allison x65352 Information Systems (CCL, Miami)","Finance (CCL, Miami)","The objective is to automate the process of managing fuel consumption & inventory."
+"33769343","ISSDM00214911","Enhancement","CASPAY - Casino Payroll Process Improvement","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-02-25 11:17:07","Lawson Interfaces","Submitted","   ","Casino (Carnival Corporation, Miami)","
+_____________________________________________
+From: Combs, Sarah (CCL) 
+Sent: Friday, February 14, 2020 2:30 PM
+To: Fuentes, Mayra (CCL)
+Cc: Gaudi, Atul (CCL); Pulmano, Danny (CCL)
+Subject: FW: Casino Payroll Enhancement Request
+
+
+Hi Mayra,
+
+Please see email below.  Gale just called me to advise that this request may have come from Sara since the payroll team was left with some manual work after the implementation of the automation of non-CCL Casino payroll.  
+
+She stated that Casino’s objective to get non-CCL casino population on Brightwell has been achieved so there are no additional asks from the Casino side. 
+
+She also mentioned that just recently two additional enhancements were implemented to pay Filipino POEA and the collection of Filipino taxes which is why she thinks Sara is still asking for improvements to the process.  
+
+Regards,
+Sarah
+_____________________________________________
+From: Combs, Sarah (CCL) 
+Sent: Friday, February 14, 2020 11:28 AM
+To: Gorton, Gale (CarnCorp)
+Subject: Casino Payroll Enhancement Request
+
+
+Hi Gale,
+
+I’ve been tasked with following up on an enhancement request that was submitted last year (2/25/19) for Casino Payroll.  Unfortunately, as you can see from the screenshot below there was no description provided with this request.  I’m reaching out to you because your name is listed as the User Contact.  Please let me know if you’re the person that can provide some information on the improvements that are being requested or let me know who I should speak to about this.  Thanks! Sarah
+
+ISSDM00214911	Submitted	February 25, 2019 11:17:07 AM EST	Enhancement	CASPAY - Casino Payroll Process Improvement
+"
+"33769759","ISSDM00215327","Enhancement","HR - Benefit Integration - Benefits Integration to Lawson HSA/FSA Benefit Plan","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-04-05 13:44:56","Lawson Interfaces","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","HSA  / FSA Benefits Plan - 
+
+Employee Contribution - Need to review the Logic for determining the number of pay periods remaining / bi-weekly contribution
+Employer Contribution - Need to review the Logic for determining the correct pay period (check date) to populate.  
+
+Future Effective Dated Benefits do not seem to be impacted For Employee and Employer
+Current or Retro Effective Dates seem to be the issue - 
+"
+"33770102","ISSDM00215670","Enhancement","HR - Oracle HCM - Core HR - Contingent Workforce","davidsi","CCL AD HR & Payroll","Finance Applications Group","2019-04-24 09:33:55","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Major Project Enhancement to include Contingent Labor in Oracle HCM:
+-  Determine Scope of what contingent labor will be stored in HCM
+-  Conversion integration of existing contractors into HCM
+-  New integration from Cornerstone to HCM to bring in Contractors hired via CSOD (ATS).
+-  New integration Out of HCM to downstream systems for contingent labor.
+"
+"33770104","ISSDM00215672","Enhancement","HR - Oracle HCM - Core HR - C-Smart Employees integration","davidsi","CCL AD HR & Payroll","Finance Applications Group","2019-04-24 09:38:08","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Load C-Smart Employees into HCM:
+- Would require enhancements to HCM to account for new team (new positions, hierarchy, legal employer, etc.)
+- Determine new business processes to manage C-SMART employees in HCM
+- New Integration inbound from C-SMART (ATS) for incoming employees
+- New Integration outbound from HCM to C-SMART payroll system
+"
+"33770244","ISSDM00215812","Maintenance","FINANCE - Replace existing CT application user & P/W with a service account ( on IPC server on each ship)","dba1978","CCL AD HR & Payroll","Finance Applications Group","2019-04-29 13:55:10","Crunchtime","Postponed","Jain Kamini x65490 Information Systems","Financial Technologies (CCL, Miami)","CDP.INI file...we have to replace the existing CT application user ID & P/W every 90 days, for SOX compliance.  By setting up a server account on each ship (as per Atul Gaudi) we can actively work towards compliance in 2019 with SOX password change requirements, prior to the deployment of Active Directory (which will not be available from CrunchTime until the 2020 upgrade)...
+
+This will satisfy the SOX requirements this year (2019), and prevent another year of exception reporting for SOX from CrunchTime.
+
+In addition, this will allow us to encrypt the Password stored in the INI file, thus further assuring on-going SOX Compliance."
+"33770580","ISSDM00216148","Maintenance","HRISPAY - Sync Lawson User Accounts in PROD and DR","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-05-17 17:44:09","Lawson Payroll","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Shipboard Financial Technology","Need to sync up Lawson user accounts in PROD and DR as this is creating a mismatched user id mapping in Lawson."
+"33771618","ISSDM00217186","Enhancement","HR - Benefits - Supplemental Spouse Life Insurance (Spouse not attached to plans)","liannep","CCL AD HR & Payroll","Finance Applications Group","2019-08-28 16:58:28","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Shoreside","When an employee chooses “Employee Paid Voluntary Spousal Life” in HCM but then does not put the spouse on any other plan such as Medical, Dental or Vision, the Post of “Supplemental Spouse Life” to Lawson fails because there is no dependent with relation of “SPOUSE” in Lawson.  Current workaround is to add spouse manually in HR13 in Lawson for the plan to post."
+"33771677","ISSDM00217245","Enhancement","HR - VSP Interface Modernization","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-09-05 12:02:31","Lawson Interfaces","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Need to change VSP (Vision Plan) data source of participant records from Lawson Benefits to HCM Middle Layer Benefits Master since HCM is the system of record for Benefits."
+"33771955","ISSDM00217523","Maintenance","FINANCE - UAT Environment (CT EM WEB v.6.50+, Oracle 12.2G, Linux, & GIM interfaces).","dba1978","CCL AD HR & Payroll","Finance Applications Group","2019-09-27 12:03:10","Crunchtime","Submitted","ZZ_Alexander Allison x65352 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Need a CrunchTime UAT shipboard and shoreside instances set up, which will allow the business and FinTech to test the GIM interfaces (CCL corporate developed Oracle interfaces) on the new CT EM WEB version 6.50+ prior to final deployment of the CT upgraded application.  It may be possible to 'piggyback' off of other UAT environments using CT EM WEB version 6.50+, as application testing proceeds in previously set up UAT environments.
+"
+"33773291","ISSDM00218859","Enhancement","FINANCE - IRS mandate requires non-employee compensation to be reported on a new 1099 NEC form","tiffanied","CCL AD HR & Payroll","Finance Applications Group","2020-02-27 17:52:33","Tax Reporting System 1099 and W2G","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Revenue Accounting (CCL, Miami)","IRS mandate requires non-employee compensation to be reported on a new 1099 NEC (this change only impacts Finance, not Casino)
+
+TRS system must contain all the fields on the form and allow entry of that data
+
+deadline to get the mandates completed is beginning of September if changes are required to the IRS file or beginning of January if no changes are required to IRS file"
+"33773751","ISSDM00219319","Enhancement","FINPAY -Payroll - Contractors Converting to employees","herberth","CCL AD HR & Payroll","Finance Applications Group","2020-04-15 09:31:14","Kronos","Submitted","   ","Financial Technologies (CCL, Miami)","-	Herb to open this week an enhancement request for tracking & prioritization of this issue (Contractors converting to employee: automatic upload/changes in Kronos) – send the CQ number via email to all in this email"
+"33773756","ISSDM00219324","Enhancement","HR - HCM Employee SSN Back End DB Updates to Middleware / Lawson","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-16 10:09:54","Lawson Interfaces","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Back end DB updates of SSN and PII data were audited by IT Security and Compliance teams and required us to provide a plan to reduce if not eliminate these updates. This is a critical compliance concern and being monitored by IT Management.
+
+Back end DB updates of SSNs in HCM to integrate to HCM Middle Layer and Lawson 
+ - Business (HR, Payroll, Benefits, TAC) agreed to allow updates of SSNs in HCM to integrate to the HCM Middle Layer and Lawson as long as certain validations (ex. SSN cannot be assigned to an existing employee) and reports are in place.
+"
+"33773761","ISSDM00219329","Maintenance","HRISPAY - Lawson UAT - Gen Job Clean up","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-04-16 12:11:46","Lawson Payroll","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","
+Can you please open a CQ as maintenance. This is cleanup the typos in Lawson  Gen job report paths
+
+Thank you,
+
+Cristhian H Vanegas
+"
+"33774011","ISSDM00219579","Maintenance","HR - SNOW HR administration transition","liene","CCL AD HR & Payroll","","2020-06-18 12:18:04","ServiceNow","Submitted","   ","Financial Technologies (CCL, Miami)","Walkthrough of the system and process."
+"33774084","ISSDM00219652","Enhancement","HR - Benefits SSRS reports to audit Dependent Updates (Compare Contact vs. Benefit Dependent Master)","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-07-23 17:43:43","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Based on the below notes, there may be discrepancies between Contact & Dependent information.  Business has requested a separate SSRS report to show discrepancies between the contact and the dependent table
+
+Keep continue updating the contact table with the latest demographic information received from HCM. However for the dependent table only update the following based on below - 
+Update the SSN & DOB (If null value / blank value received) show as Warning into Benefit Validation errors reports and do NOT update the dependent tabl.
+•	DATE_OF_BIRTH
+•	SOCIAL_SECURITY_NUM
+Do NOT POST the following field in Dependent Table
+•	FIRST_NAME 
+•	MIDDLE_NAME 
+•	LAST_NAME 
+•	SUFFIX 
+•	GENDER
+•	DISABILITY_FLAG 
+•	RELATIONSHIP_TYPE 
+
+"
+"33774090","ISSDM00219658","Defect","FINANCE - JECT interface to Oracle  / wrong PO number for simple orders","stomic","CCL AD HR & Payroll","","2020-07-24 19:10:52","** NOT LISTED ** Business","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","R12 flat file generated from JECT application, for Simple Orders(Non-Master orders) contain Order Number instead of PO number in Line#28 Additional Line Info 2.
+
+ADI file generated from JECT is showing correct PO# for Simple Orders and the same logic has to be applied for R12 flat files.
+"
+"33774108","ISSDM00219676","Defect","FINANCE - CT PO Interface - File failing due to disclaimer length","stomic","CCL AD HR & Payroll","Finance Applications Group","2020-08-05 17:36:09","Crunchtime","Submitted","Moin Aquib 599-2600 xTBA NA","Financial Technologies (CCL, Miami)","CT PO Interface fails to upload Flat File as Vendor Disclaimer which has been adjusted to 480 characters contains special characters which Oracle counts as more than one character and therefore total number of characters exceeds maximum limit of 480."
+"33774145","ISSDM00219713","Enhancement","FINPAY - JP Morgan Access SEPA - phase 1 - Officer Statements","ancah","CCL AD HR & Payroll","","2020-08-14 14:29:15","FunPay","System_Test","Jain Abhishek x43571 Information Systems (CCL, Miami)","SHIPBOARD PAYROLL","SEPA project (ISSDM00217628) phase 1 will be the development of Officer Statements in FUNPAY application
+
+ "
+"33767648","ISSDM00213216","Enhancement","FINANCE - Crunch Time interfaces - new user tool for interfaces configuration and on demand processing","lucianm","CCL AD HR & Payroll","Finance Applications Group","2018-07-17 19:30:36","Crunchtime","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Crunch Time interfaces - new user tool for interfaces configuration and on demand processing
+
+1. the new user tool should include all the Crunch Time Interfaces:
+- CT to Oracle PO
+- CT to Oracle Receipts
+- CT to Mapper
+- CT to Eseacare
+- CT to Netchef/CDP
+
+2. the new user tool should allow the administrators to run the interfaces on demand
+
+3. the new user tools should allow the administrators to configure for each interface the timing/frequency when each job should run
+
+4. the new user tool should have audit logs for each action performed (stamp of user, date/time and action performed). And also audit logs for the interfaces that are running (what data is processed when the interface is ran)
+
+5. the existing failure email notifications and automatic support ticket opening, should be configurable in this new user tool (who the notification should be sent to, what the email notification subject, email body should say)
+
+6. the new user tool should log a record line for every time when a interface runs. And should specify for each line what data is included (from - to; date, time HH:SS:MM)"
+"33769390","ISSDM00214958","Enhancement","HR - HR to CCL CompCruise Interface Modernization","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-02-28 13:55:20","Lawson Interfaces","Submitted","   ","Shoreside","Alicia Coloma-Butkowski runs a job at the start of each month which extracts employee information from shipboard and shoreside records ... she emails this to me. Himanshu then loads this up to the mainframe and, having checked format and content, I then run the MAPPER job that loads this into the COMP database.
+
+"
+"33769542","ISSDM00215110","Maintenance","GDPR - FunPay - Quality Engineering and Compliance (QEC) Database Security Updates","abhishekj","CCL AD HR & Payroll","Finance Applications Group","2019-03-13 15:26:23","Lawson Payroll","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","FunPay/Lawson Database Security Review.
+
+-----Original Appointment-----
+From: Reyes, Arnel (Contractor) 
+Sent: Tuesday, March 12, 2019 11:14 AM
+To: Reyes, Arnel (Contractor); Pulmano, Danny (CCL); Vanegas, Cristhian (CCL)
+Subject: FunPay/Lawson Database
+When: Tuesday, March 12, 2019 1:00 PM-1:30 PM (UTC-05:00) Eastern Time (US & Canada).
+Where: Danny's Desk
+
+
+Hi Danny/Cristhian,
+
+Good day!
+
+I believe the testing that you were performing is already competed. Can we proceed with the database security assessment for FunPay/Lawson. I have already finished the security assessment of the front-end web application. I will share the consolidated report once the database assessment is done.
+
+Danny: Kindly share your desk location.
+
+Kind regards,
+ARNEL
+"
+"33771182","ISSDM00216750","Defect","AIRACCT - GBP Ticket tax amount is interfacing from Central Command to Mapper with incorrect value","ydelgado","CCL AD HR & Payroll","Unisys Applications","2019-07-19 16:16:07","Airline Accounting","Postponed","Jain Kamini x65490 Information Systems","Revenue Accounting (CCL, Miami)","GBP Ticket tax amount is interfacing from Central Command to Mapper with incorrect tax value
+Example Production Ticket #2022799566 - Total Tax Amt in Central Command = $325.48 but Mapper tax amount = $353.88. 
+This is consequentially causing a discrepancy for the total ticket fare between the two systems."
+"33772061","ISSDM00217629","Enhancement","FINPAY - Kronos - Phase II","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-10-09 18:36:52","Kronos","Postponed","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Phase II of the Kronos Workforce Dimensions Implementation. Scope?
+ - Integration Corrections
+ - Etc"
+"33772311","ISSDM00217879","Infrastructure Project","FINANCE - MardiGras setup of Tour Invoice","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-11-06 16:21:30","Tours Application","UAT","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33772643","ISSDM00218211","Defect","FINPAY - CPA - Non Payable Positions being processed","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-12-20 10:14:34","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Non Payable positions are being processed in the PPC staging and not updating to ""DO NOT PROCESS""?   See attached report for those positions attached to CPS departments -
+DEPARTMENT
+SN
+EF
+HBR
+SA
+GS
+HEI
+ART
+DF
+OBM
+
+Department
+550
+Positions
+3049
+3051
+3053
+
+And future Effective dated records not show until  Effective Date - 1?"
+"33773204","ISSDM00218772","Maintenance","GDPR - TDE - TRS TAXDBW2G","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-02-21 15:32:33","Tax Reporting System 1099 and W2G","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","Implement TDE on the DB as part of GDPR compliance."
+"33773364","ISSDM00218932","Maintenance","FINPAY - ATR - two digits ship code","ancah","CCL AD HR & Payroll","CPS Applications Group","2020-03-04 10:23:26","Crew Personnel System","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","the ATR for P&O Australia fleet (ship number 54, 57, 59, 60 and 61) when in special schedule produces the account incorrectly using only two digits instead of three. Example: 201615225 instead of 2010615225.
+Refer to INC0865017."
+"33773419","ISSDM00218987","Maintenance","GDPR - Privileged Access Management (PAM) Tool - Lawson","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-03-06 16:15:09","Lawson Payroll","UAT","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)","Move Lawson service accounts to an AD group as Local Administrator instead of directly adding them individually."
+"33773582","ISSDM00219150","Defect","FINPAY - 30 days term configuration from HCM to KRONOS","herberth","CCL AD HR & Payroll","Finance Applications Group","2020-03-23 11:04:39","Kronos","UAT","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Rashad Waton was not termed in KRONOS because effective date of term was 11/04/2019.  The term was processed on 02/03/2020.  Terms remain on the file for 30 days.  What are the impacts by increasing the term day length or other options so that past termed employees are on the integration file"
+"33773755","ISSDM00219323","Enhancement","HR - Cornerstone New Hire Back End DB Updates to Middleware (Compliance - New Hire did not make it to HCM)","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-16 10:05:49","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Back end DB updates of SSN and PII data were audited by IT Security and Compliance teams and required us to provide a plan to reduce if not eliminate these updates. This is a critical compliance concern and being monitored by IT Management.
+
+Back end DB updates of Cornerstone onboarding and hired applicant information prior making to HCM
+ - Option 1- Explore solution using Cornerstone being the system record to send updates to CCL after sending data to HRIS in combination with launching individual forms during onboarding.
+ - Option 2 – Develop an in-house web-based application to allow business to perform the updates of HCM Middle Layer tables
+
+ACTION ITEMS:
+ - Check with Cornerstone and obtain an SOW due to request was not an Out of the Box functionality
+
+
+"
+"33773865","ISSDM00219433","Defect","FINANCE - CT receipts have not been received in Oracle  - fail on interface","ancap","CCL AD HR & Payroll","Finance Applications Group","2020-05-12 14:54:13","Crunchtime","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","CT receipts have not been received in Oracle  - fail on interface
+
+"
+"33774079","ISSDM00219647","Enhancement","FINPAY - Placeholder: Automate the Kronos to Aspect integrations for PTO, SICK - planning session","liene","CCL AD HR & Payroll","Finance Applications Group","2020-07-21 22:08:44","Kronos","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Placeholder: Automate the Kronos to Aspect integrations for PTO, SICK - planning session"
+"33774116","ISSDM00219684","Enhancement","FINANCE - CT Counter for Mardi Gras","stomic","CCL AD HR & Payroll","Finance Applications Group","2020-08-06 09:52:23","Crunchtime","Submitted","Jain Kamini x65490 Information Systems","Financial Technologies (CCL, Miami)","CrunchTime Counter devices for Mardi Gras will be setup to allow Bar Operational Inventories onboard to be performed thru new process of updating psychical counts by Bartenders."
+"33774119","ISSDM00219687","Defect","HR - Benefit Integration-Validation Report is showing validation failure for Vol. Life Plans i.e. Imputed Income, Legal etc.","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-08-07 01:46:16","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Current SSRS reports which display validation errors is displaying an error for Voluntary Life Plans which are maintained in lawson as deductions.  See attached report.
+
+Design Notes (AJ):
+
+- System integrations do not post Voluntary Life plans  i.e. Legal, Imputed Income etc.  in Lawson as Benefits because these are not configured as Benefit in Lawson.
+- All Voluntary Life plans are configured as ""DO_NOT_POST"" in HCM Key Configurations so system does not suppose to derive mapped Lawson plan.
+- System should not log the validation errors in case of Voluntary Life Plans.
+- Once system stops logging the validation errors, it will not show up into the Validation Report.   "
+"33774139","ISSDM00219707","Enhancement","HR - Benefit Integration - Oracle HCM HSA Company Contribution - no deduction in case of start date is retro","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-08-13 22:09:40","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","For HSA company contribution plans, the Integration should consider the current payroll dates based on system date to determine the start and stop dates of the plan and NOT the Effective date of the Benefit.   By using Effective date of the Benefit and receiving a retro effective date, the Employee will not receive the Company Contribution in a timely manner.  
+
+Design Notes (AJ) :
+For HSA company contribution plans, 
+- the Integration should consider the date which ever is greater b/w benefit start date and system date to determine the stop dates of the plan so that company deduction can be made. 
+- For Retro benefit start date, it will use system date
+- for future benefit start date, it will use benefit start date
+- it will also help us to fix the issue in calculating remaining pay periods while posting any change in HSA/FSA plan. in today's world, system calculates the remaining pay periods based on benefit start date only which resulted missing deduction in case of retro benefit start date.
+
+"
+"33774220","ISSDM00219788","Maintenance","HR - CSOD SSO Certificate Upgrade by 11/10/2020","liene","CCL AD HR & Payroll","","2020-09-01 16:56:35","** NOT LISTED ** Business","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","CSOD SSO Certificate needs to be upgraded before November 10th,2020 or users will not be able to log in. 
+Use the below URL for pilots changing the number 2 for pilots 3,4, and 5
+https://cruisetalent2-pilot.csod.com/client/cruisetalent/talentcenter.aspx
+Stage Environment: https://cruisetalent-stg.csod.com/client/cruisetalent/default.aspx
+Prod: https://cruisetalent.csod.com/client/cruisetalent/talentcenter.aspx
+See attached email with details and knowledge article links. "
+"33774222","ISSDM00219790","Maintenance","FINANCE - Isilon Migration","liene","CCL AD HR & Payroll","","2020-09-01 17:45:14","** NOT LISTED ** Business","Submitted","Pulmano Danny x65109 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","See attached "
+"33774285","ISSDM00219853","Maintenance","FINPAY - PA113 to be run in Update mode by interface for all Shipbaord companies","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-09-15 20:17:02","Lawson Interfaces","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","PA113 job which today is run by interface for all Shipboard Companies in Report mode is needed to be run in Updated mode with History Correction set to option 3 - Move to History Error.
+
+Also, the Business would like for interface to run PA205 - run for FTA - Filipino Tax code for company 200. "
+"33760849","ISSDM00206417","Infrastructure Project","FINANCE - Hyperion Planning and Budgeting, ESSBASE Disaster Recovery Project","erickk","CCL AD HR & Payroll","Revenue Management / Decision Support","2017-06-22 12:35:22","Hyperion","Submitted","   ","Financial Technologies (CCL, Miami)",""
+"33761030","ISSDM00206598","Maintenance","FINANCE - Maintenance Transition of Hyperion servers to GIS","erickk","CCL AD HR & Payroll","Revenue Management / Decision Support","2017-06-27 16:31:39","Hyperion","Submitted","   ","Financial Technologies (CCL, Miami)","Maintenance Transition of Hyperion servers to GIS."
+"33769472","ISSDM00215040","Enhancement","HR - MINOR - Oracle HCM - Core HR - HANDLE LIFETIME CRUISE STATUS UPDATE TO 49 IN LAWSON","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-03-07 16:48:56","Lawson Interfaces","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)",""
+"33771095","ISSDM00216663","Enhancement","HR - Social Chorus","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-07-15 11:16:42","Lawson Interfaces","UAT","Syed Zafar x65194 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","Social Chorus is a workforce communications platform for planning, creating, publishing and measuring employee communications.
+
+Carnival would like this application  (sort of Instagram application) be available to Carnival Shoreside employees via a branded channel.  
+
+Yes, the employee information would come from an HR database and be authenticated via for example active directory. 
+
+"
+"33771610","ISSDM00217178","Maintenance","GDPR - Lawson Environment Security Configuration","cristhianv","CCL AD HR & Payroll","","2019-08-28 13:45:00","** NOT LISTED ** Business","Definition","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Shoreside","Due to Cognizant (QEC) findings. Weakness in Lawson environment were identified (Cross Scripting). Infor has provide Instructions to configure Lawson Environment KB 1200342 - INC13288462. "
+"33772229","ISSDM00217797","Maintenance","FINANCE - Email notification to be generated whenever CT to ORACLE PO interface runs....","dba1978","CCL AD HR & Payroll","Finance Applications Group","2019-10-29 10:15:21","Crunchtime","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Email notification to be generated to a selected list of users in purchasing and Fin Tech each time the CT to ORACLE PO Interface runs.  Information required to be included should have:  Start and end date/time of period run, if file has failed to process, detailed information on why the query failed and specifically which lines have failed , total number of lines processed."
+"33772761","ISSDM00218329","New Application","FINPAY - Shipboard Payment Gateway (SPG)","elnak","CCL AD HR & Payroll","","2020-01-20 13:31:41","** NOT LISTED ** Business","Definition","ZZ_Keller Elna (305) 599-2600 x16140 CCL IS Strategic Automation","SHIPBOARD PAYROLL-MANAGEMENT","Automating the crew payable and receivable processes, which includes:
+- RECEIVABLES:  Travel Related (air fares; hotels & meals; uniforms) and Collections (payroll, bonuses, and TIP$ overpayments)
+- PAYABLES:  Travel Related (air fares; luggage; hotels & meals; transportation) and Out of Pocket Expenses (money left in cabin; medical; company supplies; miscellaneous)"
+"33773167","ISSDM00218735","Maintenance","GDPR - Windows 10/Office 365 Testing","dannyp","CCL AD HR & Payroll","","2020-02-19 19:07:29","** NOT LISTED ** Business","Development","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33773335","ISSDM00218903","Enhancement","HR - Benefits - Pre Tax/ After Tax Issue","liannep","CCL AD HR & Payroll","Finance Applications Group","2020-03-03 08:45:49","Lawson Interfaces","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Shoreside","The pre-tax/after-tax value on the HCM file is blank for RS (Spending Account) plans.  Lawson currently defaults to P when value is blank resulting in Compare Report Errors (Error Message: Middleware Pre-Tax/After-Tax Flag does not Match Lawson).  Enhancement is to consider modifying the integration to default to 'P' the way Lawson does when the HCM value is blank for certain plans."
+"33773614","ISSDM00219182","Maintenance","GDPR - EOL Testing Citrix 7.15 on OS Windows 2016 (myHR, Kronos WFD, TaxDBW2G)","dannyp","CCL AD HR & Payroll","","2020-03-25 11:08:37","** NOT LISTED ** Business","Postponed","Jain Kamini x65490 Information Systems","Information Systems (CCL, Miami)",""
+"33773678","ISSDM00219246","Maintenance","GDPR - Migrate Modernized SQL Servers to NEW ALWAYS ON Servers","dannyp","CCL AD HR & Payroll","","2020-03-31 14:58:04","** NOT LISTED ** Business","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)","_____________________________________________
+From: Bullen, Robert (CCL) 
+Sent: Tuesday, March 31, 2020 1:24 PM
+To: Pulmano, Danny (CCL); Mohammed, Abdul (CCL); Syed, Zafar (CCL); zz (End 3/31/2020) Egana, Cesar (Contractor); Shinde, Ritesh (Contractor); Kiran, Sai (CCL)
+Cc: Moore, Lidia (CCL); Jain, Abhishek (Contractor)
+Subject: RE: SQL Server Modernization 2019 - JECT DB Upgrade
+
+
+Danny,
+    Just a suggestion for sometime in the future when things settle down – The New UAT environment that Abdul has introduced is Always ON which is similar to the new production environment.  
+
+The versions of SQL Server for both UAT environments may be the same, but the new UAT environment more closely mimics the production environment in terms of configuration.   There can be a few situations where it may only be possible to reproduce an issue in an Always ON UAT environment.
+
+So, I agree that we could move forward with all scheduled deployments for now using the current UAT environment for (CrewStats, JECT, and TaxDb1099).
+
+However, perhaps towards the end of this year, I encourage you to migrate your UAT environments to the new Always ON UAT environment – We will be better able to support and troubleshoot all possible Production issues then.
+
+Best regards,
+
+Robert Bullen 
+
+_____________________________________________
+From: Pulmano, Danny (CCL) <DPulmano@carnival.com> 
+Sent: Monday, March 30, 2020 6:22 PM
+To: Mohammed, Abdul (CCL) <AMohammed@carnival.com>; Syed, Zafar (CCL) <ZSyed@carnival.com>; Egana, Cesar (Contractor) <Cegana@carnival.com>; Shinde, Ritesh (Contractor) <RShinde@carnival.com>; Kiran, Sai (CCL) <SKiran@carnival.com>
+Cc: Moore, Lidia (CCL) <LMoore4@carnival.com>; Jain, Abhishek (Contractor) <AJain@carnival.com>; Bullen, Robert (CCL) <RBullen@carnival.com>
+Subject: RE: SQL Server Modernization 2019 - JECT DB Upgrade
+
+
+Hi Abdul,
+
+We have 3 apps (CrewStats, JECT and TaxDB1099) that were already deployed and tested on CCLUATSHRDDB1\UATSQL3 and we intend to keep them there..
+
+Moving forward, any new app that needs to be modernized will be migrated to the new UAT you provided below.
+
+All 3 apps are planned to be deployed to PROD on CCLPRDSHRD2L1,3655.
+
+Let me know if you have any questions.
+
+Thanks.
+
+Danny Pulmano
+Supervisor, IT Delivery and Support
+Carnival Cruise Line
+•  +1 (305) 599-2600 ext. 65109
+•  3655 NW 87th Avenue Miami, FL 33178
+CHOOSE FUN®
+Great Place To Work
+Certified 2019
+
+
+_____________________________________________
+From: Mohammed, Abdul (CCL) 
+Sent: Monday, March 30, 2020 12:31 PM
+To: Syed, Zafar (CCL); Egana, Cesar (Contractor); Pulmano, Danny (CCL); Shinde, Ritesh (Contractor); Kiran, Sai (CCL)
+Cc: Moore, Lidia (CCL); Jain, Abhishek (Contractor); Bullen, Robert (CCL)
+Subject: RE: SQL Server Modernization 2019 - JECT DB Upgrade
+
+
+HI Zafar,
+
+As listed below, these are the new UAT and PROD SQL2016 Clustered shared servers, which will be shared by other applications for their dbs as well: 
+
+	NEW OPCON Servers	NEW DB Servers
+UAT	CCLUATSHD2OPCN1	CCLUATSHRD2L1,3655: 
+CCLUATSHRD2DB1, CCLUATSHRD2DB2, CCLUATSHRD2D3
+PROD	CCLPRDSHD2OPCN1	CCLPRDSHRD2L1,3655: 
+CCLPRDSHRD2DB1, CCLPRDSHRD2DB2, CCLPRDSHRD2D3
+
+Since you have tested the App with CCLUATSHRDDB1\UATSQL3 and the CCLUATSHRD2L1,3655 is also at the same version, you should be good to go to PROD directly.
+
+But if you want to test it out once in the new UAT Env, that will be great and UAT and PROD will be in synch in respect to Env.
+I will setup the JECT_CT_ORA Linked server and copy the DB over to the new UAT Listener CCLUATSHRD2L1,3655.
+
+ << OLE Object: Picture (Device Independent Bitmap) >> 
+
+Let me know.
+
+Thanks,
+Abdul K Mohammed
+Extn: 17058
+"
+"33773845","ISSDM00219413","Maintenance","GDPR - Tour Invoice Application - convert from FTP to SFTP file transmission","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-05-05 20:49:17","Tours Application","Definition","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)",""
+"33773889","ISSDM00219457","Maintenance","GDPR - CrunchTime Oracle Global Authentication","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-05-20 10:09:00","Crunchtime","Postponed","Jain Kamini x65490 Information Systems","Information Systems (CCL, Miami)",""
+"33773893","ISSDM00219461","Maintenance","FINPAY - PVR Report Updates","ancah","CCL AD HR & Payroll","Launch Pad Applications Group","2020-05-21 14:13:28","Reports Menu","Implementation","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","PVR - Crew reports option (CPAMain Report) to update the link to point to the new PVR reports"
+"33773962","ISSDM00219530","Maintenance","FINPAY -  XXPAY CPS access issue in Supplemental","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-06-09 11:52:38","Supplemental Payroll","Design","Moin Aquib 599-2600 xTBA NA","SHIPBOARD PAYROLL","Proposed Strategy:
+
+a.	Phase 1 (does not require code change/redeployment but requires testing) – keep the XXPAY CPS account but create a ROLE that only has access to required tables.
+"
+"33774091","ISSDM00219659","New Application","HR - Exterro vendor interface for Legal Hold","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-07-27 15:27:58","Lawson Interfaces","Definition","Pulmano Danny x65109 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)",""
+"33774093","ISSDM00219661","Maintenance","HR – Install new ADP ACA PB250 code to fix Return from LOA issue","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-07-29 08:58:11","Lawson Interfaces","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Updated PB250 for the LOA issue patch"
+"33774096","ISSDM00219664","Enhancement","FINPAY - SPJA reconciliation report","stomic","CCL AD HR & Payroll","","2020-07-29 12:15:30","** NOT LISTED ** Business","Submitted","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","For reconciliation purpose of Shipboard Payroll Journal Automation (SPJA) we need 3 reports to be developed from 3 sources:
+-Lawson
+-SPJA application
+-Oracle Financials
+Reports have to provide all required information to allow accurate reconciliation, and Users have to have option to run them manually on demand, but also to receive them auto generated on daily, weekly and monthly basis."
+"33774105","ISSDM00219673","Enhancement","FINANCE - JECT - Failure notification","stomic","CCL AD HR & Payroll","","2020-08-03 12:51:55","** NOT LISTED ** Business","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","JECT application needs to have Failure notification on saving files into Corpintranet folder. Notification email would be send to User who runs JECT report and after that export JE but auto-save process fails to safe those reports into Corpintranet folder."
+"33774129","ISSDM00219697","Maintenance","FINPAY - Apply BSI Cyclic Release 10.0x.1 and possibly an Infor patch","liene","CCL AD HR & Payroll","","2020-08-11 23:56:26","** NOT LISTED ** Business","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Note from BSI:
+TaxFactory Cyclic 10.0x.1 is now available to view and download. Please install this cyclic as soon as possible to avoid potential issues with future regulatory bulletins that may contain TF10x1-dependent data. 
+
+The installation password for TaxFactory Cyclic 10.0x.1 is: expatriate 
+
+If you have any questions, please contact BSI at Support@bsi.com or 877-274-7873, option 1.
+"
+"33764474","ISSDM00210042","New Application","FINANCE - Hyperion Workforce Planning","andrewk","CCL AD HR & Payroll","Finance Applications Group","2018-01-10 05:54:07","Lawson Interfaces","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Data feed needed from Lawson (HRIS) system.  See bullet points below.  Details of data will be provided via secure file transfer due to sensitivity of data.
+	
+Hyperion Workforce Planning would require to connect to Lawson database to pull headcount/salary/demographic data for ‘ CCL SHORESIDE’ employee only.
+It was discussed that since the scope is ‘CCL SHORESIDE’ employee only, performance won’t be an issue compared to all data. However it can be reviewed further once the requirement is completed.
+Various options were discussed in regards to pulling data like from table Vs. Views.  Pulling  data from custom views sounds more favorable solution
+Hyperion application is not SOX based application, and it doesn’t write data back to Lawson or any other non-Hyperion /EPM application.
+Process would be followed as far as security compliance is concerned
+It is discussed that only Hyperion Workforce Planning application “ADMIN” user would have access to Lawson database
+"
+"33769028","ISSDM00214596","Enhancement","HR - Update SQL for Orgpublisher to pull from HCM Middleware  - May need FTP solution","davidsi","CCL AD HR & Payroll","","2019-01-22 15:47:42","** NOT LISTED ** Business","Submitted","   ","Financial Technologies (CCL, Miami)","Convert the current OrgPublisher interface to source from HCM middleware instead of Lawson tables.
+
+IT Team has been provided with the updated SQL to use for the interface.  Please make this change in all applicable environments (TEST, QA, PROD)"
+"33772060","ISSDM00217628","Enhancement","FINPAY - JP Morgan Access SEPA File Upload Specs (Phase 2 - Funding)","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-10-09 18:30:07","Lawson Interfaces","Design","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","JP Morgan - We are transitioning from wires to ACH/SEPA for Officers Payroll form of payment.  File Specs Sent by Email.   Elna will work on gathering detail requirements. "
+"33772379","ISSDM00217947","Defect","HR - Oracle HCM - MW - Hierarchy","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-11-13 11:06:19","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Hierarchy incorrectly being reported on from Oracle HCM  - MW - to downstream systems
+
+Position code that is not updated in CSOD. 53303-51760 should be reporting to Michale Mcnamara but is showing as Julia Brown. The position is effective 11/04/2019.
+
+"
+"33772464","ISSDM00218032","Defect","FINPAY - Re-process New Hire record that failed validation and data was fixed in CPS.","cristhianv","CCL AD HR & Payroll","Finance Applications Group","2019-11-20 14:02:07","Lawson Interfaces","Definition","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","New hire INT record should regenerate/update when any update is done from CPS."
+"33772675","ISSDM00218243","Enhancement","FINANCE- Monitoring CTX orders, as they are periodically failing on outbound traffic from the application to the vendors","dba1978","CCL AD HR & Payroll","","2020-01-06 14:24:04","CrunchTime Xchange","Submitted","   ","Financial Technologies (CCL, Miami)","Issue:                                  CCL - Crunchtime - Orders failing in CTX
+Root Cause:                       Outbound traffic rule not present in CCL’s firewall configuration
+Findings:                            Network’s team network architect Daniel Ma was contacted to assist on the issue and he found that there was a migration on firewall settings two days ago, as NetChef traffic rules were not clear (considered ‘weak rules’) they proceeded by allowing CTX’s inbound traffic into the application but not outbound traffic. They manually updated firewall settings for allowing mentioned connection to be available for the application and CTX support team confirmed that orders started to get replicated on their database, allowing vendors to receive them. Janet also checked with some vendors and they confirmed the order were visible at their end.
+Resolution:                        Updating outbound traffic firewall rules for the application.
+INC0786960 (P1 issue from 19 December, 2019)
+"
+"33772795","ISSDM00218363","Enhancement","FINPAY - Payment calculations for Retro PPCs","ancah","CCL AD HR & Payroll","CPS Applications Group","2020-01-27 17:32:07","Crew Personnel System","Submitted","   ","SHIPBOARD PAYROLL","The Business is requesting for Payment calculations for Retro PPCs. 
+"
+"33772929","ISSDM00218497","Enhancement","FINANCE - Adjustments Order to JECT","ganeshr","CCL AD HR & Payroll","Finance Applications Group","2020-02-04 14:05:30","Crunchtime","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","
+The objective of this project is to transitions various SSRS Cost report required by the FGA team for the EOM closing into JECT application. These reports are used to produce the JE data which is uploaded into Oracle GL. The attached file contains the detailed description of all the Cost reports along with the reporting tool currently used to produce them."
+"33773221","ISSDM00218789","Defect","FINPAY - BWP deposit file is picking up non BWP deposits (part of SEPA)","ancah","CCL AD HR & Payroll","","2020-02-24 13:39:20","FunPay","System_Test","Jain Abhishek x43571 Information Systems (CCL, Miami)","SHIPBOARD PAYROLL","refer to INC0734587
+The issue here was that the employee appeared on the Brightwell fund file when he should not have received funds through Brightwell. The funding report was incorrect."
+"33773438","ISSDM00219006","Maintenance","GDPR - Supplemental Payroll MDB on 64 bit PC(part of MardiGras)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-03-09 19:31:51","Supplemental Payroll","UAT","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33773630","ISSDM00219198","Maintenance","GDPR - 2020 BCP/DR Exercise (Lawson, BSI, Ceridian)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-03-26 14:26:40","Lawson Payroll","Definition","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)",""
+"33773815","ISSDM00219383","Enhancement","HRISPAY - 2020","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-30 02:10:55","Lawson Interfaces","UAT","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Finance (CCL, Miami)","HRIS - 2020"
+"33773821","ISSDM00219389","Maintenance","QEC - Apps for CCL IT Compliance - Lawson Patch Promotion Flow","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-04-30 15:32:56","Lawson Payroll","Development","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","QUAL ASSURANCE/QUAL CONTROL",""
+"33773878","ISSDM00219446","Defect","FINPAY - InstantPay SSRS report SYSTEM errors not clearing up","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-05-15 17:57:41","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","SYSTEM errors should be cleared after 5 days like all the other application errors. 
+Reference: Incident INC0933634"
+"33773880","ISSDM00219448","Enhancement","FINPAY - Add Checkbox to exclude the restricted TM, same logic in Travel OFF Report but excluding Restricted .","dannyp","CCL AD HR & Payroll","","2020-05-17 11:30:49","CPS - Lawson Interface","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Employee Services (CCL, Miami)","Add Checkbox to exclude the restricted TM, same logic as per  39 but excluding Restricted ."
+"33773882","ISSDM00219450","Maintenance","FINPAY - Not all ASP Alternate rates are being added to a Qualified TMs.","dannyp","CCL AD HR & Payroll","","2020-05-17 12:16:43","CPS - Lawson Interface","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Employee Services (CCL, Miami)","From 37 - But Un-related. ASP ALTERNATE RATE -
+1. Not all ASP Alternate rates are being added to a Qualified TMs.
+2. ASP logic is create unnecessary post to Lawson. 
+"
+"33774059","ISSDM00219627","Maintenance","FINPAY - SN POSITION PPC DELETION LAWSON SYNC EFFORT","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-07-14 09:18:50","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","CQ Maintenance under FINPAY related to syncing of Lawson due to deletion of Supernum PPCs in CPS."
+"33774102","ISSDM00219670","Maintenance","FINPAY - Kronos - Manager PTO Accrual Exception for 192 Hrs","liene","CCL AD HR & Payroll","Finance Applications Group","2020-07-31 21:06:08","Kronos","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Please see attached email 
+Danny - when this case is being worked on, we should implement new logic for both exceptions, in the key config:
+- 192 (Trevor Gatley – and there might be some others)
+- 200 (Arnold Donald)
+"
+"33774325","ISSDM00219893","Maintenance","HR - Update Middleware to receive additional fields from HCM (SOX and Compliance)","davidsi","CCL AD HR & Payroll","Finance Applications Group","2020-09-30 17:45:45","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Need to update our Middleware staging tables to include 8 additional fields from the existing HCM Extract (Person Assignment Extract).
+
+This will allow us to track changes in HCM in our staging tables to audit who updates a record in HCM and when it was updated.
+
+This will be used to track SOX and COMPLIANCE requests.
+
+ASSIGNMENT - Last Updated (date) 
+ASSIGNMENT - Last Updated By 
+ASSIGNMENT - Created  (date) 
+ASSIGNMENT - Created By   
+
+CMP_SALARY - Last Updated (date) 
+CMP_SALARY- Last Updated By 
+CMP_SALARY - Created  (date) 
+CMP_SALARY - Created By   "
+"33774361","ISSDM00219929","New Application","FINPAY - Kronos Workforce Dimensions Chatbot for Microsoft Teams","liene","CCL AD HR & Payroll","","2020-10-19 13:17:04","** NOT LISTED ** Business","Submitted","   ","Financial Technologies (CCL, Miami)","Kronos Workforce Dimensions Chatbot for Microsoft Teams"
+"33761781","ISSDM00207349","Enhancement","FINANCE - Crunchtime replication hold folder monitor (placed on hold in order to see the solution that Crunch Time will have)","ALEXG","CCL AD HR & Payroll","Finance Applications Group","2017-07-25 10:15:30","Crunchtime","Wait","ZZ_Alexander Allison x65352 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Requesting to enable some form of monitoring of the Hold folder used for Crunchtime application replication so that certain users in (to be identified) Purchasing/procurement receive email notifications when trans files have been sitting in the Hold folder more ac certain amount of time (i.e. 24 hours).  Files are sometimes manually placed in the hold folder by users in order for replication to proceed past those files and proceed to pick up the next set of files.  This is sometimes done in order to ensure  priority order get's picked up by the system faster.  Once the priority order is picked up and replicated, users are to move back the file they placed in the hold folder.  However from time the user may forget to move the file back to outbound/inbound folder from hold which can result in orders not replicating which could translate in items not being delivered to the ship, which can ultimately negatively impact guest experience onboard."
+"33764636","ISSDM00210204","Enhancement","FINANCE - Crew Hotel Accommodation Accrual Automation","biancad","CCL AD HR & Payroll","","2018-01-16 09:25:20","Hotel Invoice Application","Submitted","   ","Finance (CCL, Miami)","The accrual of crew hotel days stay is based on an Excel file that uses macros. We would like to see if we can leverage the Hotel Invoice application for this. "
+"33768139","ISSDM00213707","Enhancement","FINANCE - CT counter app implementation","lucianm","CCL AD HR & Payroll","Finance Applications Group","2018-09-12 11:57:58","NetChef","Implementation","ZZ_Alexander Allison x65352 Information Systems (CCL, Miami)","Fleet Accounting (CCL, Miami)","CT counter app implementation.
+CT counter app installed on an apple device, needs to have wifi data communication with the ship's Net Chef server.
+
+Background:
+Provide a description of the business problem:
+Currently, the Bar Operations department, conducts weekly inventories on board. All the bar items are counted in each bar location on board. The counts are currently recorded on paper by the bartenders and then they are entered manually in the Crunch Time (CT) Inventory system, by the on board Finance Specialists. This process is old and inefficient. Therefore the implementation of an improved methodology needs to be done.
+Action taken previously to solve the issue:
+We tried to have the Crunch Time system installed on a Windows Tablet and have the Bartenders do inventories directly using the tablet. However the usability of the Crunch Time system on a tablet is not very efficient. Instead we would like to use the CT Counter mobile application.
+
+Objectives:
+Provide a concise description of the expected final project results in terms of business outcomes:
+We want to leverage the functionality of the CT Counter app (installed on apple devices) to record inventory counts.
+We need to develop a network architecture design, that will allow the CT Counter app to communicate wirelessly with the Net Chef server installed on each ship.
+The data needs to flow from/to the CT Counter app to the Net Chef server."
+"33768862","ISSDM00214430","Enhancement","HR - Benefits - Update Marathon Health Demographic Eligibility file-include indicator if employee is enrolled in Cigna's insu","liannep","CCL AD HR & Payroll","","2018-12-17 16:15:19","** NOT LISTED ** Business","Submitted","   ","Shoreside","Hi Diego,
+
+Can you advise if we can accommodate Marc’s request below?  Marathon would like to see if we can include an indicator in the file if the employee is enrolled in Cigna’s insurance.
+
+Thanks,
+Alicia  
+
+Please contact Alicia Coloma Butkowski.  She is not listed under the user contact listing so couldn't select her.  Thanks.
+Alicia Coloma-Butkowski
+"
+"33769016","ISSDM00214584","Enhancement","FINPAY - CPS/CPA - Fixed tip rates to be visible in CPS similar to ASP rates","ancah","CCL AD HR & Payroll","","2019-01-21 13:57:09","CPS - Crew Payroll Automation","Definition","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","The change required by the Business implies that the Fix Tip rates to be moved from the CPS table where they are hosted today to the same field where ASP is currently located. This will bring visibly through the front end of CPS.
+This change is necessary so Compensation can process estimates for future recommendations on compensation schemas from CPS instead of doing them from Lawson."
+"33769544","ISSDM00215112","Enhancement","FINPAY - Setup new product line in LAWSON HRQA and HRTEST for additional test environments","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-03-13 15:59:32","Lawson Payroll","Postponed","Pulmano Danny x65109 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","Request the following set up:
+DEV. ENVIRONMENT: 
+Application server to host two product lines:  HRQA and HRQA2.
+Application server to host one BSI for the above production lines
+Database server to host two databases:  HRQA and HRQA2
+Database server to host one BSI Databases 
+
+UAT ENVIRONMENT: 
+Application server to host two product lines:  HRTEST and HRTEST2
+Application server to host one BSI for the above production lines
+Database server to host two databases:  HRTEST and HRTEST2
+Database server to host one BSI Databases 
+
+
+
+"
+"33769845","ISSDM00215413","Enhancement","HR - MAJOR - Oracle HCM - Compensation - Lawson Compensation Integration","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-04-12 18:32:10","Lawson Interfaces","Postponed","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Compensation Integration - Compensation Module will require either an updated to our current HR integration or a separate integration to handle Year End Bonus Payouts / Bi-Weekly Spot Bonus Payouts - 
+
+Year End Merit Increases will be updated from the compensation tool into the HR tool and come over through our current HR integtration -
+Bonus Target / Equity Target Updates  will need to be report from Oracle HCM and a Load back into Oracle HCM through and HDL / Spreadsheet Loader or through an integration from one Oracle Module to another - TBD "
+"33769964","ISSDM00215532","Maintenance","FINPAY - Supplemental DB - Doctors position to produce Vacation and Holiday payments when it should not","ancah","CCL AD HR & Payroll","Finance Applications Group","2019-04-18 17:28:58","Supplemental Payroll","Postponed","Jain Kamini x65490 Information Systems","SHIPBOARD PAYROLL","Supplemental DB - Doctors position to produce Vacation and Holiday payments when it should not. Position 2490/2498/2499 to mimic same setup as position 2489."
+"33770608","ISSDM00216176","Enhancement","HR - Oracle HCM - Integration - Update Building Location and Floor in Lawson","davidsi","CCL AD HR & Payroll","Finance Applications Group","2019-05-21 14:33:45","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Update Work floor and building location from Middleware to downstream systems (Lawson, MIR3).
+"
+"33772100","ISSDM00217668","Maintenance","FINANCE - Oracle Financials SFTP","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-10-14 09:36:01","Oracle Financials - Interfaces","Submitted","Pulmano Danny x65109 Information Systems (CCL, Miami)","Finance (CCL, Miami)",""
+"33772928","ISSDM00218496","Enhancement","FINANCE - CrunchTime R&M orders to JECT","ganeshr","CCL AD HR & Payroll","Finance Applications Group","2020-02-04 14:01:38","Crunchtime","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","The objective of this project is to transitions various SSRS Cost report required by the FGA team for the EOM closing into JECT application. These reports are used to produce the JE data which is uploaded into Oracle GL. The attached file contains the detailed description of all the Cost reports along with the reporting tool currently used to produce them."
+"33773109","ISSDM00218677","Defect","FINPAY - PAYINT - Alternate Rate - Pending Reprocess not posting to Lawson","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-02-17 15:57:31","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Issue: PENDING_POST and PENDING_REPOST alternates rates not processed after failure.
+This analysis was based of incident INC0821920. "
+"33773459","ISSDM00219027","Maintenance","FINPAY - FunPay Application - Laser file change due to 2020 W-4 changes and Lawson W-4 Phase 2 Patches","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-03-10 17:02:36","Lawson Interfaces","UAT","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","We had a call with Lawson today to review the PR13 (Lawson withholding form) and inquired about the PR160 PMTOUT (laser file) “Program / file from Lawson provided to our vendor “National Payment Corp” for pay statements”   They did confirm, that they are considering this a phase II to the 2020 W4 updates and will include the new fields in the PMTOUT file (laser file), but don’t have any timelines on when this would be available at the moment.  
+
+Need to track with lawson the progress and perform impact analysis once lawson has provided the patch
+"
+"33773813","ISSDM00219381","Maintenance","FINPAY - Lawson Direct Deposit distribution order number","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-29 10:56:53","Lawson Interfaces","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Since Lawson has distribution order number limit is 99 hence any employee goes over 99 needs to be fixed manually.  It requires cleanup of the direct deposits which almost reached to the limit 99 
+"
+"33773873","ISSDM00219441","Enhancement","HRISHR - Custom Report for Accruals reporting provided to HR","herberth","CCL AD HR & Payroll","Finance Applications Group","2020-05-13 13:29:28","Kronos","Submitted","   ","Financial Technologies (CCL, Miami)","Custom report to be created in KRONOS for Accruals"
+"33773991","ISSDM00219559","Enhancement","FINPAY - Shoreside CheckPrinting DB replacement","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-06-15 16:28:26","Lawson Interfaces","Submitted","   ","Financial Technologies (CCL, Miami)","Request is to add the functionality to FunPay application to handle the shore side payroll processing of sending our statements for viewing (PR160 laser file)
+
+New Functionality
+- Add void file creation.  Currently done through DB connecting directly to Lawson tables.  
+- Engage NatPay to build the Shore side Check Image
+- Engage NatPay to build the Shore side Check Image (For NY Residents) Includes the Employee Pay Rate which is not part of the PR160 laser file.
+- Engage NatPay to build the Shore side Garnishment Image (inclusive of the shore side check image) which would also include the following fields not currenlty included on the PR160 laser file
+ - Garnishee Name
+ - Garnishee SSN
+ - Garnishee Case #
+"
+"33774140","ISSDM00219708","Defect","HR - Benefit Integration - Oracle HCM Benefit Recalc Life Event creating duplicate records in MW","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-08-13 22:16:36","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Benefit Recalc Life Event is creating duplicate records in the MW due to the Deduction Start Dates
+
+Design Notes (AJ):
+See the Issue Details/Replication Steps/ Design notes as attached."
+"33774289","ISSDM00219857","New Application","HR - TA/Recruiting - to migrate from CSOD into Oracle HCM","liene","CCL AD HR & Payroll","","2020-09-16 12:35:43","** NOT LISTED ** Business","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)",""
+"33774348","ISSDM00219916","Maintenance","FINPAY - Supplemental to produce the TRD for the beginning of PPE","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-10-12 08:52:09","Supplemental Payroll","Submitted","   ","SHIPBOARD PAYROLL","Supplemental DB today is producing the output text file using the cut off day (the last day of PPE). This date needs to be changed with the beginning of the PPE.
+
+Note:See the attachment for details.
+"
+"33774368","ISSDM00219936","Enhancement","Oracle HCM - Web Service to reset PW in HCM","davidsi","CCL AD HR & Payroll","Finance Applications Group","2020-10-26 16:02:41","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","We are exploring options on how Furloughed employees will be able to submit their changes for this upcoming Benefits Open Enrollment period since they don’t have network access and therefore cannot login to myHR Portal via SSO. 
+
+One option is to convert their myHR Portal access to be password authenticated and there’s a way to perform a mass update of the password through a REST Service as indicated in the below email and link. 
+"
+"33753660","ISSDM00199228","Enhancement","HR - ESPP - Morgan Stanley Email Address","andrewk","CCL AD HR & Payroll","Finance Applications Group","2016-10-03 12:17:37","Employee Stock Purchase Plan (ESPP)","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Add Employee Email to the file produced for ESPP"
+"33762525","ISSDM00208093","Enhancement","FINANCE - Shoreside Inventory Solution","biancad","CCL AD HR & Payroll","Finance Applications Group","2017-09-19 14:44:10","Crunchtime","Definition","ZZ_Combs Sarah x68373 CCL IS STRATEGIC AUTOMATION","Financial Technologies (CCL, Miami)","Replace the current warehouse inventory system (Mapper) with a new solution. The objective is to streamline the shoreside inventory process by shifting from manual to automated practices in order to improve inventory management, visibility and forecasting. 
+
+The goal is to implement a solution that enhances the integration with Oracle applications and Crunchtime. This would simplify the transfers/receiving process for the ships and the reconciliation process. The solution should also provide the ability to perform analytics real time or near real time, update Purchase Order once entered and allow for more functional transfer capabilities.
+"
+"33762544","ISSDM00208112","Enhancement","FINPAY - BSI TaxFactory Cloud Solution","erickk","CCL AD HR & Payroll","Finance Applications Group","2017-09-21 14:19:18","BSI Tax Factory","Postponed","Pulmano Danny x65109 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Move BSI TaxFactory from in-premise to Cloud solution (Software / Infrastructure as a Service)
+"
+"33762557","ISSDM00208125","Enhancement","HR - New Retiree Employee Status Code - Exceptions","andrewk","CCL AD HR & Payroll","Finance Applications Group","2017-09-24 13:55:23","Lawson Interfaces","Submitted","   ","Employee Services (CCL, Miami)","
+The business case – we have an employee who did not meet the retirement rules.  However the executive committee has granted this employee an exception and wants to treat them as a retiree.  Benefits does not want to track them under the status 49 since they are concerned that if a few years from now, we reconcile the retiree’s based on the rules, the employee’s status will be moved back to non-retiree status.   
+
+Creating the employee status is not the issue.  The issue would be the impact to downstream systems.  
+
+i.e. – Comp Cruise
+"
+"33765179","ISSDM00210747","Enhancement","HR - ESPP Application - Enter multiple stock prices","andrewk","CCL AD HR & Payroll","Finance Applications Group","2018-02-05 00:08:53","Employee Stock Purchase Plan (ESPP)","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Employee Services (CCL, Miami)","Request to allow to enter multiple stock prices for the purchase.  Since Carnival purchases multiple types of stock it is necessary to have the ability to maintain multiple prices by stock type (CCL & ADR)"
+"33768605","ISSDM00214173","System Upgrade","FINANCE - Crunch Time - EM CLIENT upgrade to EM WEB and NET CHEF (full versions)","lucianm","CCL AD HR & Payroll","Finance Applications Group","2018-11-07 16:35:24","Crunchtime","Definition","ZZ_Alexander Allison x65352 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Currently, the Crunch Time application suites includes the following breakdown:
+
+SHORESIDE - current:
+- EM CLIENT (Crunch Time desktop application) v05.20.00.09
+- EM WEB (limited functionality)
+- NET CHEF (limited functionality)
+- CTX (CRUNCH TIME EXCHANGE)
+
+SHIPBOARD - current:
+- EM CLIENT (Crunch Time desktop application) v05.20.00.09
+- NET CHEF (limited functionality)
+
+With this upcoming upgrade, the following structure will be available:
+
+SHORESIDE - software to be upgraded to:
+- EM CLIENT (Crunch Time desktop application) v05.20.00.09 - REMAINS AS IT IS (NO UPGRADE)
+- EM WEB - will be upgraded to the full functionality version
+- NET CHEF - will be upgraded to the full functionality version
+- CTX (CRUNCH TIME EXCHANGE) - REMAINS AS IT IS (NO UPGRADE)
+
+SHIPBOARD - current:
+- EM CLIENT (Crunch Time desktop application) v05.20.00.09 - REMAINS AS IT IS (NO UPGRADE)
+- NET CHEF - will be upgraded to the full functionality version
+
+PRE-REQUISITES for the upgrade:
+- Crunch time needs to deliver the latest versions of EM WEB and NETCHEF (estimated delivery date is now DECEMBER 2018)
+- Oracle DB12c needs to be installed at CCL in all locations (shore side and all 26 ships)
+
+SERVERS/HARDWARE: there are existing servers/databases for all the applications. We just need to upgrade the software versions. There is no need of new server/databases installations.
+
+ESTIMATED START DATE: 2019 (month TBD)
+
+EM CLIENT (Crunch Time desktop application) will still need to remain with its current setup - as replication and some reports will still be handled through it.
+
+GFT (general functionality testing) will have to include besides the regular end to end UAT:
+- shore side groups testing (CT administration, purchasing, fleet finance, cost analytics, accounting, DWH, Tableau, Hyperion) 
+- ship board groups testing (all crunch time related processes, replication and POS-CT depletion)
+- applications and interfaces: Receipt interface to Oracle, PO interface to Oracle, CT-Mapper interface, CT-Eseacare interface, JECT)
+
+ASSUMPTIONS:
+
+CT COUNTER application (soon to be introduced) - will not be upgraded, but will be considered for GFT (general functionality testing)
+
+CDP (Crunch Time data pump) - will not be upgraded, but will be considered for GFT (general functionality testing)"
+"33769577","ISSDM00215145","Defect","HR - MINOR - Oracle HCM - Core HR - IM195327 - Direct Deposit Issue","abhishekj","CCL AD HR & Payroll","Finance Applications Group","2019-03-18 11:19:28","Lawson Interfaces","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)","IM195327 - Direct Deposit Issue
+As per our previous discussion, I have tried to delete one personal payment method for employee and I am able to do that. 
+Please find the attachment for the step by step process which I performed on TEST Environment.
+
+We have to train the user’s that the payment method should not be deleted from the system, in place of that they can end date the existing record if required. This should resolve the raised issue.
+"
+"33769862","ISSDM00215430","Enhancement","HR - MINOR - FMLA LOA Administration Project - Lincoln Financials","davidsi","CCL AD HR & Payroll","Finance Applications Group","2019-04-16 10:28:17","Lawson Interfaces","Postponed","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","FMLA LOA Administration will be outsourced to a vendor - Lincoln Financials - 
+
+Will need an interface to Lincoln Financials providing employee demographic data.  May require outbound file as well from Lincoln to update employees status in Oracle HCM?  Need to define requirements with Benefits.
+
+Go-Live Date scheduled for November 2019
+ 
+"
+"33770613","ISSDM00216181","Maintenance","HR - HCM Core HR - Keep track of when termination record was received","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-05-21 17:33:49","Lawson Interfaces","Submitted","   ","INFORMATION SYSTEMS - ADMIN","HCM Core HR - Keep track of when termination record was received from HCM in middle layer and use this date to identify termed days to trigger downstream applications like IAM etc. This will handle back dated termination dates in HCM."
+"33772309","ISSDM00217877","Infrastructure Project","FINANCE - MardiGras setup of Finance Apps (CT, CT Interfaces, MSMQ)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2019-11-06 16:03:31","Crunchtime","UAT","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33772793","ISSDM00218361","Enhancement","FINPAY - Automation of Garnishment payments for Shoreside","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-01-27 17:20:16","Lawson Payroll","Submitted","   ","Shoreside","Automation of Garnishment payments for Shoreside was reviewed and the past and attached work around have been provided. Current process it is tedious and takes a lot of time.   "
+"33773202","ISSDM00218770","Maintenance","HRISPAY - Lawson and Infor Landmark applications - Microsoft LDAP signing change","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-02-21 14:39:25","Lawson Payroll","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Infor Support Announcement: Critical Notification: Lawson and Infor Landmark applications - Microsoft LDAP signing change
+
+We need a Windows resource with knowledge of LDAP and Windows updates schedule included in this change. See attached for details.
+"
+"33773461","ISSDM00219029","Maintenance","GDPR - Oracle DB Global Authentication - Lawson","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-03-10 17:11:13","Lawson Interfaces","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Information Systems (CCL, Miami)","For each SOX App…
+The DBAs would require from Matt Wander a Keytab file (a certificate linking the DB server to the Active directory) and install it on the DB server.
+The DBAs would have to agree with Apps Dev team on a downtime, for the environments modified (starting with Dev, then Test, UAT etc.) , to set the parameter REMOTE_OS_AUTHENT to  FALSE (currently TRUE and requires downtime to switch).
+Then the DBAs would set the Kerberos configuration, the Oracle SQLNET configuration and change the DB individual accounts to Globally authenticated using their LDAP IDs.
+The Apps Dev team and DBAs would have to try their account and confirm that they can connect
+Then move to the next environment…
+
+Negative testing would be needed, like disable a test LDAP account and verify that the associated DB account is also disabled.
+We would need to work on the DBA and DML accounts with the PAM Service accounts and test that.
+
+When all is tested and validated, deploy to Prod and move to next App.
+"
+"33773814","ISSDM00219382","Enhancement","HR - Benefit Integration - 2021 Benefits Open Enrollment (Planning usually starts in July)","andrewk","CCL AD HR & Payroll","Finance Applications Group","2020-04-30 00:07:52","Lawson Interfaces","Implementation","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","2021 Benefits Open Enrollment - Enhancement - Reduce processing time of loading the Benefits Year End Open Enrollment records into MW - Lawson. 
+
+"
+"33773863","ISSDM00219431","System Upgrade","ONEIT - CrunchTime CCL - Shoreside Replication Server upgrade","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-05-12 10:25:31","Crunchtime","Design","Jain Kamini x65490 Information Systems","Information Systems (CCL, Miami)",""
+"33773879","ISSDM00219447","Maintenance","FINPAY - TMs with Seniority the new Monthly Basic Salary amount is being applied to the Total Base Wage and not Base Wage.","dannyp","CCL AD HR & Payroll","","2020-05-17 11:26:47","CPS - Lawson Interface","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Employee Services (CCL, Miami)","TMs with Seniority the new Monthly Basic Salary amount is being applied to the Total Base Wage and not Base Wage."
+"33774057","ISSDM00219625","Maintenance","HRIS - SHIPBOARD FILES ATR AND VALIDATION REQUIRED","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-07-13 18:13:54","Lawson Payroll","Submitted","   ","SHIPBOARD PAYROLL","The Shipboard Pay files require ATR production and validations processed.
+
+ADIT group produces the ATR
+HRIS validates and massages the ATR to ultimately display Lay up pay codes
+"
+"33774134","ISSDM00219702","Maintenance","FINPAY - Instant Pay Enrollment file format update by November 2020","ancah","CCL AD HR & Payroll","Finance Applications Group","2020-08-12 17:08:51","Lawson Interfaces","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Instant Pay Enrollment file format was changed by vendor. Changes are required to accommodate the change.
+See attachment for sample.
+
+Note: Vendor committed to continue to send us old version till the change is made to consume the new format.
+"
+"33774261","ISSDM00219829","Defect","HR - Benefit Integration - Spending Account Tier Changes or Term/Rehire","liannep","CCL AD HR & Payroll","Finance Applications Group","2020-09-10 14:44:08","Lawson Interfaces","Design","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","When an employee changes tiers in their spending account, and/or are termed and rehired the existing logic doesn't stop the existing spending account plan with the number of pay periods and the YTD contribution the employee has made and start the new spending account plan with new tier.  CQ is to add existing logic to these scenarios so that plans get stopped and started correctly."
+"33774290","ISSDM00219858","New Application","HR - LMS(Learning Management System) – to migrate into another system (Oracle HCM is one of the candidates)","liene","CCL AD HR & Payroll","","2020-09-16 12:43:32","** NOT LISTED ** Business","Submitted","Biffi Marco (305) 599-2600 x22064 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)",""
+"33768909","ISSDM00214477","Enhancement","FINPAY - Shipboard Payroll -  Lawson/Ceridian Extract and SDM","ancah","CCL AD HR & Payroll","Finance Applications Group","2019-01-03 11:53:30","Ceridian Tax Source and Tax Send","Postponed","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","SHIPBOARD PAYROLL","Payroll requests adding Shipboard Payroll (Lawson company 200)  to the current Lawson/Ceridian extract and SDM in order to replace TMS"
+"33769096","ISSDM00214664","Maintenance","FINPAY - Annual BCP Exercise - Lawson Desktop Applications","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-01-28 11:55:19","Lawson Interfaces","UAT","Pulmano Danny x65109 Information Systems (CCL, Miami)","Information Systems (CCL, Miami)",""
+"33769469","ISSDM00215037","Enhancement","HR - MINOR - Oracle HCM - Core HR - W-4 STATE MAPPING","diegor","CCL AD HR & Payroll","Finance Applications Group","2019-03-07 16:36:59","Lawson Interfaces","Postponed","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)",""
+"33770973","ISSDM00216541","Enhancement","FINPAY - Lawson STATUS 20 Employees","herberth","CCL AD HR & Payroll","Finance Applications Group","2019-07-03 16:18:57","Lawson Interfaces","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","Lawson Integration from HCM: Employees in the STATUS 20 (Colorado) is a special status that is no longer being used.  However, as these employees go into LOA, there status is changed to STATUS 10 or 11 and upon the return from LOA they are moved to STATUS 01.  This should not be the case.  They should go back to STATUS 20
+
+The Lawson integration should only update in case of termination.  If employees in STATUS 20 should return to STATUS 20 when in LOA."
+"33772225","ISSDM00217793","Enhancement","SEC - Pointer enhancement","laural","CCL AD HR & Payroll","Finance Applications Group","2019-10-28 14:10:42","Pointer System","Submitted","   ","Security and Surveillance (CCL, Miami)","We have an internal database called Pointer. We need to enhance the program. We need to filter for crew / passenger"
+"33772644","ISSDM00218212","Defect","FINPAY - CPA - Movement Staging - Stg Error Code = VALIDATION FAIL - Error Processing get_effective_dated_posi.","andrewk","CCL AD HR & Payroll","Finance Applications Group","2019-12-20 10:25:27","Lawson Interfaces","System_Test","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Shivdutt Parashar
+Work Notes•2019-12-06 09:17:26
+Data is fixed in production, also code fix is available in CCLTSTSHROE3 for testing and verification.
+
+Movement Staging Error Processing get_effective_dated_posi Defect, if TM is new hire or archived or on non-payable position then such record should be marked as DO_NOT_PROCESS Data fix applied in production Code fix
+
+"
+"33773334","ISSDM00218902","Enhancement","HR - Benefits - Handle Prior Year Start / Current Year Deduction Start (via BenAdmin Life Events)","liannep","CCL AD HR & Payroll","Finance Applications Group","2020-03-03 08:37:16","Lawson Interfaces","Definition","Jain Abhishek x43571 Information Systems (CCL, Miami)","Shoreside","When Benefit Administration Life Events are administered in HCM, on the HCM file these changes come across with prior year start dates and this scenario is currently not handled by the integration.  The integration brings over a 2019 Benefit start date with a Lawson deduction start date of 2020.  In these cases, perhaps deduction start date for plans in addition to RS (Spending Accounts) needs to be looked at."
+"33773819","ISSDM00219387","Maintenance","ONEIT - Mardi Gras (Supplemental)","dannyp","CCL AD HR & Payroll","Finance Applications Group","2020-04-30 14:40:57","Supplemental Payroll","UAT","Moin Aquib 599-2600 xTBA NA","Information Systems (CCL, Miami)",""
+"33773881","ISSDM00219449","Maintenance","FINPAY -Travel OFF Report - Invalid employees seems to come up when Generate PDF was clicked","dannyp","CCL AD HR & Payroll","CPS Applications Group","2020-05-17 11:35:00","Crew Personnel System","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Employee Services (CCL, Miami)","From 39 TRAVEL OFF REPORT - When we click on Generate PDF, an invalid employees seems to come up and it’s typically quite long. The Workaround:  If we then press Generate CSV and go back to press Generate PDF, the PDF report is then good."
+"33774118","ISSDM00219686","Maintenance","FINPAY – Upgrade BSI TaxFactory from TF10 to TF11 by April 30, 2021","liene","CCL AD HR & Payroll","","2020-08-06 21:30:05","** NOT LISTED ** Business","Submitted","Jain Kamini x65490 Information Systems","Financial Technologies (CCL, Miami)",""
+"33774221","ISSDM00219789","Maintenance","HR - Isilon migration","liene","CCL AD HR & Payroll","","2020-09-01 17:23:29","** NOT LISTED ** Business","Submitted","Pulmano Danny x65109 Information Systems (CCL, Miami)","Financial Technologies (CCL, Miami)","See attached."
+"33774331","ISSDM00219899","Maintenance","FINPAY - Business Software BSI TF10.0x.2","liene","CCL AD HR & Payroll","Finance Applications Group","2020-10-01 20:23:57","BSI Tax Factory","Submitted","Vanegas Cristhian (305) 599-2600 x65248 CCL IS Finance & Corporate Systems (Miami)","Financial Technologies (CCL, Miami)","Comment from Danny:
+We just deployed 10.0x.1 and now we have 10.0x.2."
