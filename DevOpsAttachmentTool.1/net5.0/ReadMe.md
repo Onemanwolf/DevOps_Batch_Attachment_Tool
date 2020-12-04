@@ -7,9 +7,9 @@ Command with three arguments
 - Url for DevOps Orginization 
 	- Example:  https://carnivalcruiselines.visualstudio.com
 - personalAccessToken
-	- ywi2rgo6uf2v3l5g6pc2zmhwowob6fx36stiun3n4d74536lggpq
+	- <personal Access Token Goes Here>
 
 
 App.exe path url personAccessToken
 
-DevOpsClientApiApp.exe ..\\Files\\AttachmentHRTest  https://carnivalcruiselines.visualstudio.com ywi2rgo6uf2v3l5g6pc2zmhwowob6fx36stiun3n4d74536lggpq
+DevOpsClientApiApp.exe ..\\Files\\AttachmentHRTest  https://carnivalcruiselines.visualstudio.com <pesonsalAccessToken Goes here>
