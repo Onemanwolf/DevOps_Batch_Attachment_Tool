@@ -1,0 +1,1414 @@
+2020-12-08 13:42:04.161 -05:00 [INF] Logger called
+2020-12-08 13:42:04.219 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33768909
+2020-12-08 13:42:04.955 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:04.964 -05:00 [INF] Match Id: 696448
+2020-12-08 13:42:04.970 -05:00 [INF] Found WorkItem Id: 696448 Attempting Attacment
+2020-12-08 13:42:08.990 -05:00 [INF] Updated Existing Work Item: '696448'. Had 1 attachments, now has 2
+2020-12-08 13:42:08.997 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:42:09.253 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:09.266 -05:00 [INF] Match Id: 696494
+2020-12-08 13:42:09.271 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:42:12.010 -05:00 [INF] Updated Existing Work Item: '696494'. Had 2 attachments, now has 3
+2020-12-08 13:42:12.018 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:42:12.357 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:12.365 -05:00 [INF] Match Id: 696494
+2020-12-08 13:42:12.372 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:42:13.457 -05:00 [INF] Updated Existing Work Item: '696494'. Had 3 attachments, now has 4
+2020-12-08 13:42:13.465 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769211
+2020-12-08 13:42:13.721 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:13.726 -05:00 [INF] Match Id: 696450
+2020-12-08 13:42:13.730 -05:00 [INF] Found WorkItem Id: 696450 Attempting Attacment
+2020-12-08 13:42:14.710 -05:00 [INF] Updated Existing Work Item: '696450'. Had 1 attachments, now has 2
+2020-12-08 13:42:14.715 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:42:14.930 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:14.937 -05:00 [INF] Match Id: 696433
+2020-12-08 13:42:14.951 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:42:16.305 -05:00 [INF] Updated Existing Work Item: '696433'. Had 2 attachments, now has 3
+2020-12-08 13:42:16.312 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:42:16.512 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:16.520 -05:00 [INF] Match Id: 696433
+2020-12-08 13:42:16.532 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:42:18.486 -05:00 [INF] Updated Existing Work Item: '696433'. Had 3 attachments, now has 4
+2020-12-08 13:42:18.494 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769759
+2020-12-08 13:42:18.739 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:18.741 -05:00 [INF] Match Id: 696479
+2020-12-08 13:42:18.743 -05:00 [INF] Found WorkItem Id: 696479 Attempting Attacment
+2020-12-08 13:42:19.503 -05:00 [INF] Updated Existing Work Item: '696479'. Had 1 attachments, now has 2
+2020-12-08 13:42:19.511 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769964
+2020-12-08 13:42:19.693 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:19.699 -05:00 [INF] Match Id: 696425
+2020-12-08 13:42:19.706 -05:00 [INF] Found WorkItem Id: 696425 Attempting Attacment
+2020-12-08 13:42:20.806 -05:00 [INF] Updated Existing Work Item: '696425'. Had 1 attachments, now has 2
+2020-12-08 13:42:20.815 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:42:21.379 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:42:21.412 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:42:21.573 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 186
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:42:21.575 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:42:21.723 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:42:21.730 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:42:21.744 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 186
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:42:21.775 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772163
+2020-12-08 13:42:22.007 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:42:22.012 -05:00 [INF] WorkItem not found for cQdbid: 33772163
+2020-12-08 13:42:22.026 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 186
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:42:22.041 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772756
+2020-12-08 13:42:22.670 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:22.676 -05:00 [INF] Match Id: 696471
+2020-12-08 13:42:22.689 -05:00 [INF] Found WorkItem Id: 696471 Attempting Attacment
+2020-12-08 13:42:24.825 -05:00 [INF] Updated Existing Work Item: '696471'. Had 1 attachments, now has 2
+2020-12-08 13:42:24.834 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772793
+2020-12-08 13:42:25.235 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:25.243 -05:00 [INF] Match Id: 696412
+2020-12-08 13:42:25.275 -05:00 [INF] Found WorkItem Id: 696412 Attempting Attacment
+2020-12-08 13:42:26.824 -05:00 [INF] Updated Existing Work Item: '696412'. Had 1 attachments, now has 2
+2020-12-08 13:42:26.833 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773109
+2020-12-08 13:42:27.161 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:42:27.166 -05:00 [INF] WorkItem not found for cQdbid: 33773109
+2020-12-08 13:42:27.189 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 186
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:42:27.208 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773202
+2020-12-08 13:42:27.703 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:27.708 -05:00 [INF] Match Id: 696386
+2020-12-08 13:42:27.711 -05:00 [INF] Found WorkItem Id: 696386 Attempting Attacment
+2020-12-08 13:42:28.542 -05:00 [INF] Updated Existing Work Item: '696386'. Had 1 attachments, now has 2
+2020-12-08 13:42:28.551 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773221
+2020-12-08 13:42:28.836 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:42:28.840 -05:00 [INF] WorkItem not found for cQdbid: 33773221
+2020-12-08 13:42:28.844 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 186
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:42:28.852 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:42:29.511 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:29.523 -05:00 [INF] Match Id: 696491
+2020-12-08 13:42:29.557 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:42:31.332 -05:00 [INF] Updated Existing Work Item: '696491'. Had 7 attachments, now has 8
+2020-12-08 13:42:31.341 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:42:32.012 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:32.019 -05:00 [INF] Match Id: 696491
+2020-12-08 13:42:32.027 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:42:35.062 -05:00 [INF] Updated Existing Work Item: '696491'. Had 8 attachments, now has 9
+2020-12-08 13:42:35.069 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:42:35.198 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:42:35.206 -05:00 [INF] Match Id: 696491
+2020-12-08 13:42:35.215 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:43:17.538 -05:00 [INF] Updated Existing Work Item: '696491'. Had 9 attachments, now has 10
+2020-12-08 13:43:17.545 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:43:18.176 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:18.185 -05:00 [INF] Match Id: 696491
+2020-12-08 13:43:18.222 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:43:20.838 -05:00 [INF] Updated Existing Work Item: '696491'. Had 10 attachments, now has 11
+2020-12-08 13:43:20.846 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:43:21.030 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:21.049 -05:00 [INF] Match Id: 696491
+2020-12-08 13:43:21.066 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:43:22.160 -05:00 [INF] Updated Existing Work Item: '696491'. Had 11 attachments, now has 12
+2020-12-08 13:43:22.167 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:43:22.472 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:22.474 -05:00 [INF] Match Id: 696491
+2020-12-08 13:43:22.477 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:43:24.629 -05:00 [INF] Updated Existing Work Item: '696491'. Had 12 attachments, now has 13
+2020-12-08 13:43:24.633 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:43:24.784 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:24.792 -05:00 [INF] Match Id: 696491
+2020-12-08 13:43:24.802 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:43:26.203 -05:00 [INF] Updated Existing Work Item: '696491'. Had 13 attachments, now has 14
+2020-12-08 13:43:26.212 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:43:26.443 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:26.450 -05:00 [INF] Match Id: 696428
+2020-12-08 13:43:26.482 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:43:27.286 -05:00 [INF] Updated Existing Work Item: '696428'. Had 3 attachments, now has 4
+2020-12-08 13:43:27.288 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:43:27.883 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:27.891 -05:00 [INF] Match Id: 696428
+2020-12-08 13:43:27.909 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:43:33.776 -05:00 [INF] Updated Existing Work Item: '696428'. Had 4 attachments, now has 5
+2020-12-08 13:43:33.780 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:43:34.177 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:34.183 -05:00 [INF] Match Id: 696428
+2020-12-08 13:43:34.202 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:43:35.533 -05:00 [INF] Updated Existing Work Item: '696428'. Had 5 attachments, now has 6
+2020-12-08 13:43:35.540 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:43:36.207 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:36.217 -05:00 [INF] Match Id: 696453
+2020-12-08 13:43:36.247 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:43:37.753 -05:00 [INF] Updated Existing Work Item: '696453'. Had 3 attachments, now has 4
+2020-12-08 13:43:37.763 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:43:38.398 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:38.399 -05:00 [INF] Match Id: 696453
+2020-12-08 13:43:38.402 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:43:39.985 -05:00 [INF] Updated Existing Work Item: '696453'. Had 4 attachments, now has 5
+2020-12-08 13:43:39.988 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:43:40.588 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:40.596 -05:00 [INF] Match Id: 696453
+2020-12-08 13:43:40.615 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:43:41.745 -05:00 [INF] Updated Existing Work Item: '696453'. Had 5 attachments, now has 6
+2020-12-08 13:43:41.755 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:43:41.930 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:41.938 -05:00 [INF] Match Id: 696474
+2020-12-08 13:43:41.971 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:43:43.941 -05:00 [INF] Updated Existing Work Item: '696474'. Had 3 attachments, now has 4
+2020-12-08 13:43:43.948 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:43:44.155 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:44.157 -05:00 [INF] Match Id: 696474
+2020-12-08 13:43:44.159 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:43:45.644 -05:00 [INF] Updated Existing Work Item: '696474'. Had 4 attachments, now has 5
+2020-12-08 13:43:45.653 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:43:45.755 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:45.761 -05:00 [INF] Match Id: 696474
+2020-12-08 13:43:45.769 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:43:46.788 -05:00 [INF] Updated Existing Work Item: '696474'. Had 5 attachments, now has 6
+2020-12-08 13:43:46.799 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:43:47.013 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:47.019 -05:00 [INF] Match Id: 696463
+2020-12-08 13:43:47.054 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:43:48.676 -05:00 [INF] Updated Existing Work Item: '696463'. Had 2 attachments, now has 3
+2020-12-08 13:43:48.686 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:43:48.854 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:48.863 -05:00 [INF] Match Id: 696463
+2020-12-08 13:43:48.905 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:43:49.698 -05:00 [INF] Updated Existing Work Item: '696463'. Had 3 attachments, now has 4
+2020-12-08 13:43:49.706 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773878
+2020-12-08 13:43:49.988 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:43:49.994 -05:00 [INF] WorkItem not found for cQdbid: 33773878
+2020-12-08 13:43:50.001 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:43:50.029 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773893
+2020-12-08 13:43:50.289 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:50.296 -05:00 [INF] Match Id: 696454
+2020-12-08 13:43:50.329 -05:00 [INF] Found WorkItem Id: 696454 Attempting Attacment
+2020-12-08 13:43:51.034 -05:00 [INF] Updated Existing Work Item: '696454'. Had 1 attachments, now has 2
+2020-12-08 13:43:51.038 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773962
+2020-12-08 13:43:51.500 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:43:51.507 -05:00 [INF] Match Id: 696444
+2020-12-08 13:43:51.514 -05:00 [INF] Found WorkItem Id: 696444 Attempting Attacment
+2020-12-08 13:44:02.047 -05:00 [INF] Updated Existing Work Item: '696444'. Had 1 attachments, now has 2
+2020-12-08 13:44:02.050 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:44:02.319 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:02.333 -05:00 [INF] Match Id: 696456
+2020-12-08 13:44:02.352 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:44:03.977 -05:00 [INF] Updated Existing Work Item: '696456'. Had 2 attachments, now has 3
+2020-12-08 13:44:03.990 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:44:04.272 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:04.274 -05:00 [INF] Match Id: 696456
+2020-12-08 13:44:04.275 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:44:09.007 -05:00 [INF] Updated Existing Work Item: '696456'. Had 3 attachments, now has 4
+2020-12-08 13:44:09.009 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774049
+2020-12-08 13:44:09.418 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:09.422 -05:00 [INF] WorkItem not found for cQdbid: 33774049
+2020-12-08 13:44:09.424 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:09.428 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774057
+2020-12-08 13:44:09.814 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:09.816 -05:00 [INF] Match Id: 696354
+2020-12-08 13:44:09.817 -05:00 [INF] Found WorkItem Id: 696354 Attempting Attacment
+2020-12-08 13:44:10.646 -05:00 [INF] Updated Existing Work Item: '696354'. Had 1 attachments, now has 2
+2020-12-08 13:44:10.653 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774059
+2020-12-08 13:44:10.850 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:10.858 -05:00 [INF] Match Id: 696501
+2020-12-08 13:44:10.872 -05:00 [INF] Found WorkItem Id: 696501 Attempting Attacment
+2020-12-08 13:44:11.906 -05:00 [INF] Updated Existing Work Item: '696501'. Had 5 attachments, now has 6
+2020-12-08 13:44:11.917 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774063
+2020-12-08 13:44:12.322 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:12.329 -05:00 [INF] WorkItem not found for cQdbid: 33774063
+2020-12-08 13:44:12.344 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:12.382 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774090
+2020-12-08 13:44:12.568 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:12.575 -05:00 [INF] WorkItem not found for cQdbid: 33774090
+2020-12-08 13:44:12.583 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:12.625 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774102
+2020-12-08 13:44:12.821 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:12.829 -05:00 [INF] Match Id: 696365
+2020-12-08 13:44:12.838 -05:00 [INF] Found WorkItem Id: 696365 Attempting Attacment
+2020-12-08 13:44:17.512 -05:00 [INF] Updated Existing Work Item: '696365'. Had 1 attachments, now has 2
+2020-12-08 13:44:17.519 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:44:17.757 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:17.765 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:44:17.789 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:17.802 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:44:17.987 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:17.994 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:44:18.003 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:18.047 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:44:18.166 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:18.172 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:44:18.181 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:18.228 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774134
+2020-12-08 13:44:18.539 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:18.545 -05:00 [INF] Match Id: 696422
+2020-12-08 13:44:18.564 -05:00 [INF] Found WorkItem Id: 696422 Attempting Attacment
+2020-12-08 13:44:19.803 -05:00 [INF] Updated Existing Work Item: '696422'. Had 1 attachments, now has 2
+2020-12-08 13:44:19.815 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:44:20.189 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:20.194 -05:00 [INF] Match Id: 696464
+2020-12-08 13:44:20.200 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:44:26.758 -05:00 [INF] Updated Existing Work Item: '696464'. Had 2 attachments, now has 3
+2020-12-08 13:44:26.766 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:44:27.397 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:27.406 -05:00 [INF] Match Id: 696464
+2020-12-08 13:44:27.437 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:44:28.950 -05:00 [INF] Updated Existing Work Item: '696464'. Had 3 attachments, now has 4
+2020-12-08 13:44:28.958 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:44:29.644 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:29.654 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:44:29.676 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:29.708 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:44:29.847 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:29.853 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:44:29.861 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:29.884 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:44:30.029 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:30.035 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:44:30.048 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:30.082 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:44:30.675 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:30.677 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:44:30.679 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:30.683 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:44:31.361 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:31.370 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:44:31.383 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:31.469 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:44:31.997 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:44:32.006 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:44:32.024 -05:00 [INF] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 169
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 80
+2020-12-08 13:44:32.063 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774220
+2020-12-08 13:44:32.273 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:32.284 -05:00 [INF] Match Id: 696372
+2020-12-08 13:44:32.336 -05:00 [INF] Found WorkItem Id: 696372 Attempting Attacment
+2020-12-08 13:44:33.412 -05:00 [INF] Updated Existing Work Item: '696372'. Had 1 attachments, now has 2
+2020-12-08 13:44:33.418 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774221
+2020-12-08 13:44:33.745 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:33.751 -05:00 [INF] Match Id: 696366
+2020-12-08 13:44:33.758 -05:00 [INF] Found WorkItem Id: 696366 Attempting Attacment
+2020-12-08 13:44:34.687 -05:00 [INF] Updated Existing Work Item: '696366'. Had 1 attachments, now has 2
+2020-12-08 13:44:34.697 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774222
+2020-12-08 13:44:34.932 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:34.937 -05:00 [INF] Match Id: 696367
+2020-12-08 13:44:34.951 -05:00 [INF] Found WorkItem Id: 696367 Attempting Attacment
+2020-12-08 13:44:35.784 -05:00 [INF] Updated Existing Work Item: '696367'. Had 1 attachments, now has 2
+2020-12-08 13:44:35.789 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774285
+2020-12-08 13:44:36.590 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:36.596 -05:00 [INF] Match Id: 696373
+2020-12-08 13:44:36.604 -05:00 [INF] Found WorkItem Id: 696373 Attempting Attacment
+2020-12-08 13:44:37.946 -05:00 [INF] Updated Existing Work Item: '696373'. Had 1 attachments, now has 2
+2020-12-08 13:44:37.955 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774289
+2020-12-08 13:44:38.144 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:38.145 -05:00 [INF] Match Id: 696374
+2020-12-08 13:44:38.147 -05:00 [INF] Found WorkItem Id: 696374 Attempting Attacment
+2020-12-08 13:44:39.006 -05:00 [INF] Updated Existing Work Item: '696374'. Had 1 attachments, now has 2
+2020-12-08 13:44:39.013 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774290
+2020-12-08 13:44:39.265 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:39.271 -05:00 [INF] Match Id: 696375
+2020-12-08 13:44:39.279 -05:00 [INF] Found WorkItem Id: 696375 Attempting Attacment
+2020-12-08 13:44:40.373 -05:00 [INF] Updated Existing Work Item: '696375'. Had 1 attachments, now has 2
+2020-12-08 13:44:40.381 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774348
+2020-12-08 13:44:40.749 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:44:40.757 -05:00 [INF] Match Id: 696391
+2020-12-08 13:44:40.775 -05:00 [INF] Found WorkItem Id: 696391 Attempting Attacment
+2020-12-08 13:44:41.567 -05:00 [INF] Updated Existing Work Item: '696391'. Had 1 attachments, now has 2
+2020-12-08 13:44:41.576 -05:00 [INF] Job Done Total files 64
+2020-12-08 13:52:35.756 -05:00 [INF] Logger called
+2020-12-08 13:52:35.808 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33768909
+2020-12-08 13:52:36.417 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:36.419 -05:00 [INF] Matching WorkItem Id: 696448
+2020-12-08 13:52:36.419 -05:00 [INF] Found WorkItem Id: 696448 Attempting Attacment
+2020-12-08 13:52:36.580 -05:00 [INF] Attachment created
+2020-12-08 13:52:36.582 -05:00 [INF] ID: 07b91340-aea1-4599-a34e-4db22c59e6ea
+2020-12-08 13:52:36.584 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/07b91340-aea1-4599-a34e-4db22c59e6ea?fileName=..%5CFiles%5CAttachmentHRTest%5C33768909%5CRe%20LawsonCeridian%20Extract%20and%20SDM.msg'
+2020-12-08 13:52:36.585 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:36.778 -05:00 [INF] Re LawsonCeridian Extract and SDM.msg already attached
+2020-12-08 13:52:36.780 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:52:36.877 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:36.884 -05:00 [INF] Matching WorkItem Id: 696494
+2020-12-08 13:52:36.891 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:52:37.080 -05:00 [INF] Attachment created
+2020-12-08 13:52:37.087 -05:00 [INF] ID: 7fe24ea4-ae11-4939-bdd7-b5d69efd594a
+2020-12-08 13:52:37.094 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/7fe24ea4-ae11-4939-bdd7-b5d69efd594a?fileName=..%5CFiles%5CAttachmentHRTest%5C33769016%5CCQ%20214584%20-%20Fixed%20tip%20rates%20requirements.msg'
+2020-12-08 13:52:37.099 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:37.321 -05:00 [INF] CQ 214584 - Fixed tip rates requirements.msg already attached
+2020-12-08 13:52:37.323 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:52:37.423 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:37.425 -05:00 [INF] Matching WorkItem Id: 696494
+2020-12-08 13:52:37.426 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:52:37.646 -05:00 [INF] Attachment created
+2020-12-08 13:52:37.648 -05:00 [INF] ID: 4df92e49-f096-445c-ae06-3524e4c16688
+2020-12-08 13:52:37.651 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/4df92e49-f096-445c-ae06-3524e4c16688?fileName=..%5CFiles%5CAttachmentHRTest%5C33769016%5CRE%20HGRT%20and%20RGRT.msg'
+2020-12-08 13:52:37.653 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:37.761 -05:00 [INF] RE HGRT and RGRT.msg already attached
+2020-12-08 13:52:37.769 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769211
+2020-12-08 13:52:38.122 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:38.125 -05:00 [INF] Matching WorkItem Id: 696450
+2020-12-08 13:52:38.127 -05:00 [INF] Found WorkItem Id: 696450 Attempting Attacment
+2020-12-08 13:52:38.407 -05:00 [INF] Attachment created
+2020-12-08 13:52:38.412 -05:00 [INF] ID: 2001dc6e-02c4-4699-b1dd-67c891db2cf5
+2020-12-08 13:52:38.423 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/2001dc6e-02c4-4699-b1dd-67c891db2cf5?fileName=..%5CFiles%5CAttachmentHRTest%5C33769211%5CRE%20RehiredReactivated%20Employees.msg'
+2020-12-08 13:52:38.447 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:38.569 -05:00 [INF] RE RehiredReactivated Employees.msg already attached
+2020-12-08 13:52:38.570 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:52:38.668 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:38.672 -05:00 [INF] Matching WorkItem Id: 696433
+2020-12-08 13:52:38.673 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:52:39.047 -05:00 [INF] Attachment created
+2020-12-08 13:52:39.055 -05:00 [INF] ID: 4b987e86-9f85-4eb5-ae1b-e093ddac7591
+2020-12-08 13:52:39.079 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/4b987e86-9f85-4eb5-ae1b-e093ddac7591?fileName=..%5CFiles%5CAttachmentHRTest%5C33769363%5CISSC%20Project%20Pitch%20-%20XXX%20-%20SSRS%20to%20JECT.docx'
+2020-12-08 13:52:39.096 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:39.249 -05:00 [INF] ISSC Project Pitch - XXX - SSRS to JECT.docx already attached
+2020-12-08 13:52:39.255 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:52:39.476 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:39.482 -05:00 [INF] Matching WorkItem Id: 696433
+2020-12-08 13:52:39.499 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:52:39.793 -05:00 [INF] Attachment created
+2020-12-08 13:52:39.794 -05:00 [INF] ID: 0fe9d749-6495-49b2-8ba9-f5ade86adee6
+2020-12-08 13:52:39.795 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/0fe9d749-6495-49b2-8ba9-f5ade86adee6?fileName=..%5CFiles%5CAttachmentHRTest%5C33769363%5CSSRS%20FBCP%20reports.xlsx'
+2020-12-08 13:52:39.797 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:39.917 -05:00 [INF] SSRS FBCP reports.xlsx already attached
+2020-12-08 13:52:39.927 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769759
+2020-12-08 13:52:40.211 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:40.218 -05:00 [INF] Matching WorkItem Id: 696479
+2020-12-08 13:52:40.226 -05:00 [INF] Found WorkItem Id: 696479 Attempting Attacment
+2020-12-08 13:52:40.439 -05:00 [INF] Attachment created
+2020-12-08 13:52:40.441 -05:00 [INF] ID: 3268418e-44cc-4a33-9d2d-32ff41e32591
+2020-12-08 13:52:40.443 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/3268418e-44cc-4a33-9d2d-32ff41e32591?fileName=..%5CFiles%5CAttachmentHRTest%5C33769759%5Cemployee%20419907%20-%20HSA%20Plan%20Option%20Changed.msg'
+2020-12-08 13:52:40.444 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:40.564 -05:00 [INF] employee 419907 - HSA Plan Option Changed.msg already attached
+2020-12-08 13:52:40.572 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769964
+2020-12-08 13:52:40.701 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:40.707 -05:00 [INF] Matching WorkItem Id: 696425
+2020-12-08 13:52:40.714 -05:00 [INF] Found WorkItem Id: 696425 Attempting Attacment
+2020-12-08 13:52:41.572 -05:00 [INF] Attachment created
+2020-12-08 13:52:41.579 -05:00 [INF] ID: a7fc2785-4df5-432c-9fd1-765daaa1520b
+2020-12-08 13:52:41.587 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a7fc2785-4df5-432c-9fd1-765daaa1520b?fileName=..%5CFiles%5CAttachmentHRTest%5C33769964%5CRE%20512525-%20GOVARDHAN%20REDDY%20DESAI%20-%20DOCTOR.msg'
+2020-12-08 13:52:41.608 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:41.735 -05:00 [INF] RE 512525- GOVARDHAN REDDY DESAI - DOCTOR.msg already attached
+2020-12-08 13:52:41.743 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:52:42.095 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:52:42.102 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:52:42.271 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:52:42.304 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:52:42.407 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:52:42.417 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:52:42.434 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:52:42.468 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772163
+2020-12-08 13:52:42.569 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:52:42.575 -05:00 [INF] WorkItem not found for cQdbid: 33772163
+2020-12-08 13:52:42.590 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:52:42.602 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772756
+2020-12-08 13:52:42.703 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:42.710 -05:00 [INF] Matching WorkItem Id: 696471
+2020-12-08 13:52:42.722 -05:00 [INF] Found WorkItem Id: 696471 Attempting Attacment
+2020-12-08 13:52:44.416 -05:00 [INF] Attachment created
+2020-12-08 13:52:44.417 -05:00 [INF] ID: cbd79681-0ca0-42b9-8e89-468b6514c5e1
+2020-12-08 13:52:44.419 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/cbd79681-0ca0-42b9-8e89-468b6514c5e1?fileName=..%5CFiles%5CAttachmentHRTest%5C33772756%5CDry%20Dock%20Pay%20Casino%20staff.msg'
+2020-12-08 13:52:44.423 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:44.543 -05:00 [INF] Dry Dock Pay Casino staff.msg already attached
+2020-12-08 13:52:44.550 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772793
+2020-12-08 13:52:44.813 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:44.820 -05:00 [INF] Matching WorkItem Id: 696412
+2020-12-08 13:52:44.828 -05:00 [INF] Found WorkItem Id: 696412 Attempting Attacment
+2020-12-08 13:52:45.048 -05:00 [INF] Attachment created
+2020-12-08 13:52:45.055 -05:00 [INF] ID: d681f8db-a438-4c66-b67e-a7e74166689e
+2020-12-08 13:52:45.070 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d681f8db-a438-4c66-b67e-a7e74166689e?fileName=..%5CFiles%5CAttachmentHRTest%5C33772793%5CFW%20Garnishment%20Payments%20PR80.msg'
+2020-12-08 13:52:45.077 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:45.194 -05:00 [INF] FW Garnishment Payments PR80.msg already attached
+2020-12-08 13:52:45.201 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773109
+2020-12-08 13:52:45.351 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:52:45.355 -05:00 [INF] WorkItem not found for cQdbid: 33773109
+2020-12-08 13:52:45.361 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:52:45.386 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773202
+2020-12-08 13:52:45.521 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:45.529 -05:00 [INF] Matching WorkItem Id: 696386
+2020-12-08 13:52:45.550 -05:00 [INF] Found WorkItem Id: 696386 Attempting Attacment
+2020-12-08 13:52:46.416 -05:00 [INF] Attachment created
+2020-12-08 13:52:46.423 -05:00 [INF] ID: fcf9a906-14a8-4e7e-ad37-779aac895ad3
+2020-12-08 13:52:46.433 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/fcf9a906-14a8-4e7e-ad37-779aac895ad3?fileName=..%5CFiles%5CAttachmentHRTest%5C33773202%5CRE%20Infor%20Support.msg'
+2020-12-08 13:52:46.446 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:47.373 -05:00 [INF] Updated Existing Work Item: '696386'. Had 0 attachments, now has 1
+2020-12-08 13:52:47.374 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773221
+2020-12-08 13:52:47.462 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:52:47.463 -05:00 [INF] WorkItem not found for cQdbid: 33773221
+2020-12-08 13:52:47.464 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:52:47.467 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:52:47.563 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:47.576 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:52:47.594 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:52:48.110 -05:00 [INF] Attachment created
+2020-12-08 13:52:48.116 -05:00 [INF] ID: 40c6623e-28d1-4422-b11a-e4d71cf3cc5a
+2020-12-08 13:52:48.123 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/40c6623e-28d1-4422-b11a-e4d71cf3cc5a?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5C1099_Misc.png'
+2020-12-08 13:52:48.137 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:48.246 -05:00 [INF] 1099_Misc.png already attached
+2020-12-08 13:52:48.254 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:52:48.356 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:48.363 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:52:48.370 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:52:48.815 -05:00 [INF] Attachment created
+2020-12-08 13:52:48.823 -05:00 [INF] ID: 6e9e878c-c22e-4716-be1c-ade738aca4a6
+2020-12-08 13:52:48.831 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/6e9e878c-c22e-4716-be1c-ade738aca4a6?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5C1099_NEC.PNG'
+2020-12-08 13:52:48.865 -05:00 [INF] *********************************************************************
+2020-12-08 13:52:48.991 -05:00 [INF] 1099_NEC.PNG already attached
+2020-12-08 13:52:48.998 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:52:49.283 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:52:49.291 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:52:49.299 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:53:19.338 -05:00 [INF] Attachment created
+2020-12-08 13:53:19.349 -05:00 [INF] ID: 48c09482-ba09-4ef2-8a7a-f23f162b874a
+2020-12-08 13:53:19.356 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/48c09482-ba09-4ef2-8a7a-f23f162b874a?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_PassedTestScripts.msg'
+2020-12-08 13:53:19.362 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:19.483 -05:00 [INF] CQ218859_PassedTestScripts.msg already attached
+2020-12-08 13:53:19.490 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:53:19.597 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:19.605 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:53:19.644 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:53:23.629 -05:00 [INF] Attachment created
+2020-12-08 13:53:23.639 -05:00 [INF] ID: e81349ba-30b2-4696-bd34-c28a9d9ae6fb
+2020-12-08 13:53:23.676 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/e81349ba-30b2-4696-bd34-c28a9d9ae6fb?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_Requirement_Wireframes_Approval.msg'
+2020-12-08 13:53:23.761 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:23.892 -05:00 [INF] CQ218859_Requirement_Wireframes_Approval.msg already attached
+2020-12-08 13:53:23.899 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:53:24.039 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:24.041 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:53:24.042 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:53:24.787 -05:00 [INF] Attachment created
+2020-12-08 13:53:24.790 -05:00 [INF] ID: a6fee71e-8071-44ae-969f-800e064bf673
+2020-12-08 13:53:24.792 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a6fee71e-8071-44ae-969f-800e064bf673?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_UATSignOff.msg'
+2020-12-08 13:53:24.794 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:24.889 -05:00 [INF] CQ218859_UATSignOff.msg already attached
+2020-12-08 13:53:24.898 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:53:25.260 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:25.268 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:53:25.290 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:53:26.842 -05:00 [INF] Attachment created
+2020-12-08 13:53:26.849 -05:00 [INF] ID: a63fafd3-f591-4ebd-ac28-b2077800f4b3
+2020-12-08 13:53:26.878 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a63fafd3-f591-4ebd-ac28-b2077800f4b3?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CIRS%20Mandate%20Requirements_V3.docx'
+2020-12-08 13:53:26.888 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:26.998 -05:00 [INF] IRS Mandate Requirements_V3.docx already attached
+2020-12-08 13:53:27.005 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:53:27.160 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:27.166 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:53:27.172 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:53:27.841 -05:00 [INF] Attachment created
+2020-12-08 13:53:27.849 -05:00 [INF] ID: 385573f3-6b3b-4a2b-b69f-dacf01bd9dc7
+2020-12-08 13:53:27.863 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/385573f3-6b3b-4a2b-b69f-dacf01bd9dc7?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CRE%20%201099-NEC%20Nonemployee%20Comp.msg'
+2020-12-08 13:53:27.878 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:27.997 -05:00 [INF] RE  1099-NEC Nonemployee Comp.msg already attached
+2020-12-08 13:53:28.000 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:53:28.132 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:28.140 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:53:28.178 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:53:28.838 -05:00 [INF] Attachment created
+2020-12-08 13:53:28.845 -05:00 [INF] ID: dfc2c249-d6eb-417e-8df0-630710810f7f
+2020-12-08 13:53:28.853 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/dfc2c249-d6eb-417e-8df0-630710810f7f?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5C10.0_patch_121887.delta_readme.html'
+2020-12-08 13:53:28.872 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:28.995 -05:00 [INF] 10.0_patch_121887.delta_readme.html already attached
+2020-12-08 13:53:29.002 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:53:29.120 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:29.127 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:53:29.134 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:53:32.098 -05:00 [INF] Attachment created
+2020-12-08 13:53:32.100 -05:00 [INF] ID: 13fba061-7d0a-4ba5-840d-0cb07cf2e2ae
+2020-12-08 13:53:32.101 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/13fba061-7d0a-4ba5-840d-0cb07cf2e2ae?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5CKB%202096388%202020%20W4_Phase%202%20Updates_062620.pdf'
+2020-12-08 13:53:32.103 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:32.207 -05:00 [INF] KB 2096388 2020 W4_Phase 2 Updates_062620.pdf already attached
+2020-12-08 13:53:32.216 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:53:32.330 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:32.337 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:53:32.347 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:53:32.620 -05:00 [INF] Attachment created
+2020-12-08 13:53:32.627 -05:00 [INF] ID: 7df4fe89-8b58-4b3c-9854-74a3533a04f1
+2020-12-08 13:53:32.633 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/7df4fe89-8b58-4b3c-9854-74a3533a04f1?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5CRE%20Closed%20Payroll%20550%20with%20New%20Fields.msg'
+2020-12-08 13:53:32.651 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:32.767 -05:00 [INF] RE Closed Payroll 550 with New Fields.msg already attached
+2020-12-08 13:53:32.774 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:53:32.874 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:32.881 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:53:32.890 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:53:33.384 -05:00 [INF] Attachment created
+2020-12-08 13:53:33.392 -05:00 [INF] ID: 66cc4a8a-d179-4933-933e-d1ddf6027c50
+2020-12-08 13:53:33.429 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/66cc4a8a-d179-4933-933e-d1ddf6027c50?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CCQ219284%20-%20UAT_SignOff.msg'
+2020-12-08 13:53:33.465 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:33.663 -05:00 [INF] CQ219284 - UAT_SignOff.msg already attached
+2020-12-08 13:53:33.671 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:53:33.788 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:33.790 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:53:33.792 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:53:34.340 -05:00 [INF] Attachment created
+2020-12-08 13:53:34.349 -05:00 [INF] ID: f1722b4c-4681-45f9-9536-f0db5bd10340
+2020-12-08 13:53:34.363 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/f1722b4c-4681-45f9-9536-f0db5bd10340?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CFinalDesignNotesFromBusinessHRIS.msg'
+2020-12-08 13:53:34.378 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:34.495 -05:00 [INF] FinalDesignNotesFromBusinessHRIS.msg already attached
+2020-12-08 13:53:34.501 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:53:34.620 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:34.626 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:53:34.638 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:53:35.215 -05:00 [INF] Attachment created
+2020-12-08 13:53:35.216 -05:00 [INF] ID: 7ff4010f-f998-4fea-bc6d-1c197e72b1e7
+2020-12-08 13:53:35.218 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/7ff4010f-f998-4fea-bc6d-1c197e72b1e7?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CMeeting%20Notes_04232020.msg'
+2020-12-08 13:53:35.230 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:35.343 -05:00 [INF] Meeting Notes_04232020.msg already attached
+2020-12-08 13:53:35.352 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:53:35.465 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:35.473 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:53:35.543 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:53:36.652 -05:00 [INF] Attachment created
+2020-12-08 13:53:36.661 -05:00 [INF] ID: a869ced3-4e82-40bc-bac3-17efaff5f057
+2020-12-08 13:53:36.700 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a869ced3-4e82-40bc-bac3-17efaff5f057?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:53:36.741 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:36.866 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:53:36.873 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:53:37.068 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:37.075 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:53:37.090 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:53:37.297 -05:00 [INF] Attachment created
+2020-12-08 13:53:37.305 -05:00 [INF] ID: 90a64484-618c-4cd9-a1bd-ba3117d04c82
+2020-12-08 13:53:37.354 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/90a64484-618c-4cd9-a1bd-ba3117d04c82?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:53:37.381 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:37.483 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:53:37.490 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:53:37.606 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:37.607 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:53:37.609 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:53:37.824 -05:00 [INF] Attachment created
+2020-12-08 13:53:37.825 -05:00 [INF] ID: 93848b11-e807-4b0e-9e2b-3905a5259dfe
+2020-12-08 13:53:37.828 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/93848b11-e807-4b0e-9e2b-3905a5259dfe?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5CYear%20End%20Life%20Event%20Optimization.msg'
+2020-12-08 13:53:37.832 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:37.943 -05:00 [INF] Year End Life Event Optimization.msg already attached
+2020-12-08 13:53:37.950 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:53:38.061 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:38.064 -05:00 [INF] Matching WorkItem Id: 696463
+2020-12-08 13:53:38.068 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:53:38.695 -05:00 [INF] Attachment created
+2020-12-08 13:53:38.696 -05:00 [INF] ID: d2e74ff1-f7fe-4648-8e7d-160591b45dad
+2020-12-08 13:53:38.698 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d2e74ff1-f7fe-4648-8e7d-160591b45dad?fileName=..%5CFiles%5CAttachmentHRTest%5C33773814%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:53:38.700 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:38.819 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:53:38.828 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:53:38.940 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:38.950 -05:00 [INF] Matching WorkItem Id: 696463
+2020-12-08 13:53:38.975 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:53:39.217 -05:00 [INF] Attachment created
+2020-12-08 13:53:39.225 -05:00 [INF] ID: 830640a9-bb64-465e-8d4d-92a5a37c7190
+2020-12-08 13:53:39.252 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/830640a9-bb64-465e-8d4d-92a5a37c7190?fileName=..%5CFiles%5CAttachmentHRTest%5C33773814%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:53:39.261 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:39.385 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:53:39.391 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773878
+2020-12-08 13:53:39.685 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:39.696 -05:00 [INF] WorkItem not found for cQdbid: 33773878
+2020-12-08 13:53:39.719 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:39.760 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773893
+2020-12-08 13:53:39.902 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:39.904 -05:00 [INF] Matching WorkItem Id: 696454
+2020-12-08 13:53:39.906 -05:00 [INF] Found WorkItem Id: 696454 Attempting Attacment
+2020-12-08 13:53:40.054 -05:00 [INF] Attachment created
+2020-12-08 13:53:40.063 -05:00 [INF] ID: e134842a-5453-4a5f-823f-ad0adf1053e5
+2020-12-08 13:53:40.116 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/e134842a-5453-4a5f-823f-ad0adf1053e5?fileName=..%5CFiles%5CAttachmentHRTest%5C33773893%5CPVR%20Report%20Updates.msg'
+2020-12-08 13:53:40.137 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:40.287 -05:00 [INF] PVR Report Updates.msg already attached
+2020-12-08 13:53:40.289 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773962
+2020-12-08 13:53:40.381 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:40.388 -05:00 [INF] Matching WorkItem Id: 696444
+2020-12-08 13:53:40.403 -05:00 [INF] Found WorkItem Id: 696444 Attempting Attacment
+2020-12-08 13:53:44.923 -05:00 [INF] Attachment created
+2020-12-08 13:53:44.930 -05:00 [INF] ID: d85044b8-c0f1-43ed-9014-2b6f50019809
+2020-12-08 13:53:44.939 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d85044b8-c0f1-43ed-9014-2b6f50019809?fileName=..%5CFiles%5CAttachmentHRTest%5C33773962%5CRE%20XXPAY%20access%20issue%20in%20Supplemental.msg'
+2020-12-08 13:53:44.966 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:45.089 -05:00 [INF] RE XXPAY access issue in Supplemental.msg already attached
+2020-12-08 13:53:45.098 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:53:45.234 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:45.242 -05:00 [INF] Matching WorkItem Id: 696456
+2020-12-08 13:53:45.256 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:53:45.520 -05:00 [INF] Attachment created
+2020-12-08 13:53:45.526 -05:00 [INF] ID: 1e033cb9-b308-4a0e-91dd-34808d2738c1
+2020-12-08 13:53:45.539 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/1e033cb9-b308-4a0e-91dd-34808d2738c1?fileName=..%5CFiles%5CAttachmentHRTest%5C33774020%5CAustralia%201099%20Tax%20Reporting%20Requirements%20.msg'
+2020-12-08 13:53:45.552 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:45.665 -05:00 [INF] Australia 1099 Tax Reporting Requirements .msg already attached
+2020-12-08 13:53:45.674 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:53:45.794 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:45.801 -05:00 [INF] Matching WorkItem Id: 696456
+2020-12-08 13:53:45.821 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:53:47.195 -05:00 [INF] Attachment created
+2020-12-08 13:53:47.202 -05:00 [INF] ID: d4618e9c-de97-44fa-9975-1f8452a46ae8
+2020-12-08 13:53:47.209 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d4618e9c-de97-44fa-9975-1f8452a46ae8?fileName=..%5CFiles%5CAttachmentHRTest%5C33774020%5CAustralia%20Requirements_V2.0.docx'
+2020-12-08 13:53:47.225 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:47.358 -05:00 [INF] Australia Requirements_V2.0.docx already attached
+2020-12-08 13:53:47.368 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774049
+2020-12-08 13:53:47.484 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:47.493 -05:00 [INF] WorkItem not found for cQdbid: 33774049
+2020-12-08 13:53:47.515 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:47.583 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774057
+2020-12-08 13:53:47.683 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:47.691 -05:00 [INF] Matching WorkItem Id: 696354
+2020-12-08 13:53:47.700 -05:00 [INF] Found WorkItem Id: 696354 Attempting Attacment
+2020-12-08 13:53:47.889 -05:00 [INF] Attachment created
+2020-12-08 13:53:47.890 -05:00 [INF] ID: 4672d3cd-e764-44ea-a0fa-fd0e1b64ad41
+2020-12-08 13:53:47.892 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/4672d3cd-e764-44ea-a0fa-fd0e1b64ad41?fileName=..%5CFiles%5CAttachmentHRTest%5C33774057%5CNew%20CQ%20-%20generate%20ATR%20files.msg'
+2020-12-08 13:53:47.896 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:47.993 -05:00 [INF] New CQ - generate ATR files.msg already attached
+2020-12-08 13:53:47.999 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774059
+2020-12-08 13:53:48.101 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:48.113 -05:00 [INF] Matching WorkItem Id: 696501
+2020-12-08 13:53:48.136 -05:00 [INF] Found WorkItem Id: 696501 Attempting Attacment
+2020-12-08 13:53:48.351 -05:00 [INF] Attachment created
+2020-12-08 13:53:48.359 -05:00 [INF] ID: 2531afc2-30f8-4cc1-bd24-43ab121ec7e8
+2020-12-08 13:53:48.375 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/2531afc2-30f8-4cc1-bd24-43ab121ec7e8?fileName=..%5CFiles%5CAttachmentHRTest%5C33774059%5CFwd%20Delete%20of%20PPC's.msg'
+2020-12-08 13:53:48.399 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:48.514 -05:00 [INF] Fwd Delete of PPC's.msg already attached
+2020-12-08 13:53:48.519 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774063
+2020-12-08 13:53:48.677 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:48.687 -05:00 [INF] WorkItem not found for cQdbid: 33774063
+2020-12-08 13:53:48.714 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:48.758 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774090
+2020-12-08 13:53:48.863 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:48.871 -05:00 [INF] WorkItem not found for cQdbid: 33774090
+2020-12-08 13:53:48.889 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:48.934 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774102
+2020-12-08 13:53:49.030 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:49.031 -05:00 [INF] Matching WorkItem Id: 696365
+2020-12-08 13:53:49.032 -05:00 [INF] Found WorkItem Id: 696365 Attempting Attacment
+2020-12-08 13:53:49.922 -05:00 [INF] Attachment created
+2020-12-08 13:53:49.931 -05:00 [INF] ID: 87e5fbc1-a41f-40a1-be79-86a840e0f08b
+2020-12-08 13:53:49.963 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/87e5fbc1-a41f-40a1-be79-86a840e0f08b?fileName=..%5CFiles%5CAttachmentHRTest%5C33774102%5CTrevor%20Gatley.msg'
+2020-12-08 13:53:49.989 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:50.121 -05:00 [INF] Trevor Gatley.msg already attached
+2020-12-08 13:53:50.123 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:53:50.226 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:50.227 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:53:50.229 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:50.232 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:53:50.324 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:50.331 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:53:50.343 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:50.374 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:53:50.482 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:50.489 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:53:50.502 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:50.548 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774134
+2020-12-08 13:53:50.649 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:50.656 -05:00 [INF] Matching WorkItem Id: 696422
+2020-12-08 13:53:50.671 -05:00 [INF] Found WorkItem Id: 696422 Attempting Attacment
+2020-12-08 13:53:50.893 -05:00 [INF] Attachment created
+2020-12-08 13:53:50.899 -05:00 [INF] ID: 296fd3e1-6b52-41cc-a3b9-bd607db1ac76
+2020-12-08 13:53:50.906 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/296fd3e1-6b52-41cc-a3b9-bd607db1ac76?fileName=..%5CFiles%5CAttachmentHRTest%5C33774134%5CRe%20Instant%20Pay%20enrollment%20sample.msg'
+2020-12-08 13:53:50.929 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:51.217 -05:00 [INF] Re Instant Pay enrollment sample.msg already attached
+2020-12-08 13:53:51.225 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:53:51.337 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:51.344 -05:00 [INF] Matching WorkItem Id: 696464
+2020-12-08 13:53:51.368 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:53:52.064 -05:00 [INF] Attachment created
+2020-12-08 13:53:52.073 -05:00 [INF] ID: c0ace4de-c2f8-4bff-b1cf-e72ef0b331b8
+2020-12-08 13:53:52.095 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/c0ace4de-c2f8-4bff-b1cf-e72ef0b331b8?fileName=..%5CFiles%5CAttachmentHRTest%5C33774139%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:53:52.131 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:52.359 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:53:52.365 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:53:52.580 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:52.588 -05:00 [INF] Matching WorkItem Id: 696464
+2020-12-08 13:53:52.614 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:53:52.820 -05:00 [INF] Attachment created
+2020-12-08 13:53:52.827 -05:00 [INF] ID: b733e03b-2f46-4553-b233-d1414475e68e
+2020-12-08 13:53:52.836 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/b733e03b-2f46-4553-b233-d1414475e68e?fileName=..%5CFiles%5CAttachmentHRTest%5C33774139%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:53:52.870 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:52.994 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:53:53.004 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:53:53.107 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.114 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:53:53.125 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.170 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:53:53.281 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.289 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:53:53.297 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.337 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:53:53.434 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.442 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:53:53.455 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.486 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:53:53.601 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.611 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:53:53.636 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.670 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:53:53.768 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.770 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:53:53.773 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.777 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:53:53.873 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:53:53.879 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:53:53.886 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:53:53.911 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774220
+2020-12-08 13:53:54.019 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:54.021 -05:00 [INF] Matching WorkItem Id: 696372
+2020-12-08 13:53:54.025 -05:00 [INF] Found WorkItem Id: 696372 Attempting Attacment
+2020-12-08 13:53:54.192 -05:00 [INF] Attachment created
+2020-12-08 13:53:54.199 -05:00 [INF] ID: 8b549e2f-569c-455f-8296-ac74d36e0e40
+2020-12-08 13:53:54.210 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/8b549e2f-569c-455f-8296-ac74d36e0e40?fileName=..%5CFiles%5CAttachmentHRTest%5C33774220%5CCSOD%20SSO%20Certificate.msg'
+2020-12-08 13:53:54.224 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:54.338 -05:00 [INF] CSOD SSO Certificate.msg already attached
+2020-12-08 13:53:54.344 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774221
+2020-12-08 13:53:54.532 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:54.542 -05:00 [INF] Matching WorkItem Id: 696366
+2020-12-08 13:53:54.562 -05:00 [INF] Found WorkItem Id: 696366 Attempting Attacment
+2020-12-08 13:53:54.737 -05:00 [INF] Attachment created
+2020-12-08 13:53:54.746 -05:00 [INF] ID: d311bfb5-5c88-4813-8952-a856795e405f
+2020-12-08 13:53:54.764 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d311bfb5-5c88-4813-8952-a856795e405f?fileName=..%5CFiles%5CAttachmentHRTest%5C33774221%5CShared%20drive%20storage%20issues%20checkpoint.msg'
+2020-12-08 13:53:54.788 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:54.918 -05:00 [INF] Shared drive storage issues checkpoint.msg already attached
+2020-12-08 13:53:54.920 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774222
+2020-12-08 13:53:55.119 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:55.128 -05:00 [INF] Matching WorkItem Id: 696367
+2020-12-08 13:53:55.157 -05:00 [INF] Found WorkItem Id: 696367 Attempting Attacment
+2020-12-08 13:53:55.445 -05:00 [INF] Attachment created
+2020-12-08 13:53:55.453 -05:00 [INF] ID: 007e93d9-0964-478b-8906-c4b9b02b4887
+2020-12-08 13:53:55.462 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/007e93d9-0964-478b-8906-c4b9b02b4887?fileName=..%5CFiles%5CAttachmentHRTest%5C33774222%5CShared%20drive%20storage%20issues%20checkpoint.msg'
+2020-12-08 13:53:55.478 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:55.603 -05:00 [INF] Shared drive storage issues checkpoint.msg already attached
+2020-12-08 13:53:55.604 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774285
+2020-12-08 13:53:55.704 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:55.711 -05:00 [INF] Matching WorkItem Id: 696373
+2020-12-08 13:53:55.726 -05:00 [INF] Found WorkItem Id: 696373 Attempting Attacment
+2020-12-08 13:53:55.913 -05:00 [INF] Attachment created
+2020-12-08 13:53:55.921 -05:00 [INF] ID: a8d1dd93-5211-49d4-a7ba-26247ac3076e
+2020-12-08 13:53:55.928 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a8d1dd93-5211-49d4-a7ba-26247ac3076e?fileName=..%5CFiles%5CAttachmentHRTest%5C33774285%5CRE%20Pre-Payroll%20Tasks.msg'
+2020-12-08 13:53:55.946 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:56.078 -05:00 [INF] RE Pre-Payroll Tasks.msg already attached
+2020-12-08 13:53:56.081 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774289
+2020-12-08 13:53:56.316 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:56.328 -05:00 [INF] Matching WorkItem Id: 696374
+2020-12-08 13:53:56.342 -05:00 [INF] Found WorkItem Id: 696374 Attempting Attacment
+2020-12-08 13:53:56.543 -05:00 [INF] Attachment created
+2020-12-08 13:53:56.545 -05:00 [INF] ID: 714c236f-3975-4dd3-81e3-fa088af0ef00
+2020-12-08 13:53:56.548 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/714c236f-3975-4dd3-81e3-fa088af0ef00?fileName=..%5CFiles%5CAttachmentHRTest%5C33774289%5CRE%20Cornerstone%20roadmap%202021.msg'
+2020-12-08 13:53:56.552 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:57.083 -05:00 [INF] Updated Existing Work Item: '696374'. Had 0 attachments, now has 1
+2020-12-08 13:53:57.087 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774290
+2020-12-08 13:53:57.193 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:57.210 -05:00 [INF] Matching WorkItem Id: 696375
+2020-12-08 13:53:57.230 -05:00 [INF] Found WorkItem Id: 696375 Attempting Attacment
+2020-12-08 13:53:57.398 -05:00 [INF] Attachment created
+2020-12-08 13:53:57.407 -05:00 [INF] ID: 511633c3-da75-4cac-9bbd-81837f55c2dd
+2020-12-08 13:53:57.424 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/511633c3-da75-4cac-9bbd-81837f55c2dd?fileName=..%5CFiles%5CAttachmentHRTest%5C33774290%5CRE%20Cornerstone%20roadmap%202021.msg'
+2020-12-08 13:53:57.463 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:57.753 -05:00 [INF] Updated Existing Work Item: '696375'. Had 0 attachments, now has 1
+2020-12-08 13:53:57.755 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774348
+2020-12-08 13:53:57.848 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:53:57.853 -05:00 [INF] Matching WorkItem Id: 696391
+2020-12-08 13:53:57.864 -05:00 [INF] Found WorkItem Id: 696391 Attempting Attacment
+2020-12-08 13:53:58.067 -05:00 [INF] Attachment created
+2020-12-08 13:53:58.070 -05:00 [INF] ID: 341c7a33-68bb-4c23-b339-611bce79d17d
+2020-12-08 13:53:58.073 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/341c7a33-68bb-4c23-b339-611bce79d17d?fileName=..%5CFiles%5CAttachmentHRTest%5C33774348%5CCHANGE%20IN%20TRD%20DATE%20CONCEPTION.msg'
+2020-12-08 13:53:58.078 -05:00 [INF] *********************************************************************
+2020-12-08 13:53:58.219 -05:00 [INF] CHANGE IN TRD DATE CONCEPTION.msg already attached
+2020-12-08 13:53:58.226 -05:00 [INF] Job Done Total files found in path: 64
+2020-12-08 13:53:58.234 -05:00 [INF] Total CQDbid not found: 11
+2020-12-08 13:53:58.244 -05:00 [INF] Total Files attached this run: 3
+2020-12-08 13:53:58.269 -05:00 [INF] WorkItem not found for CQdbid  33771182
+2020-12-08 13:53:58.289 -05:00 [INF] WorkItem not found for CQdbid  33772163
+2020-12-08 13:53:58.301 -05:00 [INF] WorkItem not found for CQdbid  33773109
+2020-12-08 13:53:58.307 -05:00 [INF] WorkItem not found for CQdbid  33773221
+2020-12-08 13:53:58.314 -05:00 [INF] WorkItem not found for CQdbid  33773878
+2020-12-08 13:53:58.316 -05:00 [INF] WorkItem not found for CQdbid  33774049
+2020-12-08 13:53:58.318 -05:00 [INF] WorkItem not found for CQdbid  33774063
+2020-12-08 13:53:58.319 -05:00 [INF] WorkItem not found for CQdbid  33774090
+2020-12-08 13:53:58.321 -05:00 [INF] WorkItem not found for CQdbid  33774119
+2020-12-08 13:53:58.325 -05:00 [INF] WorkItem not found for CQdbid  33774140
+2020-12-08 13:53:58.327 -05:00 [INF] WorkItem not found for CQdbid  33774171
+2020-12-08 13:54:37.485 -05:00 [INF] Logger called
+2020-12-08 13:54:37.531 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33768909
+2020-12-08 13:54:38.177 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:38.179 -05:00 [INF] Matching WorkItem Id: 696448
+2020-12-08 13:54:38.180 -05:00 [INF] Found WorkItem Id: 696448 Attempting Attacment
+2020-12-08 13:54:38.325 -05:00 [INF] Attachment created
+2020-12-08 13:54:38.329 -05:00 [INF] ID: 2b84634d-f544-4a32-99e8-8e7c6d44488e
+2020-12-08 13:54:38.339 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/2b84634d-f544-4a32-99e8-8e7c6d44488e?fileName=..%5CFiles%5CAttachmentHRTest%5C33768909%5CRe%20LawsonCeridian%20Extract%20and%20SDM.msg'
+2020-12-08 13:54:38.353 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:38.535 -05:00 [INF] Re LawsonCeridian Extract and SDM.msg already attached
+2020-12-08 13:54:38.536 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:54:38.666 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:38.673 -05:00 [INF] Matching WorkItem Id: 696494
+2020-12-08 13:54:38.693 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:54:38.905 -05:00 [INF] Attachment created
+2020-12-08 13:54:38.906 -05:00 [INF] ID: bb9d1716-69d3-4595-94ca-7a6a922919ce
+2020-12-08 13:54:38.909 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/bb9d1716-69d3-4595-94ca-7a6a922919ce?fileName=..%5CFiles%5CAttachmentHRTest%5C33769016%5CCQ%20214584%20-%20Fixed%20tip%20rates%20requirements.msg'
+2020-12-08 13:54:38.911 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:39.105 -05:00 [INF] CQ 214584 - Fixed tip rates requirements.msg already attached
+2020-12-08 13:54:39.108 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769016
+2020-12-08 13:54:39.199 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:39.206 -05:00 [INF] Matching WorkItem Id: 696494
+2020-12-08 13:54:39.233 -05:00 [INF] Found WorkItem Id: 696494 Attempting Attacment
+2020-12-08 13:54:39.425 -05:00 [INF] Attachment created
+2020-12-08 13:54:39.434 -05:00 [INF] ID: 710bb0bc-8bbc-441a-b95b-902e0d9f9758
+2020-12-08 13:54:39.460 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/710bb0bc-8bbc-441a-b95b-902e0d9f9758?fileName=..%5CFiles%5CAttachmentHRTest%5C33769016%5CRE%20HGRT%20and%20RGRT.msg'
+2020-12-08 13:54:39.470 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:39.607 -05:00 [INF] RE HGRT and RGRT.msg already attached
+2020-12-08 13:54:39.609 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769211
+2020-12-08 13:54:39.711 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:39.719 -05:00 [INF] Matching WorkItem Id: 696450
+2020-12-08 13:54:39.744 -05:00 [INF] Found WorkItem Id: 696450 Attempting Attacment
+2020-12-08 13:54:40.022 -05:00 [INF] Attachment created
+2020-12-08 13:54:40.024 -05:00 [INF] ID: ab460cdd-5207-4e5f-aa29-69d482f9a70a
+2020-12-08 13:54:40.026 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/ab460cdd-5207-4e5f-aa29-69d482f9a70a?fileName=..%5CFiles%5CAttachmentHRTest%5C33769211%5CRE%20RehiredReactivated%20Employees.msg'
+2020-12-08 13:54:40.028 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:40.145 -05:00 [INF] RE RehiredReactivated Employees.msg already attached
+2020-12-08 13:54:40.147 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:54:40.245 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:40.249 -05:00 [INF] Matching WorkItem Id: 696433
+2020-12-08 13:54:40.250 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:54:40.525 -05:00 [INF] Attachment created
+2020-12-08 13:54:40.528 -05:00 [INF] ID: fbc5d244-5638-47fc-8d00-a9884eb4528f
+2020-12-08 13:54:40.531 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/fbc5d244-5638-47fc-8d00-a9884eb4528f?fileName=..%5CFiles%5CAttachmentHRTest%5C33769363%5CISSC%20Project%20Pitch%20-%20XXX%20-%20SSRS%20to%20JECT.docx'
+2020-12-08 13:54:40.533 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:40.640 -05:00 [INF] ISSC Project Pitch - XXX - SSRS to JECT.docx already attached
+2020-12-08 13:54:40.642 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769363
+2020-12-08 13:54:40.743 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:40.746 -05:00 [INF] Matching WorkItem Id: 696433
+2020-12-08 13:54:40.749 -05:00 [INF] Found WorkItem Id: 696433 Attempting Attacment
+2020-12-08 13:54:40.971 -05:00 [INF] Attachment created
+2020-12-08 13:54:40.974 -05:00 [INF] ID: 1a2cb15f-f6f2-4b5d-8588-04743158d14e
+2020-12-08 13:54:40.979 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/1a2cb15f-f6f2-4b5d-8588-04743158d14e?fileName=..%5CFiles%5CAttachmentHRTest%5C33769363%5CSSRS%20FBCP%20reports.xlsx'
+2020-12-08 13:54:40.981 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:41.084 -05:00 [INF] SSRS FBCP reports.xlsx already attached
+2020-12-08 13:54:41.089 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769759
+2020-12-08 13:54:41.189 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:41.193 -05:00 [INF] Matching WorkItem Id: 696479
+2020-12-08 13:54:41.197 -05:00 [INF] Found WorkItem Id: 696479 Attempting Attacment
+2020-12-08 13:54:41.469 -05:00 [INF] Attachment created
+2020-12-08 13:54:41.478 -05:00 [INF] ID: 3732cec1-8eed-4807-8743-835414c29c6a
+2020-12-08 13:54:41.500 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/3732cec1-8eed-4807-8743-835414c29c6a?fileName=..%5CFiles%5CAttachmentHRTest%5C33769759%5Cemployee%20419907%20-%20HSA%20Plan%20Option%20Changed.msg'
+2020-12-08 13:54:41.522 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:41.643 -05:00 [INF] employee 419907 - HSA Plan Option Changed.msg already attached
+2020-12-08 13:54:41.651 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33769964
+2020-12-08 13:54:41.766 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:41.770 -05:00 [INF] Matching WorkItem Id: 696425
+2020-12-08 13:54:41.775 -05:00 [INF] Found WorkItem Id: 696425 Attempting Attacment
+2020-12-08 13:54:42.252 -05:00 [INF] Attachment created
+2020-12-08 13:54:42.261 -05:00 [INF] ID: 75517686-ad4e-4316-a2ec-c74fc051b72d
+2020-12-08 13:54:42.291 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/75517686-ad4e-4316-a2ec-c74fc051b72d?fileName=..%5CFiles%5CAttachmentHRTest%5C33769964%5CRE%20512525-%20GOVARDHAN%20REDDY%20DESAI%20-%20DOCTOR.msg'
+2020-12-08 13:54:42.302 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:42.436 -05:00 [INF] RE 512525- GOVARDHAN REDDY DESAI - DOCTOR.msg already attached
+2020-12-08 13:54:42.445 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:54:42.569 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:54:42.581 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:54:42.623 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:54:42.632 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33771182
+2020-12-08 13:54:42.739 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:54:42.747 -05:00 [INF] WorkItem not found for cQdbid: 33771182
+2020-12-08 13:54:42.759 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:54:42.824 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772163
+2020-12-08 13:54:42.941 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:54:42.945 -05:00 [INF] WorkItem not found for cQdbid: 33772163
+2020-12-08 13:54:42.952 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:54:42.993 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772756
+2020-12-08 13:54:43.109 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:43.116 -05:00 [INF] Matching WorkItem Id: 696471
+2020-12-08 13:54:43.150 -05:00 [INF] Found WorkItem Id: 696471 Attempting Attacment
+2020-12-08 13:54:44.106 -05:00 [INF] Attachment created
+2020-12-08 13:54:44.113 -05:00 [INF] ID: a02cbbc8-94b9-448f-8590-4f52d0f3d377
+2020-12-08 13:54:44.123 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a02cbbc8-94b9-448f-8590-4f52d0f3d377?fileName=..%5CFiles%5CAttachmentHRTest%5C33772756%5CDry%20Dock%20Pay%20Casino%20staff.msg'
+2020-12-08 13:54:44.143 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:44.350 -05:00 [INF] Dry Dock Pay Casino staff.msg already attached
+2020-12-08 13:54:44.356 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33772793
+2020-12-08 13:54:44.505 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:44.513 -05:00 [INF] Matching WorkItem Id: 696412
+2020-12-08 13:54:44.543 -05:00 [INF] Found WorkItem Id: 696412 Attempting Attacment
+2020-12-08 13:54:45.158 -05:00 [INF] Attachment created
+2020-12-08 13:54:45.167 -05:00 [INF] ID: 28fd42fd-04f2-4093-8313-60c265618fde
+2020-12-08 13:54:45.204 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/28fd42fd-04f2-4093-8313-60c265618fde?fileName=..%5CFiles%5CAttachmentHRTest%5C33772793%5CFW%20Garnishment%20Payments%20PR80.msg'
+2020-12-08 13:54:45.244 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:45.404 -05:00 [INF] FW Garnishment Payments PR80.msg already attached
+2020-12-08 13:54:45.409 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773109
+2020-12-08 13:54:45.526 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:54:45.527 -05:00 [INF] WorkItem not found for cQdbid: 33773109
+2020-12-08 13:54:45.528 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:54:45.531 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773202
+2020-12-08 13:54:45.641 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:45.649 -05:00 [INF] Matching WorkItem Id: 696386
+2020-12-08 13:54:45.671 -05:00 [INF] Found WorkItem Id: 696386 Attempting Attacment
+2020-12-08 13:54:45.899 -05:00 [INF] Attachment created
+2020-12-08 13:54:45.909 -05:00 [INF] ID: 07cc4fa2-44e0-424d-affd-9ab9d16534a3
+2020-12-08 13:54:45.923 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/07cc4fa2-44e0-424d-affd-9ab9d16534a3?fileName=..%5CFiles%5CAttachmentHRTest%5C33773202%5CRE%20Infor%20Support.msg'
+2020-12-08 13:54:45.953 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:46.097 -05:00 [INF] RE Infor Support.msg already attached
+2020-12-08 13:54:46.108 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773221
+2020-12-08 13:54:46.229 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:54:46.237 -05:00 [INF] WorkItem not found for cQdbid: 33773221
+2020-12-08 13:54:46.265 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 212
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:54:46.302 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:54:46.446 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:46.452 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:54:46.463 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:54:46.702 -05:00 [INF] Attachment created
+2020-12-08 13:54:46.713 -05:00 [INF] ID: 8dd7c33b-4d12-4097-a705-8b56203b2c17
+2020-12-08 13:54:46.740 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/8dd7c33b-4d12-4097-a705-8b56203b2c17?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5C1099_Misc.png'
+2020-12-08 13:54:46.758 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:46.882 -05:00 [INF] 1099_Misc.png already attached
+2020-12-08 13:54:46.887 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:54:47.142 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:47.151 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:54:47.178 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:54:47.467 -05:00 [INF] Attachment created
+2020-12-08 13:54:47.474 -05:00 [INF] ID: e85fec79-7842-466f-acfb-952225973e08
+2020-12-08 13:54:47.480 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/e85fec79-7842-466f-acfb-952225973e08?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5C1099_NEC.PNG'
+2020-12-08 13:54:47.507 -05:00 [INF] *********************************************************************
+2020-12-08 13:54:47.637 -05:00 [INF] 1099_NEC.PNG already attached
+2020-12-08 13:54:47.644 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:54:47.758 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:54:47.768 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:54:47.792 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:55:10.634 -05:00 [INF] Attachment created
+2020-12-08 13:55:10.641 -05:00 [INF] ID: e4ded3c1-fabc-4953-b1d7-99139ea62a7a
+2020-12-08 13:55:10.648 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/e4ded3c1-fabc-4953-b1d7-99139ea62a7a?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_PassedTestScripts.msg'
+2020-12-08 13:55:10.655 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:10.766 -05:00 [INF] CQ218859_PassedTestScripts.msg already attached
+2020-12-08 13:55:10.774 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:55:10.882 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:10.893 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:55:10.943 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:55:13.209 -05:00 [INF] Attachment created
+2020-12-08 13:55:13.218 -05:00 [INF] ID: e817a8f0-ffc1-4be9-a776-8cf23ac2a203
+2020-12-08 13:55:13.244 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/e817a8f0-ffc1-4be9-a776-8cf23ac2a203?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_Requirement_Wireframes_Approval.msg'
+2020-12-08 13:55:13.257 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:13.370 -05:00 [INF] CQ218859_Requirement_Wireframes_Approval.msg already attached
+2020-12-08 13:55:13.377 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:55:13.514 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:13.522 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:55:13.546 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:55:14.311 -05:00 [INF] Attachment created
+2020-12-08 13:55:14.320 -05:00 [INF] ID: 842a57e4-9d05-4142-a245-d7f86409f933
+2020-12-08 13:55:14.360 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/842a57e4-9d05-4142-a245-d7f86409f933?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CCQ218859_UATSignOff.msg'
+2020-12-08 13:55:14.401 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:14.658 -05:00 [INF] CQ218859_UATSignOff.msg already attached
+2020-12-08 13:55:14.667 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:55:14.811 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:14.817 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:55:14.824 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:55:15.942 -05:00 [INF] Attachment created
+2020-12-08 13:55:15.957 -05:00 [INF] ID: 4d5aaf0c-4b5c-4f4d-84db-bb0e317c209c
+2020-12-08 13:55:15.965 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/4d5aaf0c-4b5c-4f4d-84db-bb0e317c209c?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CIRS%20Mandate%20Requirements_V3.docx'
+2020-12-08 13:55:15.993 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:16.128 -05:00 [INF] IRS Mandate Requirements_V3.docx already attached
+2020-12-08 13:55:16.134 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773291
+2020-12-08 13:55:16.221 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:16.222 -05:00 [INF] Matching WorkItem Id: 696491
+2020-12-08 13:55:16.224 -05:00 [INF] Found WorkItem Id: 696491 Attempting Attacment
+2020-12-08 13:55:17.602 -05:00 [INF] Attachment created
+2020-12-08 13:55:17.609 -05:00 [INF] ID: 41a04b6e-3e91-4aee-9cae-c74653de55bd
+2020-12-08 13:55:17.623 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/41a04b6e-3e91-4aee-9cae-c74653de55bd?fileName=..%5CFiles%5CAttachmentHRTest%5C33773291%5CRE%20%201099-NEC%20Nonemployee%20Comp.msg'
+2020-12-08 13:55:17.649 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:17.785 -05:00 [INF] RE  1099-NEC Nonemployee Comp.msg already attached
+2020-12-08 13:55:17.793 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:55:18.064 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:18.071 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:55:18.080 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:55:18.279 -05:00 [INF] Attachment created
+2020-12-08 13:55:18.284 -05:00 [INF] ID: 61002f8b-4884-4118-bb9e-d41b1cbb5ffe
+2020-12-08 13:55:18.290 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/61002f8b-4884-4118-bb9e-d41b1cbb5ffe?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5C10.0_patch_121887.delta_readme.html'
+2020-12-08 13:55:18.303 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:18.442 -05:00 [INF] 10.0_patch_121887.delta_readme.html already attached
+2020-12-08 13:55:18.450 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:55:18.555 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:18.567 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:55:18.577 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:55:20.243 -05:00 [INF] Attachment created
+2020-12-08 13:55:20.251 -05:00 [INF] ID: 98ef821e-6a6b-4602-8120-53d25857e982
+2020-12-08 13:55:20.262 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/98ef821e-6a6b-4602-8120-53d25857e982?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5CKB%202096388%202020%20W4_Phase%202%20Updates_062620.pdf'
+2020-12-08 13:55:20.272 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:20.392 -05:00 [INF] KB 2096388 2020 W4_Phase 2 Updates_062620.pdf already attached
+2020-12-08 13:55:20.401 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773459
+2020-12-08 13:55:20.527 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:20.535 -05:00 [INF] Matching WorkItem Id: 696428
+2020-12-08 13:55:20.554 -05:00 [INF] Found WorkItem Id: 696428 Attempting Attacment
+2020-12-08 13:55:20.721 -05:00 [INF] Attachment created
+2020-12-08 13:55:20.728 -05:00 [INF] ID: d0b55cee-57c7-4d52-b989-1c5cffd3097c
+2020-12-08 13:55:20.743 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d0b55cee-57c7-4d52-b989-1c5cffd3097c?fileName=..%5CFiles%5CAttachmentHRTest%5C33773459%5CRE%20Closed%20Payroll%20550%20with%20New%20Fields.msg'
+2020-12-08 13:55:20.772 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:20.884 -05:00 [INF] RE Closed Payroll 550 with New Fields.msg already attached
+2020-12-08 13:55:20.891 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:55:21.021 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:21.026 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:55:21.034 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:55:21.295 -05:00 [INF] Attachment created
+2020-12-08 13:55:21.301 -05:00 [INF] ID: 6598f96f-f01d-41f1-973a-740e45d0e4ad
+2020-12-08 13:55:21.312 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/6598f96f-f01d-41f1-973a-740e45d0e4ad?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CCQ219284%20-%20UAT_SignOff.msg'
+2020-12-08 13:55:21.328 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:21.442 -05:00 [INF] CQ219284 - UAT_SignOff.msg already attached
+2020-12-08 13:55:21.453 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:55:21.578 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:21.584 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:55:21.592 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:55:21.918 -05:00 [INF] Attachment created
+2020-12-08 13:55:21.925 -05:00 [INF] ID: 00ddbfcb-73d7-436f-a024-1d91b015c389
+2020-12-08 13:55:21.934 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/00ddbfcb-73d7-436f-a024-1d91b015c389?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CFinalDesignNotesFromBusinessHRIS.msg'
+2020-12-08 13:55:21.963 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:22.091 -05:00 [INF] FinalDesignNotesFromBusinessHRIS.msg already attached
+2020-12-08 13:55:22.099 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773716
+2020-12-08 13:55:22.223 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:22.231 -05:00 [INF] Matching WorkItem Id: 696453
+2020-12-08 13:55:22.245 -05:00 [INF] Found WorkItem Id: 696453 Attempting Attacment
+2020-12-08 13:55:22.716 -05:00 [INF] Attachment created
+2020-12-08 13:55:22.722 -05:00 [INF] ID: 74e25182-9a7f-4b22-9fc3-a306a9f67f20
+2020-12-08 13:55:22.728 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/74e25182-9a7f-4b22-9fc3-a306a9f67f20?fileName=..%5CFiles%5CAttachmentHRTest%5C33773716%5CMeeting%20Notes_04232020.msg'
+2020-12-08 13:55:22.749 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:22.856 -05:00 [INF] Meeting Notes_04232020.msg already attached
+2020-12-08 13:55:22.865 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:55:22.979 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:22.987 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:55:23.004 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:55:23.973 -05:00 [INF] Attachment created
+2020-12-08 13:55:23.982 -05:00 [INF] ID: 04b755d1-c527-46c6-b476-2f8ee65a5cf0
+2020-12-08 13:55:24.013 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/04b755d1-c527-46c6-b476-2f8ee65a5cf0?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:55:24.027 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:24.140 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:55:24.147 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:55:24.253 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:24.260 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:55:24.268 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:55:24.459 -05:00 [INF] Attachment created
+2020-12-08 13:55:24.466 -05:00 [INF] ID: 86e6809d-de6a-4d80-8e70-1b3e39defb4e
+2020-12-08 13:55:24.484 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/86e6809d-de6a-4d80-8e70-1b3e39defb4e?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:55:24.523 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:24.652 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:55:24.659 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773720
+2020-12-08 13:55:24.804 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:24.805 -05:00 [INF] Matching WorkItem Id: 696474
+2020-12-08 13:55:24.807 -05:00 [INF] Found WorkItem Id: 696474 Attempting Attacment
+2020-12-08 13:55:25.041 -05:00 [INF] Attachment created
+2020-12-08 13:55:25.050 -05:00 [INF] ID: d1a12364-ba65-47a4-9249-c5382913b3ae
+2020-12-08 13:55:25.059 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/d1a12364-ba65-47a4-9249-c5382913b3ae?fileName=..%5CFiles%5CAttachmentHRTest%5C33773720%5CYear%20End%20Life%20Event%20Optimization.msg'
+2020-12-08 13:55:25.104 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:25.238 -05:00 [INF] Year End Life Event Optimization.msg already attached
+2020-12-08 13:55:25.240 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:55:25.343 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:25.352 -05:00 [INF] Matching WorkItem Id: 696463
+2020-12-08 13:55:25.377 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:55:25.978 -05:00 [INF] Attachment created
+2020-12-08 13:55:25.985 -05:00 [INF] ID: 9e13358e-26fb-47c7-96a8-023a95a4ad23
+2020-12-08 13:55:25.997 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/9e13358e-26fb-47c7-96a8-023a95a4ad23?fileName=..%5CFiles%5CAttachmentHRTest%5C33773814%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:55:26.018 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:26.135 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:55:26.145 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773814
+2020-12-08 13:55:26.350 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:26.359 -05:00 [INF] Matching WorkItem Id: 696463
+2020-12-08 13:55:26.379 -05:00 [INF] Found WorkItem Id: 696463 Attempting Attacment
+2020-12-08 13:55:26.727 -05:00 [INF] Attachment created
+2020-12-08 13:55:26.734 -05:00 [INF] ID: f862de67-b2d6-465b-baf6-bfc15dae8f29
+2020-12-08 13:55:26.745 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/f862de67-b2d6-465b-baf6-bfc15dae8f29?fileName=..%5CFiles%5CAttachmentHRTest%5C33773814%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:55:26.789 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:26.905 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:55:26.911 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773878
+2020-12-08 13:55:27.006 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:27.015 -05:00 [INF] WorkItem not found for cQdbid: 33773878
+2020-12-08 13:55:27.028 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:27.055 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773893
+2020-12-08 13:55:27.158 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:27.163 -05:00 [INF] Matching WorkItem Id: 696454
+2020-12-08 13:55:27.174 -05:00 [INF] Found WorkItem Id: 696454 Attempting Attacment
+2020-12-08 13:55:27.394 -05:00 [INF] Attachment created
+2020-12-08 13:55:27.398 -05:00 [INF] ID: 708da474-5605-4837-801c-972e131c0507
+2020-12-08 13:55:27.403 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/708da474-5605-4837-801c-972e131c0507?fileName=..%5CFiles%5CAttachmentHRTest%5C33773893%5CPVR%20Report%20Updates.msg'
+2020-12-08 13:55:27.413 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:27.523 -05:00 [INF] PVR Report Updates.msg already attached
+2020-12-08 13:55:27.529 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33773962
+2020-12-08 13:55:27.648 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:27.655 -05:00 [INF] Matching WorkItem Id: 696444
+2020-12-08 13:55:27.668 -05:00 [INF] Found WorkItem Id: 696444 Attempting Attacment
+2020-12-08 13:55:31.694 -05:00 [INF] Attachment created
+2020-12-08 13:55:31.696 -05:00 [INF] ID: 03d7f58d-d170-48a7-a3d9-ec3627b31b7c
+2020-12-08 13:55:31.699 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/03d7f58d-d170-48a7-a3d9-ec3627b31b7c?fileName=..%5CFiles%5CAttachmentHRTest%5C33773962%5CRE%20XXPAY%20access%20issue%20in%20Supplemental.msg'
+2020-12-08 13:55:31.701 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:31.820 -05:00 [INF] RE XXPAY access issue in Supplemental.msg already attached
+2020-12-08 13:55:31.822 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:55:31.920 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:31.923 -05:00 [INF] Matching WorkItem Id: 696456
+2020-12-08 13:55:31.925 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:55:32.073 -05:00 [INF] Attachment created
+2020-12-08 13:55:32.082 -05:00 [INF] ID: 58a0325e-1674-4a44-aaa5-ea10be8f7765
+2020-12-08 13:55:32.098 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/58a0325e-1674-4a44-aaa5-ea10be8f7765?fileName=..%5CFiles%5CAttachmentHRTest%5C33774020%5CAustralia%201099%20Tax%20Reporting%20Requirements%20.msg'
+2020-12-08 13:55:32.120 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:32.396 -05:00 [INF] Australia 1099 Tax Reporting Requirements .msg already attached
+2020-12-08 13:55:32.408 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774020
+2020-12-08 13:55:32.509 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:32.512 -05:00 [INF] Matching WorkItem Id: 696456
+2020-12-08 13:55:32.514 -05:00 [INF] Found WorkItem Id: 696456 Attempting Attacment
+2020-12-08 13:55:33.799 -05:00 [INF] Attachment created
+2020-12-08 13:55:33.811 -05:00 [INF] ID: f5fa44e9-54ed-4541-b086-108cdc2a3ccb
+2020-12-08 13:55:33.837 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/f5fa44e9-54ed-4541-b086-108cdc2a3ccb?fileName=..%5CFiles%5CAttachmentHRTest%5C33774020%5CAustralia%20Requirements_V2.0.docx'
+2020-12-08 13:55:33.859 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:33.965 -05:00 [INF] Australia Requirements_V2.0.docx already attached
+2020-12-08 13:55:33.972 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774049
+2020-12-08 13:55:34.069 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:34.077 -05:00 [INF] WorkItem not found for cQdbid: 33774049
+2020-12-08 13:55:34.097 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:34.109 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774057
+2020-12-08 13:55:34.212 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:34.222 -05:00 [INF] Matching WorkItem Id: 696354
+2020-12-08 13:55:34.241 -05:00 [INF] Found WorkItem Id: 696354 Attempting Attacment
+2020-12-08 13:55:34.413 -05:00 [INF] Attachment created
+2020-12-08 13:55:34.421 -05:00 [INF] ID: 13a8a699-c5a0-4261-ba04-005f02fb5d32
+2020-12-08 13:55:34.436 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/13a8a699-c5a0-4261-ba04-005f02fb5d32?fileName=..%5CFiles%5CAttachmentHRTest%5C33774057%5CNew%20CQ%20-%20generate%20ATR%20files.msg'
+2020-12-08 13:55:34.470 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:34.580 -05:00 [INF] New CQ - generate ATR files.msg already attached
+2020-12-08 13:55:34.587 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774059
+2020-12-08 13:55:34.746 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:34.757 -05:00 [INF] Matching WorkItem Id: 696501
+2020-12-08 13:55:34.776 -05:00 [INF] Found WorkItem Id: 696501 Attempting Attacment
+2020-12-08 13:55:34.935 -05:00 [INF] Attachment created
+2020-12-08 13:55:34.939 -05:00 [INF] ID: 7c84d87c-03ee-4e63-9c5b-191317876e7f
+2020-12-08 13:55:34.941 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/7c84d87c-03ee-4e63-9c5b-191317876e7f?fileName=..%5CFiles%5CAttachmentHRTest%5C33774059%5CFwd%20Delete%20of%20PPC's.msg'
+2020-12-08 13:55:34.942 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:35.067 -05:00 [INF] Fwd Delete of PPC's.msg already attached
+2020-12-08 13:55:35.073 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774063
+2020-12-08 13:55:35.181 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:35.190 -05:00 [INF] WorkItem not found for cQdbid: 33774063
+2020-12-08 13:55:35.210 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:35.268 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774090
+2020-12-08 13:55:35.404 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:35.406 -05:00 [INF] WorkItem not found for cQdbid: 33774090
+2020-12-08 13:55:35.407 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:35.410 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774102
+2020-12-08 13:55:35.513 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:35.524 -05:00 [INF] Matching WorkItem Id: 696365
+2020-12-08 13:55:35.540 -05:00 [INF] Found WorkItem Id: 696365 Attempting Attacment
+2020-12-08 13:55:37.287 -05:00 [INF] Attachment created
+2020-12-08 13:55:37.294 -05:00 [INF] ID: 29df4cfe-511c-4ea4-9761-c03a1cb60316
+2020-12-08 13:55:37.311 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/29df4cfe-511c-4ea4-9761-c03a1cb60316?fileName=..%5CFiles%5CAttachmentHRTest%5C33774102%5CTrevor%20Gatley.msg'
+2020-12-08 13:55:37.330 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:37.457 -05:00 [INF] Trevor Gatley.msg already attached
+2020-12-08 13:55:37.463 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:55:37.567 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:37.574 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:55:37.588 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:37.657 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:55:37.820 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:37.825 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:55:37.831 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:37.851 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774119
+2020-12-08 13:55:37.954 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:37.957 -05:00 [INF] WorkItem not found for cQdbid: 33774119
+2020-12-08 13:55:37.960 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:37.964 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774134
+2020-12-08 13:55:38.061 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:38.063 -05:00 [INF] Matching WorkItem Id: 696422
+2020-12-08 13:55:38.064 -05:00 [INF] Found WorkItem Id: 696422 Attempting Attacment
+2020-12-08 13:55:38.308 -05:00 [INF] Attachment created
+2020-12-08 13:55:38.316 -05:00 [INF] ID: a0e07189-81b4-470b-997b-57c32294916f
+2020-12-08 13:55:38.332 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a0e07189-81b4-470b-997b-57c32294916f?fileName=..%5CFiles%5CAttachmentHRTest%5C33774134%5CRe%20Instant%20Pay%20enrollment%20sample.msg'
+2020-12-08 13:55:38.345 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:38.468 -05:00 [INF] Re Instant Pay enrollment sample.msg already attached
+2020-12-08 13:55:38.469 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:55:38.565 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:38.567 -05:00 [INF] Matching WorkItem Id: 696464
+2020-12-08 13:55:38.569 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:55:39.479 -05:00 [INF] Attachment created
+2020-12-08 13:55:39.482 -05:00 [INF] ID: 4e1dbcef-e863-4bff-8cee-6e9b11eb2e3f
+2020-12-08 13:55:39.484 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/4e1dbcef-e863-4bff-8cee-6e9b11eb2e3f?fileName=..%5CFiles%5CAttachmentHRTest%5C33774139%5C2021OpenEnrollmentUATPlan_FINAL.xlsx'
+2020-12-08 13:55:39.488 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:39.586 -05:00 [INF] 2021OpenEnrollmentUATPlan_FINAL.xlsx already attached
+2020-12-08 13:55:39.588 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774139
+2020-12-08 13:55:39.690 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:39.698 -05:00 [INF] Matching WorkItem Id: 696464
+2020-12-08 13:55:39.713 -05:00 [INF] Found WorkItem Id: 696464 Attempting Attacment
+2020-12-08 13:55:39.869 -05:00 [INF] Attachment created
+2020-12-08 13:55:39.876 -05:00 [INF] ID: 00ea89fe-7bd7-4c69-adce-4061824dd067
+2020-12-08 13:55:39.884 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/00ea89fe-7bd7-4c69-adce-4061824dd067?fileName=..%5CFiles%5CAttachmentHRTest%5C33774139%5CRE%202020%20OE%20UAT%20Sign-off.msg'
+2020-12-08 13:55:39.898 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:40.000 -05:00 [INF] RE 2020 OE UAT Sign-off.msg already attached
+2020-12-08 13:55:40.002 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:55:40.105 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:40.108 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:55:40.109 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:40.112 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:55:40.289 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:40.298 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:55:40.332 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:40.388 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:55:40.495 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:40.503 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:55:40.511 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:40.560 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774140
+2020-12-08 13:55:40.668 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:40.676 -05:00 [INF] WorkItem not found for cQdbid: 33774140
+2020-12-08 13:55:40.707 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:40.758 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:55:40.876 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:40.884 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:55:40.891 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:40.919 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774171
+2020-12-08 13:55:41.018 -05:00 [INF] The wiql query returned 0 results:
+2020-12-08 13:55:41.027 -05:00 [INF] WorkItem not found for cQdbid: 33774171
+2020-12-08 13:55:41.038 -05:00 [ERR] Match WorkItem threw :  System.NullReferenceException: Object reference not set to an instance of an object.
+   at DevOpsBatchAttachmentTool.BatchAttachments.QueryByWiql(String cQdbid) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 209
+   at DevOpsBatchAttachmentTool.BatchAttachments.MatchWorkItem(String source) in C:\DevOps_BatchAttachments\DevOpsBatchAttachmentTool\BatchAttachment.cs:line 83
+2020-12-08 13:55:41.090 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774220
+2020-12-08 13:55:41.192 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:41.194 -05:00 [INF] Matching WorkItem Id: 696372
+2020-12-08 13:55:41.197 -05:00 [INF] Found WorkItem Id: 696372 Attempting Attacment
+2020-12-08 13:55:41.332 -05:00 [INF] Attachment created
+2020-12-08 13:55:41.340 -05:00 [INF] ID: 341df3d9-45cb-4ed2-8ad7-53053e41b4a2
+2020-12-08 13:55:41.351 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/341df3d9-45cb-4ed2-8ad7-53053e41b4a2?fileName=..%5CFiles%5CAttachmentHRTest%5C33774220%5CCSOD%20SSO%20Certificate.msg'
+2020-12-08 13:55:41.403 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:41.508 -05:00 [INF] CSOD SSO Certificate.msg already attached
+2020-12-08 13:55:41.510 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774221
+2020-12-08 13:55:41.611 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:41.619 -05:00 [INF] Matching WorkItem Id: 696366
+2020-12-08 13:55:41.639 -05:00 [INF] Found WorkItem Id: 696366 Attempting Attacment
+2020-12-08 13:55:41.792 -05:00 [INF] Attachment created
+2020-12-08 13:55:41.802 -05:00 [INF] ID: 2e3a44a1-213f-486c-a601-d2b9f4c5deea
+2020-12-08 13:55:41.839 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/2e3a44a1-213f-486c-a601-d2b9f4c5deea?fileName=..%5CFiles%5CAttachmentHRTest%5C33774221%5CShared%20drive%20storage%20issues%20checkpoint.msg'
+2020-12-08 13:55:41.870 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:41.979 -05:00 [INF] Shared drive storage issues checkpoint.msg already attached
+2020-12-08 13:55:41.986 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774222
+2020-12-08 13:55:42.161 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:42.171 -05:00 [INF] Matching WorkItem Id: 696367
+2020-12-08 13:55:42.210 -05:00 [INF] Found WorkItem Id: 696367 Attempting Attacment
+2020-12-08 13:55:42.354 -05:00 [INF] Attachment created
+2020-12-08 13:55:42.361 -05:00 [INF] ID: 0fe8c76d-3fa2-41d7-9464-7de0f839d33f
+2020-12-08 13:55:42.371 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/0fe8c76d-3fa2-41d7-9464-7de0f839d33f?fileName=..%5CFiles%5CAttachmentHRTest%5C33774222%5CShared%20drive%20storage%20issues%20checkpoint.msg'
+2020-12-08 13:55:42.378 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:42.498 -05:00 [INF] Shared drive storage issues checkpoint.msg already attached
+2020-12-08 13:55:42.507 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774285
+2020-12-08 13:55:42.625 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:42.633 -05:00 [INF] Matching WorkItem Id: 696373
+2020-12-08 13:55:42.642 -05:00 [INF] Found WorkItem Id: 696373 Attempting Attacment
+2020-12-08 13:55:42.791 -05:00 [INF] Attachment created
+2020-12-08 13:55:42.798 -05:00 [INF] ID: ed331c0a-eabb-4f75-92bf-73f5e855feaa
+2020-12-08 13:55:42.808 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/ed331c0a-eabb-4f75-92bf-73f5e855feaa?fileName=..%5CFiles%5CAttachmentHRTest%5C33774285%5CRE%20Pre-Payroll%20Tasks.msg'
+2020-12-08 13:55:42.841 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:42.973 -05:00 [INF] RE Pre-Payroll Tasks.msg already attached
+2020-12-08 13:55:42.983 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774289
+2020-12-08 13:55:43.105 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:43.111 -05:00 [INF] Matching WorkItem Id: 696374
+2020-12-08 13:55:43.140 -05:00 [INF] Found WorkItem Id: 696374 Attempting Attacment
+2020-12-08 13:55:43.299 -05:00 [INF] Attachment created
+2020-12-08 13:55:43.303 -05:00 [INF] ID: a28250ad-e251-4f77-a6e6-9e81e5756407
+2020-12-08 13:55:43.308 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/a28250ad-e251-4f77-a6e6-9e81e5756407?fileName=..%5CFiles%5CAttachmentHRTest%5C33774289%5CRE%20Cornerstone%20roadmap%202021.msg'
+2020-12-08 13:55:43.335 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:43.595 -05:00 [INF] RE Cornerstone roadmap 2021.msg already attached
+2020-12-08 13:55:43.601 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774290
+2020-12-08 13:55:43.693 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:43.698 -05:00 [INF] Matching WorkItem Id: 696375
+2020-12-08 13:55:43.706 -05:00 [INF] Found WorkItem Id: 696375 Attempting Attacment
+2020-12-08 13:55:43.841 -05:00 [INF] Attachment created
+2020-12-08 13:55:43.846 -05:00 [INF] ID: 36231a5d-a160-4b86-a85c-0a7f802d2fda
+2020-12-08 13:55:43.852 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/36231a5d-a160-4b86-a85c-0a7f802d2fda?fileName=..%5CFiles%5CAttachmentHRTest%5C33774290%5CRE%20Cornerstone%20roadmap%202021.msg'
+2020-12-08 13:55:43.877 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:43.993 -05:00 [INF] RE Cornerstone roadmap 2021.msg already attached
+2020-12-08 13:55:43.997 -05:00 [INF]  Looking for Matching Work Item cQdbid: 33774348
+2020-12-08 13:55:44.089 -05:00 [INF] The wiql query returned 1 results:
+2020-12-08 13:55:44.094 -05:00 [INF] Matching WorkItem Id: 696391
+2020-12-08 13:55:44.099 -05:00 [INF] Found WorkItem Id: 696391 Attempting Attacment
+2020-12-08 13:55:44.251 -05:00 [INF] Attachment created
+2020-12-08 13:55:44.258 -05:00 [INF] ID: 0d09012e-bffd-4ab0-a482-d88d2273f604
+2020-12-08 13:55:44.266 -05:00 [INF] URL: 'https://carnivalcruiselines.visualstudio.com/_apis/wit/attachments/0d09012e-bffd-4ab0-a482-d88d2273f604?fileName=..%5CFiles%5CAttachmentHRTest%5C33774348%5CCHANGE%20IN%20TRD%20DATE%20CONCEPTION.msg'
+2020-12-08 13:55:44.284 -05:00 [INF] *********************************************************************
+2020-12-08 13:55:44.392 -05:00 [INF] CHANGE IN TRD DATE CONCEPTION.msg already attached
+2020-12-08 13:55:44.399 -05:00 [INF] Job Done Total files found in path: 64
+2020-12-08 13:55:44.405 -05:00 [INF] Total CQDbid not found: 11
+2020-12-08 13:55:44.418 -05:00 [INF] Total Files attached this run: 0
+2020-12-08 13:55:44.441 -05:00 [INF] WorkItem not found for CQdbid  33771182
+2020-12-08 13:55:44.456 -05:00 [INF] WorkItem not found for CQdbid  33772163
+2020-12-08 13:55:44.480 -05:00 [INF] WorkItem not found for CQdbid  33773109
+2020-12-08 13:55:44.486 -05:00 [INF] WorkItem not found for CQdbid  33773221
+2020-12-08 13:55:44.499 -05:00 [INF] WorkItem not found for CQdbid  33773878
+2020-12-08 13:55:44.523 -05:00 [INF] WorkItem not found for CQdbid  33774049
+2020-12-08 13:55:44.531 -05:00 [INF] WorkItem not found for CQdbid  33774063
+2020-12-08 13:55:44.543 -05:00 [INF] WorkItem not found for CQdbid  33774090
+2020-12-08 13:55:44.568 -05:00 [INF] WorkItem not found for CQdbid  33774119
+2020-12-08 13:55:44.577 -05:00 [INF] WorkItem not found for CQdbid  33774140
+2020-12-08 13:55:44.587 -05:00 [INF] WorkItem not found for CQdbid  33774171
